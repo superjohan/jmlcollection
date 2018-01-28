@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>α</title>
+  <style type="text/css">
+    body {
+      background: #000;
+      color: #FF0072;
+    }
+
+    .dg.ac {
+      z-index: 65000 !important;
+    }
+
+    #demo {
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      transition: opacity 5648ms linear;
+    }
+
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 3;
+      mix-blend-mode: overlay;
+      opacity: 0;
+
+      filter: blur(0px);
+      transform: filter 50ms linear;
+    }
+
+    #overlay1 {
+      background: transparent url('jmlalpha1.png') center center / contain no-repeat;
+    }
+
+    #overlay2 {
+      background: transparent url('jmlalpha2.png') center center / contain no-repeat;
+    }
+
+    #overlay3 {
+      background: transparent url('jmlalpha3.png') center center / contain no-repeat;
+    }
+
+    #overlay4 {
+      background: transparent url('jmlalpha4.png') center center / contain no-repeat;
+    }
+
+    #overlay5 {
+      background: transparent url('jmlalpha5.png') center center / contain no-repeat;
+    }
+
+    #overlay6 {
+      background: transparent url('jmlalpha6.png') center center / contain no-repeat;
+    }
+
+    #overlay7 {
+      background: transparent url('jmlalpha7.png') center center / contain no-repeat;
+    }
+
+    #overlay8 {
+      background: transparent url('jmlalpha8.png') center center / contain no-repeat;
+    }
+
+    #overlay9 {
+      background: transparent url('jmlalpha9.png') center center / contain no-repeat;
+    }
+
+    #overlay10 {
+      background: transparent url('jmlalphajml.png') center center / contain no-repeat;
+    }
+
+    #start {
+      display: flex;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      opacity: 1;
+      background: #FFDFB2;
+      transition: opacity 5648ms linear;
+    }
+
+    #startBtn {
+      display: block;
+      background: #FF0072;
+      text-transform: uppercase;
+      color: #FFDFB2;
+      border-radius: 0;
+      height: 80px;
+      padding: 10px 40px;
+      font-size: 48px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+<div id="container">
+  <div id="demo">
+    <div id="overlay1" class="overlay"></div>
+    <div id="overlay2" class="overlay"></div>
+    <div id="overlay3" class="overlay"></div>
+    <div id="overlay4" class="overlay"></div>
+    <div id="overlay5" class="overlay"></div>
+    <div id="overlay6" class="overlay"></div>
+    <div id="overlay7" class="overlay"></div>
+    <div id="overlay8" class="overlay"></div>
+    <div id="overlay9" class="overlay"></div>
+  </div>
+  <div id="overlay10" class="overlay"></div>
+</div>
+<div id="start">
+  <button id="startBtn">Start Demo</button>
+</div>
+<script src="jmlalphathree.min.js"></script>
+<script src="jmlalphascript.js"></script>
+</body>
+
+</html>

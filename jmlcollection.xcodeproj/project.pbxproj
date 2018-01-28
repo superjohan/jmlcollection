@@ -20,6 +20,21 @@
 		90A4B455201E249B006400F1 /* thinkpiece.html in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B451201E249B006400F1 /* thinkpiece.html */; };
 		90A4B456201E249B006400F1 /* intro.js in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B452201E249B006400F1 /* intro.js */; };
 		90A4B458201E2523006400F1 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A4B457201E2523006400F1 /* WebViewController.swift */; };
+		90C0E0EE201E2CF900574499 /* jmlalpha.html in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E0DB201E2CF900574499 /* jmlalpha.html */; };
+		90C0E10D201E40E700574499 /* jmlalpha9.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E0FF201E40E700574499 /* jmlalpha9.png */; };
+		90C0E10E201E40E700574499 /* jmlalpha2.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E100201E40E700574499 /* jmlalpha2.png */; };
+		90C0E10F201E40E700574499 /* jmlalphascript.js in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E101201E40E700574499 /* jmlalphascript.js */; };
+		90C0E110201E40E700574499 /* jmlalpha3.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E102201E40E700574499 /* jmlalpha3.png */; };
+		90C0E111201E40E700574499 /* jmlalphaassets.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E103201E40E700574499 /* jmlalphaassets.png */; };
+		90C0E112201E40E700574499 /* jmlalpha5.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E104201E40E700574499 /* jmlalpha5.png */; };
+		90C0E113201E40E700574499 /* jmlalpha7.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E105201E40E700574499 /* jmlalpha7.png */; };
+		90C0E114201E40E700574499 /* jmlalpha4.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E106201E40E700574499 /* jmlalpha4.png */; };
+		90C0E115201E40E700574499 /* jmlalpha8.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E107201E40E700574499 /* jmlalpha8.png */; };
+		90C0E116201E40E700574499 /* jmlalphajml.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E108201E40E700574499 /* jmlalphajml.png */; };
+		90C0E117201E40E700574499 /* jmlalpha6.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E109201E40E700574499 /* jmlalpha6.png */; };
+		90C0E118201E40E700574499 /* jmlalpha1.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E10A201E40E700574499 /* jmlalpha1.png */; };
+		90C0E119201E40E700574499 /* jmlalphademo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E10B201E40E700574499 /* jmlalphademo.mp3 */; };
+		90C0E11A201E40E700574499 /* jmlalphathree.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E10C201E40E700574499 /* jmlalphathree.min.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +53,21 @@
 		90A4B451201E249B006400F1 /* thinkpiece.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = thinkpiece.html; sourceTree = "<group>"; };
 		90A4B452201E249B006400F1 /* intro.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = intro.js; sourceTree = "<group>"; };
 		90A4B457201E2523006400F1 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		90C0E0DB201E2CF900574499 /* jmlalpha.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jmlalpha.html; sourceTree = "<group>"; };
+		90C0E0FF201E40E700574499 /* jmlalpha9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmlalpha9.png; sourceTree = "<group>"; };
+		90C0E100201E40E700574499 /* jmlalpha2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmlalpha2.png; sourceTree = "<group>"; };
+		90C0E101201E40E700574499 /* jmlalphascript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jmlalphascript.js; sourceTree = "<group>"; };
+		90C0E102201E40E700574499 /* jmlalpha3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmlalpha3.png; sourceTree = "<group>"; };
+		90C0E103201E40E700574499 /* jmlalphaassets.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmlalphaassets.png; sourceTree = "<group>"; };
+		90C0E104201E40E700574499 /* jmlalpha5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmlalpha5.png; sourceTree = "<group>"; };
+		90C0E105201E40E700574499 /* jmlalpha7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmlalpha7.png; sourceTree = "<group>"; };
+		90C0E106201E40E700574499 /* jmlalpha4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmlalpha4.png; sourceTree = "<group>"; };
+		90C0E107201E40E700574499 /* jmlalpha8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmlalpha8.png; sourceTree = "<group>"; };
+		90C0E108201E40E700574499 /* jmlalphajml.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmlalphajml.png; sourceTree = "<group>"; };
+		90C0E109201E40E700574499 /* jmlalpha6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmlalpha6.png; sourceTree = "<group>"; };
+		90C0E10A201E40E700574499 /* jmlalpha1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmlalpha1.png; sourceTree = "<group>"; };
+		90C0E10B201E40E700574499 /* jmlalphademo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jmlalphademo.mp3; sourceTree = "<group>"; };
+		90C0E10C201E40E700574499 /* jmlalphathree.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jmlalphathree.min.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +103,7 @@
 				90A4B444201E17EC006400F1 /* worlds */,
 				90A4B44D201E249B006400F1 /* jml_irc_ad */,
 				90A4B450201E249B006400F1 /* thinkpiece */,
+				90C0E0DA201E2CF900574499 /* jmlalpha */,
 				903FFDDA201E12B50009EC9B /* AppDelegate.swift */,
 				903FFDDC201E12B50009EC9B /* ViewController.swift */,
 				90A4B44B201E1929006400F1 /* Demo.swift */,
@@ -110,6 +141,28 @@
 				90A4B452201E249B006400F1 /* intro.js */,
 			);
 			path = thinkpiece;
+			sourceTree = "<group>";
+		};
+		90C0E0DA201E2CF900574499 /* jmlalpha */ = {
+			isa = PBXGroup;
+			children = (
+				90C0E10A201E40E700574499 /* jmlalpha1.png */,
+				90C0E100201E40E700574499 /* jmlalpha2.png */,
+				90C0E102201E40E700574499 /* jmlalpha3.png */,
+				90C0E106201E40E700574499 /* jmlalpha4.png */,
+				90C0E104201E40E700574499 /* jmlalpha5.png */,
+				90C0E109201E40E700574499 /* jmlalpha6.png */,
+				90C0E105201E40E700574499 /* jmlalpha7.png */,
+				90C0E107201E40E700574499 /* jmlalpha8.png */,
+				90C0E0FF201E40E700574499 /* jmlalpha9.png */,
+				90C0E103201E40E700574499 /* jmlalphaassets.png */,
+				90C0E10B201E40E700574499 /* jmlalphademo.mp3 */,
+				90C0E108201E40E700574499 /* jmlalphajml.png */,
+				90C0E101201E40E700574499 /* jmlalphascript.js */,
+				90C0E10C201E40E700574499 /* jmlalphathree.min.js */,
+				90C0E0DB201E2CF900574499 /* jmlalpha.html */,
+			);
+			path = jmlalpha;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,12 +224,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90C0E113201E40E700574499 /* jmlalpha7.png in Resources */,
 				90A4B453201E249B006400F1 /* jml_irc_ad.html in Resources */,
 				90A4B454201E249B006400F1 /* audio.mp3 in Resources */,
+				90C0E112201E40E700574499 /* jmlalpha5.png in Resources */,
+				90C0E116201E40E700574499 /* jmlalphajml.png in Resources */,
+				90C0E10F201E40E700574499 /* jmlalphascript.js in Resources */,
 				90A4B455201E249B006400F1 /* thinkpiece.html in Resources */,
+				90C0E11A201E40E700574499 /* jmlalphathree.min.js in Resources */,
+				90C0E110201E40E700574499 /* jmlalpha3.png in Resources */,
+				90C0E119201E40E700574499 /* jmlalphademo.mp3 in Resources */,
+				90C0E0EE201E2CF900574499 /* jmlalpha.html in Resources */,
+				90C0E10D201E40E700574499 /* jmlalpha9.png in Resources */,
 				903FFDE5201E12B50009EC9B /* LaunchScreen.storyboard in Resources */,
+				90C0E10E201E40E700574499 /* jmlalpha2.png in Resources */,
+				90C0E115201E40E700574499 /* jmlalpha8.png in Resources */,
 				90A4B44A201E17EC006400F1 /* texture1.png in Resources */,
+				90C0E118201E40E700574499 /* jmlalpha1.png in Resources */,
+				90C0E114201E40E700574499 /* jmlalpha4.png in Resources */,
+				90C0E117201E40E700574499 /* jmlalpha6.png in Resources */,
 				903FFDE2201E12B50009EC9B /* Assets.xcassets in Resources */,
+				90C0E111201E40E700574499 /* jmlalphaassets.png in Resources */,
 				90A4B449201E17EC006400F1 /* track.m4a in Resources */,
 				90A4B456201E249B006400F1 /* intro.js in Resources */,
 			);

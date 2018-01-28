@@ -23,7 +23,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     let demos: [Demo] = [
         Demo(name: "Worlds", group: "Dekadence", year: "2017", viewController: { return WorldsViewController() }, htmlDescription: nil),
         Demo(name: "#jumalauta", group: "Jumalauta", year: "2017", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "jml_irc_ad.html", path: "jml_irc_ad")),
-        Demo(name: "Thinkpiece", group: "Dekadence", year: "2017", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "thinkpiece.html", path: "thinkpiece"))
+        Demo(name: "α", group: "Jumalauta", year: "2017", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "jmlalpha.html", path: "jmlalpha")),
+        Demo(name: "Thinkpiece", group: "Dekadence", year: "2017", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "thinkpiece.html", path: "thinkpiece")),
     ]
 
     let tableView = UITableView(frame: CGRect.zero, style: UITableViewStyle.plain)

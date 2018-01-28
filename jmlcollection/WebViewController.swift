@@ -25,6 +25,7 @@ class WebViewController: UIViewController {
     
     init(demoDescription: HtmlDemoDescription) {
         let webViewConfiguration = WKWebViewConfiguration()
+        webViewConfiguration.mediaTypesRequiringUserActionForPlayback = []
         self.webView = WKWebView(frame: CGRect.zero, configuration: webViewConfiguration)
         self.demoDescription = demoDescription
         

@@ -25,6 +25,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         Demo(name: "#jumalauta", group: "Jumalauta", year: "2017", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "jml_irc_ad.html", path: "jml_irc_ad")),
         Demo(name: "α", group: "Jumalauta", year: "2017", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "jmlalpha.html", path: "jmlalpha")),
         Demo(name: "Thinkpiece", group: "Dekadence", year: "2017", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "thinkpiece.html", path: "thinkpiece")),
+        Demo(name: "Destroy All Humans", group: "Jumalauta", year: "2015", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "jmldstr.html", path: "jmldstr")),
     ]
 
     let tableView = UITableView(frame: CGRect.zero, style: UITableViewStyle.plain)

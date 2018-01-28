@@ -21,7 +21,9 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     let demos: [Demo] = [
-        Demo(name: "Worlds", group: "Dekadence", year: "2017", viewController: { return WorldsViewController() }, htmlFilename: nil)
+        Demo(name: "Worlds", group: "Dekadence", year: "2017", viewController: { return WorldsViewController() }, htmlDescription: nil),
+        Demo(name: "#jumalauta", group: "Jumalauta", year: "2017", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "jml_irc_ad.html", path: "jml_irc_ad")),
+        Demo(name: "Thinkpiece", group: "Dekadence", year: "2017", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "thinkpiece.html", path: "thinkpiece"))
     ]
 
     let tableView = UITableView(frame: CGRect.zero, style: UITableViewStyle.plain)
@@ -59,8 +61,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 
         if let viewController = demo.viewController?() {
             self.navigationController?.pushViewController(viewController, animated: true)
-        } else if let htmlFilename = demo.htmlFilename {
-            print("TODO: show \(htmlFilename)")
+        } else if let htmlDescription = demo.htmlDescription {
+            let webViewController = WebViewController(demoDescription: htmlDescription)
+            self.navigationController?.pushViewController(webViewController, animated: true)
         }
         
         tableView.deselectRow(at: indexPath, animated: true)

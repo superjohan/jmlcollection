@@ -19,6 +19,7 @@
 		90A4B454201E249B006400F1 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B44F201E249B006400F1 /* audio.mp3 */; };
 		90A4B455201E249B006400F1 /* thinkpiece.html in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B451201E249B006400F1 /* thinkpiece.html */; };
 		90A4B456201E249B006400F1 /* intro.js in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B452201E249B006400F1 /* intro.js */; };
+		90A4B458201E2523006400F1 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A4B457201E2523006400F1 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		90A4B44F201E249B006400F1 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
 		90A4B451201E249B006400F1 /* thinkpiece.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = thinkpiece.html; sourceTree = "<group>"; };
 		90A4B452201E249B006400F1 /* intro.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = intro.js; sourceTree = "<group>"; };
+		90A4B457201E2523006400F1 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				903FFDDA201E12B50009EC9B /* AppDelegate.swift */,
 				903FFDDC201E12B50009EC9B /* ViewController.swift */,
 				90A4B44B201E1929006400F1 /* Demo.swift */,
+				90A4B457201E2523006400F1 /* WebViewController.swift */,
 				903FFDE1201E12B50009EC9B /* Assets.xcassets */,
 				903FFDE3201E12B50009EC9B /* LaunchScreen.storyboard */,
 				903FFDE6201E12B50009EC9B /* Info.plist */,
@@ -189,6 +192,7 @@
 				903FFDDD201E12B50009EC9B /* ViewController.swift in Sources */,
 				90A4B448201E17EC006400F1 /* WorldsViewController.swift in Sources */,
 				90A4B44C201E1929006400F1 /* Demo.swift in Sources */,
+				90A4B458201E2523006400F1 /* WebViewController.swift in Sources */,
 				903FFDDB201E12B50009EC9B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

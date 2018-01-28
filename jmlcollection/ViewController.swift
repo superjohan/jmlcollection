@@ -24,7 +24,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         Demo(name: "Worlds", group: "Dekadence", year: "2017", viewController: { return WorldsViewController() }, htmlFilename: nil)
     ]
 
-    let tableView: UITableView = UITableView(frame: CGRect.zero, style: UITableViewStyle.plain)
+    let tableView = UITableView(frame: CGRect.zero, style: UITableViewStyle.plain)
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -11,6 +11,19 @@
 		903FFDDD201E12B50009EC9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903FFDDC201E12B50009EC9B /* ViewController.swift */; };
 		903FFDE2201E12B50009EC9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903FFDE1201E12B50009EC9B /* Assets.xcassets */; };
 		903FFDE5201E12B50009EC9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903FFDE3201E12B50009EC9B /* LaunchScreen.storyboard */; };
+		90866E4E201E664B000CE68C /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 90866E32201E664B000CE68C /* GCDWebServerResponse.m */; };
+		90866E4F201E664B000CE68C /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 90866E35201E664B000CE68C /* GCDWebServerRequest.m */; };
+		90866E50201E664B000CE68C /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 90866E38201E664B000CE68C /* GCDWebServerFunctions.m */; };
+		90866E51201E664B000CE68C /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 90866E39201E664B000CE68C /* GCDWebServer.m */; };
+		90866E52201E664B000CE68C /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 90866E3A201E664B000CE68C /* GCDWebServerConnection.m */; };
+		90866E53201E664B000CE68C /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 90866E3F201E664B000CE68C /* GCDWebServerErrorResponse.m */; };
+		90866E54201E664B000CE68C /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 90866E41201E664B000CE68C /* GCDWebServerFileResponse.m */; };
+		90866E55201E664B000CE68C /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 90866E42201E664B000CE68C /* GCDWebServerDataResponse.m */; };
+		90866E56201E664B000CE68C /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 90866E44201E664B000CE68C /* GCDWebServerStreamedResponse.m */; };
+		90866E57201E664B000CE68C /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 90866E49201E664B000CE68C /* GCDWebServerURLEncodedFormRequest.m */; };
+		90866E58201E664B000CE68C /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 90866E4A201E664B000CE68C /* GCDWebServerMultiPartFormRequest.m */; };
+		90866E59201E664B000CE68C /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 90866E4B201E664B000CE68C /* GCDWebServerDataRequest.m */; };
+		90866E5A201E664B000CE68C /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 90866E4C201E664B000CE68C /* GCDWebServerFileRequest.m */; };
 		90A4B448201E17EC006400F1 /* WorldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A4B445201E17EC006400F1 /* WorldsViewController.swift */; };
 		90A4B449201E17EC006400F1 /* track.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B446201E17EC006400F1 /* track.m4a */; };
 		90A4B44A201E17EC006400F1 /* texture1.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B447201E17EC006400F1 /* texture1.png */; };
@@ -67,6 +80,35 @@
 		903FFDE1201E12B50009EC9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		903FFDE4201E12B50009EC9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		903FFDE6201E12B50009EC9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90866E30201E664B000CE68C /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		90866E31201E664B000CE68C /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		90866E32201E664B000CE68C /* GCDWebServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerResponse.m; sourceTree = "<group>"; };
+		90866E33201E664B000CE68C /* GCDWebServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerConnection.h; sourceTree = "<group>"; };
+		90866E34201E664B000CE68C /* GCDWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServer.h; sourceTree = "<group>"; };
+		90866E35201E664B000CE68C /* GCDWebServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerRequest.m; sourceTree = "<group>"; };
+		90866E36201E664B000CE68C /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		90866E37201E664B000CE68C /* GCDWebServerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerResponse.h; sourceTree = "<group>"; };
+		90866E38201E664B000CE68C /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		90866E39201E664B000CE68C /* GCDWebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServer.m; sourceTree = "<group>"; };
+		90866E3A201E664B000CE68C /* GCDWebServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerConnection.m; sourceTree = "<group>"; };
+		90866E3B201E664B000CE68C /* GCDWebServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerRequest.h; sourceTree = "<group>"; };
+		90866E3D201E664B000CE68C /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileResponse.h; sourceTree = "<group>"; };
+		90866E3E201E664B000CE68C /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		90866E3F201E664B000CE68C /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		90866E40201E664B000CE68C /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		90866E41201E664B000CE68C /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileResponse.m; sourceTree = "<group>"; };
+		90866E42201E664B000CE68C /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		90866E43201E664B000CE68C /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		90866E44201E664B000CE68C /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		90866E46201E664B000CE68C /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerDataRequest.h; sourceTree = "<group>"; };
+		90866E47201E664B000CE68C /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		90866E48201E664B000CE68C /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerFileRequest.h; sourceTree = "<group>"; };
+		90866E49201E664B000CE68C /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
+		90866E4A201E664B000CE68C /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
+		90866E4B201E664B000CE68C /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerDataRequest.m; sourceTree = "<group>"; };
+		90866E4C201E664B000CE68C /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDWebServerFileRequest.m; sourceTree = "<group>"; };
+		90866E4D201E664B000CE68C /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		90866E5B201E66B3000CE68C /* jmlcollection-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jmlcollection-Bridging-Header.h"; sourceTree = "<group>"; };
 		90A4B445201E17EC006400F1 /* WorldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldsViewController.swift; sourceTree = "<group>"; };
 		90A4B446201E17EC006400F1 /* track.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = track.m4a; sourceTree = "<group>"; };
 		90A4B447201E17EC006400F1 /* texture1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture1.png; sourceTree = "<group>"; };
@@ -146,6 +188,7 @@
 		903FFDD9201E12B50009EC9B /* jmlcollection */ = {
 			isa = PBXGroup;
 			children = (
+				90866E2E201E664B000CE68C /* GCDWebServer */,
 				90A4B444201E17EC006400F1 /* worlds */,
 				90A4B44D201E249B006400F1 /* jml_irc_ad */,
 				90A4B450201E249B006400F1 /* thinkpiece */,
@@ -155,11 +198,71 @@
 				903FFDDC201E12B50009EC9B /* ViewController.swift */,
 				90A4B44B201E1929006400F1 /* Demo.swift */,
 				90A4B457201E2523006400F1 /* WebViewController.swift */,
+				90866E5B201E66B3000CE68C /* jmlcollection-Bridging-Header.h */,
 				903FFDE1201E12B50009EC9B /* Assets.xcassets */,
 				903FFDE3201E12B50009EC9B /* LaunchScreen.storyboard */,
 				903FFDE6201E12B50009EC9B /* Info.plist */,
 			);
 			path = jmlcollection;
+			sourceTree = "<group>";
+		};
+		90866E2E201E664B000CE68C /* GCDWebServer */ = {
+			isa = PBXGroup;
+			children = (
+				90866E2F201E664B000CE68C /* Core */,
+				90866E3C201E664B000CE68C /* Responses */,
+				90866E45201E664B000CE68C /* Requests */,
+			);
+			path = GCDWebServer;
+			sourceTree = "<group>";
+		};
+		90866E2F201E664B000CE68C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				90866E30201E664B000CE68C /* GCDWebServerFunctions.h */,
+				90866E31201E664B000CE68C /* GCDWebServerPrivate.h */,
+				90866E32201E664B000CE68C /* GCDWebServerResponse.m */,
+				90866E33201E664B000CE68C /* GCDWebServerConnection.h */,
+				90866E34201E664B000CE68C /* GCDWebServer.h */,
+				90866E35201E664B000CE68C /* GCDWebServerRequest.m */,
+				90866E36201E664B000CE68C /* GCDWebServerHTTPStatusCodes.h */,
+				90866E37201E664B000CE68C /* GCDWebServerResponse.h */,
+				90866E38201E664B000CE68C /* GCDWebServerFunctions.m */,
+				90866E39201E664B000CE68C /* GCDWebServer.m */,
+				90866E3A201E664B000CE68C /* GCDWebServerConnection.m */,
+				90866E3B201E664B000CE68C /* GCDWebServerRequest.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		90866E3C201E664B000CE68C /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				90866E3D201E664B000CE68C /* GCDWebServerFileResponse.h */,
+				90866E3E201E664B000CE68C /* GCDWebServerStreamedResponse.h */,
+				90866E3F201E664B000CE68C /* GCDWebServerErrorResponse.m */,
+				90866E40201E664B000CE68C /* GCDWebServerDataResponse.h */,
+				90866E41201E664B000CE68C /* GCDWebServerFileResponse.m */,
+				90866E42201E664B000CE68C /* GCDWebServerDataResponse.m */,
+				90866E43201E664B000CE68C /* GCDWebServerErrorResponse.h */,
+				90866E44201E664B000CE68C /* GCDWebServerStreamedResponse.m */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
+		90866E45201E664B000CE68C /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				90866E46201E664B000CE68C /* GCDWebServerDataRequest.h */,
+				90866E47201E664B000CE68C /* GCDWebServerMultiPartFormRequest.h */,
+				90866E48201E664B000CE68C /* GCDWebServerFileRequest.h */,
+				90866E49201E664B000CE68C /* GCDWebServerURLEncodedFormRequest.m */,
+				90866E4A201E664B000CE68C /* GCDWebServerMultiPartFormRequest.m */,
+				90866E4B201E664B000CE68C /* GCDWebServerDataRequest.m */,
+				90866E4C201E664B000CE68C /* GCDWebServerFileRequest.m */,
+				90866E4D201E664B000CE68C /* GCDWebServerURLEncodedFormRequest.h */,
+			);
+			path = Requests;
 			sourceTree = "<group>";
 		};
 		90A4B444201E17EC006400F1 /* worlds */ = {
@@ -358,10 +461,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				903FFDDD201E12B50009EC9B /* ViewController.swift in Sources */,
+				90866E55201E664B000CE68C /* GCDWebServerDataResponse.m in Sources */,
 				90A4B448201E17EC006400F1 /* WorldsViewController.swift in Sources */,
+				90866E52201E664B000CE68C /* GCDWebServerConnection.m in Sources */,
+				90866E56201E664B000CE68C /* GCDWebServerStreamedResponse.m in Sources */,
 				90A4B44C201E1929006400F1 /* Demo.swift in Sources */,
 				90A4B458201E2523006400F1 /* WebViewController.swift in Sources */,
+				90866E57201E664B000CE68C /* GCDWebServerURLEncodedFormRequest.m in Sources */,
 				903FFDDB201E12B50009EC9B /* AppDelegate.swift in Sources */,
+				90866E51201E664B000CE68C /* GCDWebServer.m in Sources */,
+				90866E54201E664B000CE68C /* GCDWebServerFileResponse.m in Sources */,
+				90866E58201E664B000CE68C /* GCDWebServerMultiPartFormRequest.m in Sources */,
+				90866E59201E664B000CE68C /* GCDWebServerDataRequest.m in Sources */,
+				90866E4F201E664B000CE68C /* GCDWebServerRequest.m in Sources */,
+				90866E5A201E664B000CE68C /* GCDWebServerFileRequest.m in Sources */,
+				90866E50201E664B000CE68C /* GCDWebServerFunctions.m in Sources */,
+				90866E4E201E664B000CE68C /* GCDWebServerResponse.m in Sources */,
+				90866E53201E664B000CE68C /* GCDWebServerErrorResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +612,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.jumalauta.jmlcollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "jmlcollection/jmlcollection-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -511,6 +628,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = org.jumalauta.jmlcollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "jmlcollection/jmlcollection-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

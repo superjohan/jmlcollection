@@ -35,6 +35,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         self.tableView.frame = CGRect(x: 0, y: 0, width: self.view.bounds.size.width, height: self.view.bounds.size.height)
         self.tableView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        self.tableView.separatorStyle = UITableViewCellSeparatorStyle.none
         self.tableView.dataSource = self
         self.tableView.delegate = self
         self.view.addSubview(self.tableView)
@@ -50,8 +51,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         let demo = self.demos[indexPath.row]
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cellIdentifier") ?? UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "cellIdentifier")
+        
         cell.textLabel?.text = demo.name
+        cell.textLabel?.font = UIFont.init(name: "Superclarendon-BoldItalic", size: 36)
+        
         cell.detailTextLabel?.text = "\(demo.group), \(demo.year)"
+        cell.detailTextLabel?.font = UIFont.init(name: "Superclarendon-Regular", size: 24)
         
         return cell
     }
@@ -69,5 +74,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
         
         tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 96
     }
 }

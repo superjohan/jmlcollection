@@ -20,7 +20,7 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, UIGestureRecognizerDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
@@ -28,10 +28,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let navigationController = UINavigationController(rootViewController: ViewController.init())
         navigationController.isNavigationBarHidden = true
+        navigationController.interactivePopGestureRecognizer?.delegate = self
         
         self.window?.rootViewController = navigationController
         self.window?.makeKeyAndVisible()
 
+        return true
+    }
+    
+    // MARK: - UIGestureRecognizerDelegate
+    
+    // yeah this is lazy. sue me
+    public func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIGestureRecognizer) -> Bool {
         return true
     }
 }

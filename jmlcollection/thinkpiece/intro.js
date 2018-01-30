@@ -54,8 +54,10 @@ let song = new Audio(songData);
 let canvas;
 let ctx;
 let images = [];
-let canvasWidth = 1920;
-let canvasHeight = 1080;
+let canvasWidth = window.innerWidth;
+let canvasHeight = window.innerHeight;
+let widthRatio = canvasWidth / 1920;
+let heightRatio = canvasHeight / 1080;
 let initialTimestamp = null;
 let noiseImages = [];
 let noiseCounter = 0;
@@ -227,7 +229,7 @@ function drawText(text) {
         ctx.fillStyle = 'rgba(' + color + ', ' + color + ', ' + color + ', 1.0)';
         let xOffset = (5 - (Math.random() * 10)) | 0;
         let yOffset = (5 - (Math.random() * 10)) | 0;
-        ctx.fillText(text, 150 + xOffset, 540 + yOffset);
+        ctx.fillText(text, (150 + xOffset) * widthRatio, (540 + yOffset) * heightRatio);
     }
 }
 
@@ -248,8 +250,8 @@ function drawLines() {
             ctx.beginPath();
             ctx.strokeStyle = 'rgba(' + color + ', ' + color + ', ' + color + ', 1.0)';
             ctx.lineWidth = 3;
-            ctx.moveTo(x1, y1);
-            ctx.lineTo(x2, y2);
+            ctx.moveTo(x1 * widthRatio, y1 * heightRatio);
+            ctx.lineTo(x2 * widthRatio, y2 * heightRatio);
             ctx.stroke();
         }
     }
@@ -303,5 +305,5 @@ function setup() {
 
         let precalcNoticeDiv = document.getElementById('precalcnotice');
         precalcNoticeDiv.style.display = 'none';
-    }, 0);
+    }, 500);
 }

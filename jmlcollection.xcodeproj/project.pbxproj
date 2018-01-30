@@ -33,6 +33,16 @@
 		90A4B455201E249B006400F1 /* thinkpiece.html in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B451201E249B006400F1 /* thinkpiece.html */; };
 		90A4B456201E249B006400F1 /* intro.js in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B452201E249B006400F1 /* intro.js */; };
 		90A4B458201E2523006400F1 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A4B457201E2523006400F1 /* WebViewController.swift */; };
+		90A4F9012020F0B20066F4E8 /* jmldeltaindex.html in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F8F72020F0B20066F4E8 /* jmldeltaindex.html */; };
+		90A4F9022020F0B20066F4E8 /* jmldeltafist.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F8F82020F0B20066F4E8 /* jmldeltafist.png */; };
+		90A4F9032020F0B20066F4E8 /* jmldeltathree.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F8F92020F0B20066F4E8 /* jmldeltathree.min.js */; };
+		90A4F9042020F0B20066F4E8 /* jmldeltascreenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F8FA2020F0B20066F4E8 /* jmldeltascreenshot.png */; };
+		90A4F9052020F0B20066F4E8 /* jmldeltajml.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F8FB2020F0B20066F4E8 /* jmldeltajml.png */; };
+		90A4F9062020F0B20066F4E8 /* jmldeltacredits.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F8FC2020F0B20066F4E8 /* jmldeltacredits.png */; };
+		90A4F9072020F0B20066F4E8 /* jmldeltadelta.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F8FD2020F0B20066F4E8 /* jmldeltadelta.png */; };
+		90A4F9082020F0B20066F4E8 /* jmldeltascript.js in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F8FE2020F0B20066F4E8 /* jmldeltascript.js */; };
+		90A4F9092020F0B20066F4E8 /* jmldeltanoise.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F8FF2020F0B20066F4E8 /* jmldeltanoise.png */; };
+		90A4F90A2020F0B20066F4E8 /* jmldeltademo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9002020F0B20066F4E8 /* jmldeltademo.mp3 */; };
 		90C0E0EE201E2CF900574499 /* jmlalpha.html in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E0DB201E2CF900574499 /* jmlalpha.html */; };
 		90C0E10D201E40E700574499 /* jmlalpha9.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E0FF201E40E700574499 /* jmlalpha9.png */; };
 		90C0E10E201E40E700574499 /* jmlalpha2.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E100201E40E700574499 /* jmlalpha2.png */; };
@@ -118,6 +128,16 @@
 		90A4B451201E249B006400F1 /* thinkpiece.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = thinkpiece.html; sourceTree = "<group>"; };
 		90A4B452201E249B006400F1 /* intro.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = intro.js; sourceTree = "<group>"; };
 		90A4B457201E2523006400F1 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		90A4F8F72020F0B20066F4E8 /* jmldeltaindex.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jmldeltaindex.html; sourceTree = "<group>"; };
+		90A4F8F82020F0B20066F4E8 /* jmldeltafist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmldeltafist.png; sourceTree = "<group>"; };
+		90A4F8F92020F0B20066F4E8 /* jmldeltathree.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jmldeltathree.min.js; sourceTree = "<group>"; };
+		90A4F8FA2020F0B20066F4E8 /* jmldeltascreenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmldeltascreenshot.png; sourceTree = "<group>"; };
+		90A4F8FB2020F0B20066F4E8 /* jmldeltajml.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmldeltajml.png; sourceTree = "<group>"; };
+		90A4F8FC2020F0B20066F4E8 /* jmldeltacredits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmldeltacredits.png; sourceTree = "<group>"; };
+		90A4F8FD2020F0B20066F4E8 /* jmldeltadelta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmldeltadelta.png; sourceTree = "<group>"; };
+		90A4F8FE2020F0B20066F4E8 /* jmldeltascript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jmldeltascript.js; sourceTree = "<group>"; };
+		90A4F8FF2020F0B20066F4E8 /* jmldeltanoise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmldeltanoise.png; sourceTree = "<group>"; };
+		90A4F9002020F0B20066F4E8 /* jmldeltademo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jmldeltademo.mp3; sourceTree = "<group>"; };
 		90C0E0DB201E2CF900574499 /* jmlalpha.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jmlalpha.html; sourceTree = "<group>"; };
 		90C0E0FF201E40E700574499 /* jmlalpha9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmlalpha9.png; sourceTree = "<group>"; };
 		90C0E100201E40E700574499 /* jmlalpha2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmlalpha2.png; sourceTree = "<group>"; };
@@ -194,6 +214,7 @@
 				90A4B450201E249B006400F1 /* thinkpiece */,
 				90C0E0DA201E2CF900574499 /* jmlalpha */,
 				90C0E11B201E435000574499 /* jmldstr */,
+				90A4F8F62020F0B20066F4E8 /* jmldelta */,
 				903FFDDA201E12B50009EC9B /* AppDelegate.swift */,
 				903FFDDC201E12B50009EC9B /* ViewController.swift */,
 				90A4B44B201E1929006400F1 /* Demo.swift */,
@@ -291,6 +312,23 @@
 				90A4B452201E249B006400F1 /* intro.js */,
 			);
 			path = thinkpiece;
+			sourceTree = "<group>";
+		};
+		90A4F8F62020F0B20066F4E8 /* jmldelta */ = {
+			isa = PBXGroup;
+			children = (
+				90A4F8F72020F0B20066F4E8 /* jmldeltaindex.html */,
+				90A4F8F82020F0B20066F4E8 /* jmldeltafist.png */,
+				90A4F8F92020F0B20066F4E8 /* jmldeltathree.min.js */,
+				90A4F8FA2020F0B20066F4E8 /* jmldeltascreenshot.png */,
+				90A4F8FB2020F0B20066F4E8 /* jmldeltajml.png */,
+				90A4F8FC2020F0B20066F4E8 /* jmldeltacredits.png */,
+				90A4F8FD2020F0B20066F4E8 /* jmldeltadelta.png */,
+				90A4F8FE2020F0B20066F4E8 /* jmldeltascript.js */,
+				90A4F8FF2020F0B20066F4E8 /* jmldeltanoise.png */,
+				90A4F9002020F0B20066F4E8 /* jmldeltademo.mp3 */,
+			);
+			path = jmldelta;
 			sourceTree = "<group>";
 		};
 		90C0E0DA201E2CF900574499 /* jmlalpha */ = {
@@ -404,17 +442,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90A4F90A2020F0B20066F4E8 /* jmldeltademo.mp3 in Resources */,
 				90C0E113201E40E700574499 /* jmlalpha7.png in Resources */,
+				90A4F9062020F0B20066F4E8 /* jmldeltacredits.png in Resources */,
 				90C0E142201E435000574499 /* jmldstrintro2.png in Resources */,
 				90A4B453201E249B006400F1 /* jml_irc_ad.html in Resources */,
 				90A4B454201E249B006400F1 /* audio.mp3 in Resources */,
 				90C0E112201E40E700574499 /* jmlalpha5.png in Resources */,
+				90A4F9082020F0B20066F4E8 /* jmldeltascript.js in Resources */,
 				90C0E116201E40E700574499 /* jmlalphajml.png in Resources */,
 				90C0E148201E435000574499 /* jmldstrmain.css in Resources */,
 				90C0E13D201E435000574499 /* jmldstrvendor.js in Resources */,
 				90C0E147201E435000574499 /* jmldstrrobotelectric.mp3 in Resources */,
 				90C0E10F201E40E700574499 /* jmlalphascript.js in Resources */,
 				90C0E137201E435000574499 /* jmldstrrobot21.png in Resources */,
+				90A4F9012020F0B20066F4E8 /* jmldeltaindex.html in Resources */,
 				90C0E13C201E435000574499 /* jmldstrrobot_merged.dae in Resources */,
 				90C0E138201E435000574499 /* jmldstrrobot23.png in Resources */,
 				90C0E13E201E435000574499 /* jmldstr.html in Resources */,
@@ -423,11 +465,13 @@
 				90A4B455201E249B006400F1 /* thinkpiece.html in Resources */,
 				90C0E11A201E40E700574499 /* jmlalphathree.min.js in Resources */,
 				90C0E13B201E435000574499 /* jmldstrtitlescreen.png in Resources */,
+				90A4F9072020F0B20066F4E8 /* jmldeltadelta.png in Resources */,
 				90C0E110201E40E700574499 /* jmlalpha3.png in Resources */,
 				90C0E119201E40E700574499 /* jmlalphademo.mp3 in Resources */,
 				90C0E0EE201E2CF900574499 /* jmlalpha.html in Resources */,
 				90C0E10D201E40E700574499 /* jmlalpha9.png in Resources */,
 				90C0E13F201E435000574499 /* jmldstrcredits.png in Resources */,
+				90A4F9092020F0B20066F4E8 /* jmldeltanoise.png in Resources */,
 				90C0E146201E435000574499 /* jmldstrintro3.png in Resources */,
 				903FFDE5201E12B50009EC9B /* LaunchScreen.storyboard in Resources */,
 				90C0E143201E435000574499 /* jmldstrgreets.png in Resources */,
@@ -440,11 +484,15 @@
 				90C0E115201E40E700574499 /* jmlalpha8.png in Resources */,
 				90A4B44A201E17EC006400F1 /* texture1.png in Resources */,
 				90C0E118201E40E700574499 /* jmlalpha1.png in Resources */,
+				90A4F9052020F0B20066F4E8 /* jmldeltajml.png in Resources */,
 				90C0E134201E435000574499 /* jmldstrvendor.css in Resources */,
+				90A4F9022020F0B20066F4E8 /* jmldeltafist.png in Resources */,
 				90C0E114201E40E700574499 /* jmlalpha4.png in Resources */,
 				90C0E117201E40E700574499 /* jmlalpha6.png in Resources */,
+				90A4F9032020F0B20066F4E8 /* jmldeltathree.min.js in Resources */,
 				903FFDE2201E12B50009EC9B /* Assets.xcassets in Resources */,
 				90C0E111201E40E700574499 /* jmlalphaassets.png in Resources */,
+				90A4F9042020F0B20066F4E8 /* jmldeltascreenshot.png in Resources */,
 				90C0E136201E435000574499 /* jmldstrmask.png in Resources */,
 				90C0E144201E435000574499 /* jmldstrrobot11.png in Resources */,
 				90A4B449201E17EC006400F1 /* track.m4a in Resources */,

@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Jumalauta</title>
+  <style type="text/css">
+    body {
+      background: #000;
+    }
+
+    #demo {
+      width: 100%;
+      height: 100%;
+    }
+
+    canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 3;
+    }
+
+    #overlay1 {
+      background: transparent url('./jmldeltanoise.png') center center / cover no-repeat;
+      opacity: 0;
+      mix-blend-mode: multiply;
+      transition: opacity 150ms linear 50ms;
+      z-index: 2;
+    }
+
+    #overlay2 {
+      background: transparent url('./jmldeltajml.png') center center / cover no-repeat;
+      opacity: 0;
+    }
+
+    #overlay3 {
+      background: transparent url('./jmldeltadelta.png') center center / cover no-repeat;
+      opacity: 0;
+    }
+
+    #overlay4 {
+      background: transparent url('./jmldeltaredits.png') center center / cover no-repeat;
+      opacity: 0;
+    }
+
+    #overlay5 {
+      background: transparent url('./jmldeltafist.png') center center / cover no-repeat;
+      opacity: 0;
+    }
+
+    #start {
+      position: absolute;
+      text-align: center;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      opacity: 1;
+      background: #000;
+      transition: opacity 8s linear;
+    }
+
+    #startBtn {
+      border: 10px solid #fff;
+      background: #000;
+      text-transform: uppercase;
+      color: #fff;
+      border-radius: 0;
+      padding: 10px 40px;
+      font-size: 48px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="demo">
+    <div id="overlay1" class="overlay"></div>
+    <div id="overlay2" class="overlay"></div>
+    <div id="overlay3" class="overlay"></div>
+    <div id="overlay4" class="overlay"></div>
+    <div id="overlay5" class="overlay"></div>
+    <div id="start">
+      <br><br><br><br>
+      <button id="startBtn">Start Demo</button>
+      <br><br><br><br>
+    </div>
+  </div>
+  <script src="jmldeltathree.min.js"></script>
+  <script src="jmldeltascript.js"></script>
+</body>
+
+</html>

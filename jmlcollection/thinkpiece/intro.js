@@ -258,7 +258,7 @@ function drawLines() {
 }
 
 function setup() {
-    document.body.innerHTML = '<div id="overlay">"thinkpiece" by dekadence. code by ricky martin, music by <a href="https://soundcloud.com/discreant">rad incest</a>. greets to cool people everywhere.</div><br/><div id="startbutton"><a href="javascript:void(0)" onclick="play()">start the show</a> (hardcoded to run at 1080p, the canvas will appear when you click)</div><br/><div id="precalcnotice">precalcing! please wait.</div><br/>';
+    document.body.innerHTML = '<div id="overlay">"thinkpiece" by dekadence. code by ricky martin, music by rad incest. greets to cool people everywhere.</div><br/><div id="startbutton"><a href="javascript:void(0)" onclick="play()">start the show</a></div><br/><div id="precalcnotice">precalcing! please wait.</div><br/>';
 
     let startButtonDiv = document.getElementById('startbutton');
     startButtonDiv.style.display = 'none';

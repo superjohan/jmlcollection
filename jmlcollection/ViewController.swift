@@ -37,9 +37,28 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         self.tableView.frame = CGRect(x: 0, y: 0, width: self.view.bounds.size.width, height: self.view.bounds.size.height)
         self.tableView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         self.tableView.separatorStyle = UITableViewCellSeparatorStyle.none
+        self.tableView.backgroundColor = UIColor.yellow
         self.tableView.dataSource = self
         self.tableView.delegate = self
         self.view.addSubview(self.tableView)
+        
+        let padding = 20
+        let width = 480
+        let height = 220
+        
+        let headerLabel = UILabel(frame: CGRect(x: padding, y: padding, width: width - (padding * 2), height: height - (padding * 2)))
+        headerLabel.font = UIFont.init(name: "Superclarendon-Black", size: 48)
+        headerLabel.textColor = UIColor.white
+        headerLabel.backgroundColor = UIColor.black
+        headerLabel.text = "The Jumalauta Collection"
+        headerLabel.lineBreakMode = NSLineBreakMode.byWordWrapping
+        headerLabel.numberOfLines = 0
+        
+        let headerView = UIView(frame: CGRect(x: 0, y: 0, width: width, height: height))
+        headerView.backgroundColor = UIColor.yellow
+        headerView.addSubview(headerLabel)
+        
+        self.tableView.tableHeaderView = headerView
     }
 
     // MARK: - UITableViewDataSource
@@ -56,7 +75,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cell.textLabel?.text = demo.name
         cell.textLabel?.font = UIFont.init(name: "Superclarendon-BoldItalic", size: 36)
         
-        cell.detailTextLabel?.text = "\(demo.group), \(demo.year)"
+        cell.detailTextLabel?.text = " \(demo.group), \(demo.year)"
         cell.detailTextLabel?.font = UIFont.init(name: "Superclarendon-Regular", size: 24)
         
         return cell

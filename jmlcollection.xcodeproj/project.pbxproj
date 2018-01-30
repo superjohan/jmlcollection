@@ -43,6 +43,63 @@
 		90A4F9082020F0B20066F4E8 /* jmldeltascript.js in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F8FE2020F0B20066F4E8 /* jmldeltascript.js */; };
 		90A4F9092020F0B20066F4E8 /* jmldeltanoise.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F8FF2020F0B20066F4E8 /* jmldeltanoise.png */; };
 		90A4F90A2020F0B20066F4E8 /* jmldeltademo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9002020F0B20066F4E8 /* jmldeltademo.mp3 */; };
+		90A4F9B82020F56D0066F4E8 /* jmlpartyhard2partyhard28.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F97D2020F56D0066F4E8 /* jmlpartyhard2partyhard28.gif */; };
+		90A4F9B92020F56D0066F4E8 /* jmlpartyhard2partyhard00.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F97E2020F56D0066F4E8 /* jmlpartyhard2partyhard00.gif */; };
+		90A4F9BA2020F56D0066F4E8 /* jmlpartyhard2partyhard14.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F97F2020F56D0066F4E8 /* jmlpartyhard2partyhard14.gif */; };
+		90A4F9BB2020F56D0066F4E8 /* jmlpartyhard2partyhard15.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9802020F56D0066F4E8 /* jmlpartyhard2partyhard15.gif */; };
+		90A4F9BC2020F56D0066F4E8 /* jmlpartyhard2partyhard01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9812020F56D0066F4E8 /* jmlpartyhard2partyhard01.gif */; };
+		90A4F9BD2020F56D0066F4E8 /* jmlpartyhard2partyhard29.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9822020F56D0066F4E8 /* jmlpartyhard2partyhard29.gif */; };
+		90A4F9BE2020F56D0066F4E8 /* jmlpartyhard2Artboard1.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9832020F56D0066F4E8 /* jmlpartyhard2Artboard1.png */; };
+		90A4F9BF2020F56D0066F4E8 /* jmlpartyhard2Artboard3.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9842020F56D0066F4E8 /* jmlpartyhard2Artboard3.png */; };
+		90A4F9C02020F56D0066F4E8 /* jmlpartyhard2partyhard17.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9852020F56D0066F4E8 /* jmlpartyhard2partyhard17.gif */; };
+		90A4F9C12020F56D0066F4E8 /* jmlpartyhard2partyhard03.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9862020F56D0066F4E8 /* jmlpartyhard2partyhard03.gif */; };
+		90A4F9C22020F56D0066F4E8 /* jmlpartyhard2partyhard02.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9872020F56D0066F4E8 /* jmlpartyhard2partyhard02.gif */; };
+		90A4F9C32020F56D0066F4E8 /* jmlpartyhard2partyhard16.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9882020F56D0066F4E8 /* jmlpartyhard2partyhard16.gif */; };
+		90A4F9C42020F56D0066F4E8 /* jmlpartyhard2Artboard2.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9892020F56D0066F4E8 /* jmlpartyhard2Artboard2.png */; };
+		90A4F9C52020F56D0066F4E8 /* jmlpartyhard2partyhard12.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F98A2020F56D0066F4E8 /* jmlpartyhard2partyhard12.gif */; };
+		90A4F9C62020F56D0066F4E8 /* jmlpartyhard2partyhard06.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F98B2020F56D0066F4E8 /* jmlpartyhard2partyhard06.gif */; };
+		90A4F9C72020F56D0066F4E8 /* jmlpartyhard2partyhard07.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F98C2020F56D0066F4E8 /* jmlpartyhard2partyhard07.gif */; };
+		90A4F9C82020F56D0066F4E8 /* jmlpartyhard2partyhard13.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F98D2020F56D0066F4E8 /* jmlpartyhard2partyhard13.gif */; };
+		90A4F9C92020F56D0066F4E8 /* jmlpartyhard2partyhard05.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F98E2020F56D0066F4E8 /* jmlpartyhard2partyhard05.gif */; };
+		90A4F9CA2020F56D0066F4E8 /* jmlpartyhard2partyhard11.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F98F2020F56D0066F4E8 /* jmlpartyhard2partyhard11.gif */; };
+		90A4F9CB2020F56D0066F4E8 /* jmlpartyhard2partyhard39.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9902020F56D0066F4E8 /* jmlpartyhard2partyhard39.gif */; };
+		90A4F9CC2020F56D0066F4E8 /* jmlpartyhard2partyhard38.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9912020F56D0066F4E8 /* jmlpartyhard2partyhard38.gif */; };
+		90A4F9CD2020F56D0066F4E8 /* jmlpartyhard2partyhard10.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9922020F56D0066F4E8 /* jmlpartyhard2partyhard10.gif */; };
+		90A4F9CE2020F56D0066F4E8 /* jmlpartyhard2partyhard04.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9932020F56D0066F4E8 /* jmlpartyhard2partyhard04.gif */; };
+		90A4F9CF2020F56D0066F4E8 /* jmlpartyhard2Artboard4.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9942020F56D0066F4E8 /* jmlpartyhard2Artboard4.png */; };
+		90A4F9D02020F56D0066F4E8 /* jmlpartyhard2main.cfaa3048.js in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9952020F56D0066F4E8 /* jmlpartyhard2main.cfaa3048.js */; };
+		90A4F9D12020F56D0066F4E8 /* jmlpartyhard2musa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9962020F56D0066F4E8 /* jmlpartyhard2musa.mp3 */; };
+		90A4F9D22020F56D0066F4E8 /* jmlpartyhard2partyhard42.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9972020F56D0066F4E8 /* jmlpartyhard2partyhard42.gif */; };
+		90A4F9D32020F56D0066F4E8 /* jmlpartyhard2partyhard43.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9982020F56D0066F4E8 /* jmlpartyhard2partyhard43.gif */; };
+		90A4F9D42020F56D0066F4E8 /* jmlpartyhard2partyhard41.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9992020F56D0066F4E8 /* jmlpartyhard2partyhard41.gif */; };
+		90A4F9D52020F56D0066F4E8 /* jmlpartyhard2partyhard40.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F99A2020F56D0066F4E8 /* jmlpartyhard2partyhard40.gif */; };
+		90A4F9D62020F56D0066F4E8 /* jmlpartyhard2asset-manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F99B2020F56D0066F4E8 /* jmlpartyhard2asset-manifest.json */; };
+		90A4F9D72020F56D0066F4E8 /* jmlpartyhard2partyhard44.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F99C2020F56D0066F4E8 /* jmlpartyhard2partyhard44.gif */; };
+		90A4F9D82020F56D0066F4E8 /* jmlpartyhard2partyhard45.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F99D2020F56D0066F4E8 /* jmlpartyhard2partyhard45.gif */; };
+		90A4F9D92020F56D0066F4E8 /* jmlpartyhard2noise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F99E2020F56D0066F4E8 /* jmlpartyhard2noise.jpg */; };
+		90A4F9DA2020F56D0066F4E8 /* jmlpartyhard2partyhard09.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9A02020F56D0066F4E8 /* jmlpartyhard2partyhard09.gif */; };
+		90A4F9DB2020F56D0066F4E8 /* jmlpartyhard2partyhard21.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9A12020F56D0066F4E8 /* jmlpartyhard2partyhard21.gif */; };
+		90A4F9DC2020F56D0066F4E8 /* jmlpartyhard2partyhard35.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9A22020F56D0066F4E8 /* jmlpartyhard2partyhard35.gif */; };
+		90A4F9DD2020F56D0066F4E8 /* jmlpartyhard2partyhard34.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9A32020F56D0066F4E8 /* jmlpartyhard2partyhard34.gif */; };
+		90A4F9DE2020F56D0066F4E8 /* jmlpartyhard2partyhard20.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9A42020F56D0066F4E8 /* jmlpartyhard2partyhard20.gif */; };
+		90A4F9DF2020F56D0066F4E8 /* jmlpartyhard2partyhard08.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9A52020F56D0066F4E8 /* jmlpartyhard2partyhard08.gif */; };
+		90A4F9E02020F56D0066F4E8 /* jmlpartyhard2noise.7a75a3ed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9A62020F56D0066F4E8 /* jmlpartyhard2noise.7a75a3ed.jpg */; };
+		90A4F9E12020F56D0066F4E8 /* jmlpartyhard2partyhard36.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9A72020F56D0066F4E8 /* jmlpartyhard2partyhard36.gif */; };
+		90A4F9E22020F56D0066F4E8 /* jmlpartyhard2partyhard22.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9A82020F56D0066F4E8 /* jmlpartyhard2partyhard22.gif */; };
+		90A4F9E32020F56D0066F4E8 /* jmlpartyhard2partyhard23.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9A92020F56D0066F4E8 /* jmlpartyhard2partyhard23.gif */; };
+		90A4F9E42020F56D0066F4E8 /* jmlpartyhard2partyhard37.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9AA2020F56D0066F4E8 /* jmlpartyhard2partyhard37.gif */; };
+		90A4F9E52020F56D0066F4E8 /* jmlpartyhard2partyhard33.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9AB2020F56D0066F4E8 /* jmlpartyhard2partyhard33.gif */; };
+		90A4F9E62020F56D0066F4E8 /* jmlpartyhard2partyhard27.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9AC2020F56D0066F4E8 /* jmlpartyhard2partyhard27.gif */; };
+		90A4F9E72020F56D0066F4E8 /* jmlpartyhard2index.html in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9AD2020F56D0066F4E8 /* jmlpartyhard2index.html */; };
+		90A4F9E82020F56D0066F4E8 /* jmlpartyhard2partyhard26.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9AE2020F56D0066F4E8 /* jmlpartyhard2partyhard26.gif */; };
+		90A4F9E92020F56D0066F4E8 /* jmlpartyhard2partyhard32.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9AF2020F56D0066F4E8 /* jmlpartyhard2partyhard32.gif */; };
+		90A4F9EA2020F56D0066F4E8 /* jmlpartyhard2main.9b929d85.css in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9B12020F56D0066F4E8 /* jmlpartyhard2main.9b929d85.css */; };
+		90A4F9EB2020F56D0066F4E8 /* jmlpartyhard2partyhard24.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9B22020F56D0066F4E8 /* jmlpartyhard2partyhard24.gif */; };
+		90A4F9EC2020F56D0066F4E8 /* jmlpartyhard2partyhard30.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9B32020F56D0066F4E8 /* jmlpartyhard2partyhard30.gif */; };
+		90A4F9ED2020F56D0066F4E8 /* jmlpartyhard2partyhard18.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9B42020F56D0066F4E8 /* jmlpartyhard2partyhard18.gif */; };
+		90A4F9EE2020F56D0066F4E8 /* jmlpartyhard2partyhard19.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9B52020F56D0066F4E8 /* jmlpartyhard2partyhard19.gif */; };
+		90A4F9EF2020F56D0066F4E8 /* jmlpartyhard2partyhard31.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9B62020F56D0066F4E8 /* jmlpartyhard2partyhard31.gif */; };
+		90A4F9F02020F56D0066F4E8 /* jmlpartyhard2partyhard25.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9B72020F56D0066F4E8 /* jmlpartyhard2partyhard25.gif */; };
 		90C0E0EE201E2CF900574499 /* jmlalpha.html in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E0DB201E2CF900574499 /* jmlalpha.html */; };
 		90C0E10D201E40E700574499 /* jmlalpha9.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E0FF201E40E700574499 /* jmlalpha9.png */; };
 		90C0E10E201E40E700574499 /* jmlalpha2.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E100201E40E700574499 /* jmlalpha2.png */; };
@@ -138,6 +195,65 @@
 		90A4F8FE2020F0B20066F4E8 /* jmldeltascript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jmldeltascript.js; sourceTree = "<group>"; };
 		90A4F8FF2020F0B20066F4E8 /* jmldeltanoise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmldeltanoise.png; sourceTree = "<group>"; };
 		90A4F9002020F0B20066F4E8 /* jmldeltademo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jmldeltademo.mp3; sourceTree = "<group>"; };
+		90A4F97D2020F56D0066F4E8 /* jmlpartyhard2partyhard28.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard28.gif; sourceTree = "<group>"; };
+		90A4F97E2020F56D0066F4E8 /* jmlpartyhard2partyhard00.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard00.gif; sourceTree = "<group>"; };
+		90A4F97F2020F56D0066F4E8 /* jmlpartyhard2partyhard14.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard14.gif; sourceTree = "<group>"; };
+		90A4F9802020F56D0066F4E8 /* jmlpartyhard2partyhard15.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard15.gif; sourceTree = "<group>"; };
+		90A4F9812020F56D0066F4E8 /* jmlpartyhard2partyhard01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard01.gif; sourceTree = "<group>"; };
+		90A4F9822020F56D0066F4E8 /* jmlpartyhard2partyhard29.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard29.gif; sourceTree = "<group>"; };
+		90A4F9832020F56D0066F4E8 /* jmlpartyhard2Artboard1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmlpartyhard2Artboard1.png; sourceTree = "<group>"; };
+		90A4F9842020F56D0066F4E8 /* jmlpartyhard2Artboard3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmlpartyhard2Artboard3.png; sourceTree = "<group>"; };
+		90A4F9852020F56D0066F4E8 /* jmlpartyhard2partyhard17.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard17.gif; sourceTree = "<group>"; };
+		90A4F9862020F56D0066F4E8 /* jmlpartyhard2partyhard03.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard03.gif; sourceTree = "<group>"; };
+		90A4F9872020F56D0066F4E8 /* jmlpartyhard2partyhard02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard02.gif; sourceTree = "<group>"; };
+		90A4F9882020F56D0066F4E8 /* jmlpartyhard2partyhard16.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard16.gif; sourceTree = "<group>"; };
+		90A4F9892020F56D0066F4E8 /* jmlpartyhard2Artboard2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmlpartyhard2Artboard2.png; sourceTree = "<group>"; };
+		90A4F98A2020F56D0066F4E8 /* jmlpartyhard2partyhard12.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard12.gif; sourceTree = "<group>"; };
+		90A4F98B2020F56D0066F4E8 /* jmlpartyhard2partyhard06.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard06.gif; sourceTree = "<group>"; };
+		90A4F98C2020F56D0066F4E8 /* jmlpartyhard2partyhard07.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard07.gif; sourceTree = "<group>"; };
+		90A4F98D2020F56D0066F4E8 /* jmlpartyhard2partyhard13.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard13.gif; sourceTree = "<group>"; };
+		90A4F98E2020F56D0066F4E8 /* jmlpartyhard2partyhard05.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard05.gif; sourceTree = "<group>"; };
+		90A4F98F2020F56D0066F4E8 /* jmlpartyhard2partyhard11.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard11.gif; sourceTree = "<group>"; };
+		90A4F9902020F56D0066F4E8 /* jmlpartyhard2partyhard39.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard39.gif; sourceTree = "<group>"; };
+		90A4F9912020F56D0066F4E8 /* jmlpartyhard2partyhard38.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard38.gif; sourceTree = "<group>"; };
+		90A4F9922020F56D0066F4E8 /* jmlpartyhard2partyhard10.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard10.gif; sourceTree = "<group>"; };
+		90A4F9932020F56D0066F4E8 /* jmlpartyhard2partyhard04.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard04.gif; sourceTree = "<group>"; };
+		90A4F9942020F56D0066F4E8 /* jmlpartyhard2Artboard4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmlpartyhard2Artboard4.png; sourceTree = "<group>"; };
+		90A4F9952020F56D0066F4E8 /* jmlpartyhard2main.cfaa3048.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jmlpartyhard2main.cfaa3048.js; sourceTree = "<group>"; };
+		90A4F9962020F56D0066F4E8 /* jmlpartyhard2musa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jmlpartyhard2musa.mp3; sourceTree = "<group>"; };
+		90A4F9972020F56D0066F4E8 /* jmlpartyhard2partyhard42.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard42.gif; sourceTree = "<group>"; };
+		90A4F9982020F56D0066F4E8 /* jmlpartyhard2partyhard43.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard43.gif; sourceTree = "<group>"; };
+		90A4F9992020F56D0066F4E8 /* jmlpartyhard2partyhard41.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard41.gif; sourceTree = "<group>"; };
+		90A4F99A2020F56D0066F4E8 /* jmlpartyhard2partyhard40.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard40.gif; sourceTree = "<group>"; };
+		90A4F99B2020F56D0066F4E8 /* jmlpartyhard2asset-manifest.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "jmlpartyhard2asset-manifest.json"; sourceTree = "<group>"; };
+		90A4F99C2020F56D0066F4E8 /* jmlpartyhard2partyhard44.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard44.gif; sourceTree = "<group>"; };
+		90A4F99D2020F56D0066F4E8 /* jmlpartyhard2partyhard45.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard45.gif; sourceTree = "<group>"; };
+		90A4F99E2020F56D0066F4E8 /* jmlpartyhard2noise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jmlpartyhard2noise.jpg; sourceTree = "<group>"; };
+		90A4F99F2020F56D0066F4E8 /* jmlpartyhard2main.cfaa3048.js.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = jmlpartyhard2main.cfaa3048.js.map; sourceTree = "<group>"; };
+		90A4F9A02020F56D0066F4E8 /* jmlpartyhard2partyhard09.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard09.gif; sourceTree = "<group>"; };
+		90A4F9A12020F56D0066F4E8 /* jmlpartyhard2partyhard21.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard21.gif; sourceTree = "<group>"; };
+		90A4F9A22020F56D0066F4E8 /* jmlpartyhard2partyhard35.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard35.gif; sourceTree = "<group>"; };
+		90A4F9A32020F56D0066F4E8 /* jmlpartyhard2partyhard34.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard34.gif; sourceTree = "<group>"; };
+		90A4F9A42020F56D0066F4E8 /* jmlpartyhard2partyhard20.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard20.gif; sourceTree = "<group>"; };
+		90A4F9A52020F56D0066F4E8 /* jmlpartyhard2partyhard08.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard08.gif; sourceTree = "<group>"; };
+		90A4F9A62020F56D0066F4E8 /* jmlpartyhard2noise.7a75a3ed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jmlpartyhard2noise.7a75a3ed.jpg; sourceTree = "<group>"; };
+		90A4F9A72020F56D0066F4E8 /* jmlpartyhard2partyhard36.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard36.gif; sourceTree = "<group>"; };
+		90A4F9A82020F56D0066F4E8 /* jmlpartyhard2partyhard22.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard22.gif; sourceTree = "<group>"; };
+		90A4F9A92020F56D0066F4E8 /* jmlpartyhard2partyhard23.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard23.gif; sourceTree = "<group>"; };
+		90A4F9AA2020F56D0066F4E8 /* jmlpartyhard2partyhard37.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard37.gif; sourceTree = "<group>"; };
+		90A4F9AB2020F56D0066F4E8 /* jmlpartyhard2partyhard33.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard33.gif; sourceTree = "<group>"; };
+		90A4F9AC2020F56D0066F4E8 /* jmlpartyhard2partyhard27.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard27.gif; sourceTree = "<group>"; };
+		90A4F9AD2020F56D0066F4E8 /* jmlpartyhard2index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jmlpartyhard2index.html; sourceTree = "<group>"; };
+		90A4F9AE2020F56D0066F4E8 /* jmlpartyhard2partyhard26.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard26.gif; sourceTree = "<group>"; };
+		90A4F9AF2020F56D0066F4E8 /* jmlpartyhard2partyhard32.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard32.gif; sourceTree = "<group>"; };
+		90A4F9B02020F56D0066F4E8 /* jmlpartyhard2main.9b929d85.css.map */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = jmlpartyhard2main.9b929d85.css.map; sourceTree = "<group>"; };
+		90A4F9B12020F56D0066F4E8 /* jmlpartyhard2main.9b929d85.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jmlpartyhard2main.9b929d85.css; sourceTree = "<group>"; };
+		90A4F9B22020F56D0066F4E8 /* jmlpartyhard2partyhard24.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard24.gif; sourceTree = "<group>"; };
+		90A4F9B32020F56D0066F4E8 /* jmlpartyhard2partyhard30.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard30.gif; sourceTree = "<group>"; };
+		90A4F9B42020F56D0066F4E8 /* jmlpartyhard2partyhard18.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard18.gif; sourceTree = "<group>"; };
+		90A4F9B52020F56D0066F4E8 /* jmlpartyhard2partyhard19.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard19.gif; sourceTree = "<group>"; };
+		90A4F9B62020F56D0066F4E8 /* jmlpartyhard2partyhard31.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard31.gif; sourceTree = "<group>"; };
+		90A4F9B72020F56D0066F4E8 /* jmlpartyhard2partyhard25.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard25.gif; sourceTree = "<group>"; };
 		90C0E0DB201E2CF900574499 /* jmlalpha.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jmlalpha.html; sourceTree = "<group>"; };
 		90C0E0FF201E40E700574499 /* jmlalpha9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmlalpha9.png; sourceTree = "<group>"; };
 		90C0E100201E40E700574499 /* jmlalpha2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmlalpha2.png; sourceTree = "<group>"; };
@@ -215,6 +331,7 @@
 				90C0E0DA201E2CF900574499 /* jmlalpha */,
 				90C0E11B201E435000574499 /* jmldstr */,
 				90A4F8F62020F0B20066F4E8 /* jmldelta */,
+				90A4F97C2020F56D0066F4E8 /* jmlpartyhard2 */,
 				903FFDDA201E12B50009EC9B /* AppDelegate.swift */,
 				903FFDDC201E12B50009EC9B /* ViewController.swift */,
 				90A4B44B201E1929006400F1 /* Demo.swift */,
@@ -331,6 +448,72 @@
 			path = jmldelta;
 			sourceTree = "<group>";
 		};
+		90A4F97C2020F56D0066F4E8 /* jmlpartyhard2 */ = {
+			isa = PBXGroup;
+			children = (
+				90A4F97D2020F56D0066F4E8 /* jmlpartyhard2partyhard28.gif */,
+				90A4F97E2020F56D0066F4E8 /* jmlpartyhard2partyhard00.gif */,
+				90A4F97F2020F56D0066F4E8 /* jmlpartyhard2partyhard14.gif */,
+				90A4F9802020F56D0066F4E8 /* jmlpartyhard2partyhard15.gif */,
+				90A4F9812020F56D0066F4E8 /* jmlpartyhard2partyhard01.gif */,
+				90A4F9822020F56D0066F4E8 /* jmlpartyhard2partyhard29.gif */,
+				90A4F9832020F56D0066F4E8 /* jmlpartyhard2Artboard1.png */,
+				90A4F9842020F56D0066F4E8 /* jmlpartyhard2Artboard3.png */,
+				90A4F9852020F56D0066F4E8 /* jmlpartyhard2partyhard17.gif */,
+				90A4F9862020F56D0066F4E8 /* jmlpartyhard2partyhard03.gif */,
+				90A4F9872020F56D0066F4E8 /* jmlpartyhard2partyhard02.gif */,
+				90A4F9882020F56D0066F4E8 /* jmlpartyhard2partyhard16.gif */,
+				90A4F9892020F56D0066F4E8 /* jmlpartyhard2Artboard2.png */,
+				90A4F98A2020F56D0066F4E8 /* jmlpartyhard2partyhard12.gif */,
+				90A4F98B2020F56D0066F4E8 /* jmlpartyhard2partyhard06.gif */,
+				90A4F98C2020F56D0066F4E8 /* jmlpartyhard2partyhard07.gif */,
+				90A4F98D2020F56D0066F4E8 /* jmlpartyhard2partyhard13.gif */,
+				90A4F98E2020F56D0066F4E8 /* jmlpartyhard2partyhard05.gif */,
+				90A4F98F2020F56D0066F4E8 /* jmlpartyhard2partyhard11.gif */,
+				90A4F9902020F56D0066F4E8 /* jmlpartyhard2partyhard39.gif */,
+				90A4F9912020F56D0066F4E8 /* jmlpartyhard2partyhard38.gif */,
+				90A4F9922020F56D0066F4E8 /* jmlpartyhard2partyhard10.gif */,
+				90A4F9932020F56D0066F4E8 /* jmlpartyhard2partyhard04.gif */,
+				90A4F9942020F56D0066F4E8 /* jmlpartyhard2Artboard4.png */,
+				90A4F9952020F56D0066F4E8 /* jmlpartyhard2main.cfaa3048.js */,
+				90A4F9962020F56D0066F4E8 /* jmlpartyhard2musa.mp3 */,
+				90A4F9972020F56D0066F4E8 /* jmlpartyhard2partyhard42.gif */,
+				90A4F9982020F56D0066F4E8 /* jmlpartyhard2partyhard43.gif */,
+				90A4F9992020F56D0066F4E8 /* jmlpartyhard2partyhard41.gif */,
+				90A4F99A2020F56D0066F4E8 /* jmlpartyhard2partyhard40.gif */,
+				90A4F99B2020F56D0066F4E8 /* jmlpartyhard2asset-manifest.json */,
+				90A4F99C2020F56D0066F4E8 /* jmlpartyhard2partyhard44.gif */,
+				90A4F99D2020F56D0066F4E8 /* jmlpartyhard2partyhard45.gif */,
+				90A4F99E2020F56D0066F4E8 /* jmlpartyhard2noise.jpg */,
+				90A4F99F2020F56D0066F4E8 /* jmlpartyhard2main.cfaa3048.js.map */,
+				90A4F9A02020F56D0066F4E8 /* jmlpartyhard2partyhard09.gif */,
+				90A4F9A12020F56D0066F4E8 /* jmlpartyhard2partyhard21.gif */,
+				90A4F9A22020F56D0066F4E8 /* jmlpartyhard2partyhard35.gif */,
+				90A4F9A32020F56D0066F4E8 /* jmlpartyhard2partyhard34.gif */,
+				90A4F9A42020F56D0066F4E8 /* jmlpartyhard2partyhard20.gif */,
+				90A4F9A52020F56D0066F4E8 /* jmlpartyhard2partyhard08.gif */,
+				90A4F9A62020F56D0066F4E8 /* jmlpartyhard2noise.7a75a3ed.jpg */,
+				90A4F9A72020F56D0066F4E8 /* jmlpartyhard2partyhard36.gif */,
+				90A4F9A82020F56D0066F4E8 /* jmlpartyhard2partyhard22.gif */,
+				90A4F9A92020F56D0066F4E8 /* jmlpartyhard2partyhard23.gif */,
+				90A4F9AA2020F56D0066F4E8 /* jmlpartyhard2partyhard37.gif */,
+				90A4F9AB2020F56D0066F4E8 /* jmlpartyhard2partyhard33.gif */,
+				90A4F9AC2020F56D0066F4E8 /* jmlpartyhard2partyhard27.gif */,
+				90A4F9AD2020F56D0066F4E8 /* jmlpartyhard2index.html */,
+				90A4F9AE2020F56D0066F4E8 /* jmlpartyhard2partyhard26.gif */,
+				90A4F9AF2020F56D0066F4E8 /* jmlpartyhard2partyhard32.gif */,
+				90A4F9B02020F56D0066F4E8 /* jmlpartyhard2main.9b929d85.css.map */,
+				90A4F9B12020F56D0066F4E8 /* jmlpartyhard2main.9b929d85.css */,
+				90A4F9B22020F56D0066F4E8 /* jmlpartyhard2partyhard24.gif */,
+				90A4F9B32020F56D0066F4E8 /* jmlpartyhard2partyhard30.gif */,
+				90A4F9B42020F56D0066F4E8 /* jmlpartyhard2partyhard18.gif */,
+				90A4F9B52020F56D0066F4E8 /* jmlpartyhard2partyhard19.gif */,
+				90A4F9B62020F56D0066F4E8 /* jmlpartyhard2partyhard31.gif */,
+				90A4F9B72020F56D0066F4E8 /* jmlpartyhard2partyhard25.gif */,
+			);
+			path = jmlpartyhard2;
+			sourceTree = "<group>";
+		};
 		90C0E0DA201E2CF900574499 /* jmlalpha */ = {
 			isa = PBXGroup;
 			children = (
@@ -443,39 +626,84 @@
 			buildActionMask = 2147483647;
 			files = (
 				90A4F90A2020F0B20066F4E8 /* jmldeltademo.mp3 in Resources */,
+				90A4F9EA2020F56D0066F4E8 /* jmlpartyhard2main.9b929d85.css in Resources */,
+				90A4F9D92020F56D0066F4E8 /* jmlpartyhard2noise.jpg in Resources */,
 				90C0E113201E40E700574499 /* jmlalpha7.png in Resources */,
 				90A4F9062020F0B20066F4E8 /* jmldeltacredits.png in Resources */,
+				90A4F9E32020F56D0066F4E8 /* jmlpartyhard2partyhard23.gif in Resources */,
+				90A4F9CB2020F56D0066F4E8 /* jmlpartyhard2partyhard39.gif in Resources */,
+				90A4F9B82020F56D0066F4E8 /* jmlpartyhard2partyhard28.gif in Resources */,
 				90C0E142201E435000574499 /* jmldstrintro2.png in Resources */,
+				90A4F9CD2020F56D0066F4E8 /* jmlpartyhard2partyhard10.gif in Resources */,
+				90A4F9E52020F56D0066F4E8 /* jmlpartyhard2partyhard33.gif in Resources */,
 				90A4B453201E249B006400F1 /* jml_irc_ad.html in Resources */,
+				90A4F9D42020F56D0066F4E8 /* jmlpartyhard2partyhard41.gif in Resources */,
+				90A4F9BD2020F56D0066F4E8 /* jmlpartyhard2partyhard29.gif in Resources */,
 				90A4B454201E249B006400F1 /* audio.mp3 in Resources */,
+				90A4F9C62020F56D0066F4E8 /* jmlpartyhard2partyhard06.gif in Resources */,
 				90C0E112201E40E700574499 /* jmlalpha5.png in Resources */,
 				90A4F9082020F0B20066F4E8 /* jmldeltascript.js in Resources */,
+				90A4F9C82020F56D0066F4E8 /* jmlpartyhard2partyhard13.gif in Resources */,
+				90A4F9BB2020F56D0066F4E8 /* jmlpartyhard2partyhard15.gif in Resources */,
+				90A4F9DA2020F56D0066F4E8 /* jmlpartyhard2partyhard09.gif in Resources */,
 				90C0E116201E40E700574499 /* jmlalphajml.png in Resources */,
+				90A4F9E02020F56D0066F4E8 /* jmlpartyhard2noise.7a75a3ed.jpg in Resources */,
+				90A4F9F02020F56D0066F4E8 /* jmlpartyhard2partyhard25.gif in Resources */,
 				90C0E148201E435000574499 /* jmldstrmain.css in Resources */,
+				90A4F9DD2020F56D0066F4E8 /* jmlpartyhard2partyhard34.gif in Resources */,
+				90A4F9E92020F56D0066F4E8 /* jmlpartyhard2partyhard32.gif in Resources */,
+				90A4F9E82020F56D0066F4E8 /* jmlpartyhard2partyhard26.gif in Resources */,
 				90C0E13D201E435000574499 /* jmldstrvendor.js in Resources */,
 				90C0E147201E435000574499 /* jmldstrrobotelectric.mp3 in Resources */,
+				90A4F9D22020F56D0066F4E8 /* jmlpartyhard2partyhard42.gif in Resources */,
+				90A4F9B92020F56D0066F4E8 /* jmlpartyhard2partyhard00.gif in Resources */,
 				90C0E10F201E40E700574499 /* jmlalphascript.js in Resources */,
 				90C0E137201E435000574499 /* jmldstrrobot21.png in Resources */,
+				90A4F9EB2020F56D0066F4E8 /* jmlpartyhard2partyhard24.gif in Resources */,
+				90A4F9DF2020F56D0066F4E8 /* jmlpartyhard2partyhard08.gif in Resources */,
 				90A4F9012020F0B20066F4E8 /* jmldeltaindex.html in Resources */,
 				90C0E13C201E435000574499 /* jmldstrrobot_merged.dae in Resources */,
+				90A4F9CE2020F56D0066F4E8 /* jmlpartyhard2partyhard04.gif in Resources */,
 				90C0E138201E435000574499 /* jmldstrrobot23.png in Resources */,
+				90A4F9C22020F56D0066F4E8 /* jmlpartyhard2partyhard02.gif in Resources */,
 				90C0E13E201E435000574499 /* jmldstr.html in Resources */,
 				90C0E145201E435000574499 /* jmldstrbomb.png in Resources */,
+				90A4F9E42020F56D0066F4E8 /* jmlpartyhard2partyhard37.gif in Resources */,
+				90A4F9C92020F56D0066F4E8 /* jmlpartyhard2partyhard05.gif in Resources */,
+				90A4F9ED2020F56D0066F4E8 /* jmlpartyhard2partyhard18.gif in Resources */,
+				90A4F9C42020F56D0066F4E8 /* jmlpartyhard2Artboard2.png in Resources */,
+				90A4F9E62020F56D0066F4E8 /* jmlpartyhard2partyhard27.gif in Resources */,
+				90A4F9EC2020F56D0066F4E8 /* jmlpartyhard2partyhard30.gif in Resources */,
 				90C0E133201E435000574499 /* jmldstrmain.js in Resources */,
 				90A4B455201E249B006400F1 /* thinkpiece.html in Resources */,
+				90A4F9C32020F56D0066F4E8 /* jmlpartyhard2partyhard16.gif in Resources */,
 				90C0E11A201E40E700574499 /* jmlalphathree.min.js in Resources */,
 				90C0E13B201E435000574499 /* jmldstrtitlescreen.png in Resources */,
 				90A4F9072020F0B20066F4E8 /* jmldeltadelta.png in Resources */,
 				90C0E110201E40E700574499 /* jmlalpha3.png in Resources */,
 				90C0E119201E40E700574499 /* jmlalphademo.mp3 in Resources */,
 				90C0E0EE201E2CF900574499 /* jmlalpha.html in Resources */,
+				90A4F9BE2020F56D0066F4E8 /* jmlpartyhard2Artboard1.png in Resources */,
 				90C0E10D201E40E700574499 /* jmlalpha9.png in Resources */,
+				90A4F9CA2020F56D0066F4E8 /* jmlpartyhard2partyhard11.gif in Resources */,
+				90A4F9E12020F56D0066F4E8 /* jmlpartyhard2partyhard36.gif in Resources */,
+				90A4F9BC2020F56D0066F4E8 /* jmlpartyhard2partyhard01.gif in Resources */,
+				90A4F9D62020F56D0066F4E8 /* jmlpartyhard2asset-manifest.json in Resources */,
 				90C0E13F201E435000574499 /* jmldstrcredits.png in Resources */,
+				90A4F9DB2020F56D0066F4E8 /* jmlpartyhard2partyhard21.gif in Resources */,
 				90A4F9092020F0B20066F4E8 /* jmldeltanoise.png in Resources */,
+				90A4F9C12020F56D0066F4E8 /* jmlpartyhard2partyhard03.gif in Resources */,
+				90A4F9CC2020F56D0066F4E8 /* jmlpartyhard2partyhard38.gif in Resources */,
+				90A4F9D72020F56D0066F4E8 /* jmlpartyhard2partyhard44.gif in Resources */,
 				90C0E146201E435000574499 /* jmldstrintro3.png in Resources */,
+				90A4F9D32020F56D0066F4E8 /* jmlpartyhard2partyhard43.gif in Resources */,
+				90A4F9C72020F56D0066F4E8 /* jmlpartyhard2partyhard07.gif in Resources */,
 				903FFDE5201E12B50009EC9B /* LaunchScreen.storyboard in Resources */,
 				90C0E143201E435000574499 /* jmldstrgreets.png in Resources */,
+				90A4F9CF2020F56D0066F4E8 /* jmlpartyhard2Artboard4.png in Resources */,
+				90A4F9EE2020F56D0066F4E8 /* jmlpartyhard2partyhard19.gif in Resources */,
 				90C0E10E201E40E700574499 /* jmlalpha2.png in Resources */,
+				90A4F9E72020F56D0066F4E8 /* jmlpartyhard2index.html in Resources */,
 				90C0E141201E435000574499 /* jmldstrrobot12.png in Resources */,
 				90C0E135201E435000574499 /* jmldstrmiddlerobo.png in Resources */,
 				90C0E149201E435000574499 /* jmldstrend.png in Resources */,
@@ -483,9 +711,17 @@
 				90C0E140201E435000574499 /* jmldstrintro1.png in Resources */,
 				90C0E115201E40E700574499 /* jmlalpha8.png in Resources */,
 				90A4B44A201E17EC006400F1 /* texture1.png in Resources */,
+				90A4F9D82020F56D0066F4E8 /* jmlpartyhard2partyhard45.gif in Resources */,
 				90C0E118201E40E700574499 /* jmlalpha1.png in Resources */,
+				90A4F9EF2020F56D0066F4E8 /* jmlpartyhard2partyhard31.gif in Resources */,
 				90A4F9052020F0B20066F4E8 /* jmldeltajml.png in Resources */,
+				90A4F9BA2020F56D0066F4E8 /* jmlpartyhard2partyhard14.gif in Resources */,
+				90A4F9D52020F56D0066F4E8 /* jmlpartyhard2partyhard40.gif in Resources */,
+				90A4F9D02020F56D0066F4E8 /* jmlpartyhard2main.cfaa3048.js in Resources */,
+				90A4F9DC2020F56D0066F4E8 /* jmlpartyhard2partyhard35.gif in Resources */,
 				90C0E134201E435000574499 /* jmldstrvendor.css in Resources */,
+				90A4F9BF2020F56D0066F4E8 /* jmlpartyhard2Artboard3.png in Resources */,
+				90A4F9DE2020F56D0066F4E8 /* jmlpartyhard2partyhard20.gif in Resources */,
 				90A4F9022020F0B20066F4E8 /* jmldeltafist.png in Resources */,
 				90C0E114201E40E700574499 /* jmlalpha4.png in Resources */,
 				90C0E117201E40E700574499 /* jmlalpha6.png in Resources */,
@@ -493,11 +729,15 @@
 				903FFDE2201E12B50009EC9B /* Assets.xcassets in Resources */,
 				90C0E111201E40E700574499 /* jmlalphaassets.png in Resources */,
 				90A4F9042020F0B20066F4E8 /* jmldeltascreenshot.png in Resources */,
+				90A4F9C02020F56D0066F4E8 /* jmlpartyhard2partyhard17.gif in Resources */,
+				90A4F9C52020F56D0066F4E8 /* jmlpartyhard2partyhard12.gif in Resources */,
 				90C0E136201E435000574499 /* jmldstrmask.png in Resources */,
 				90C0E144201E435000574499 /* jmldstrrobot11.png in Resources */,
 				90A4B449201E17EC006400F1 /* track.m4a in Resources */,
 				90A4B456201E249B006400F1 /* intro.js in Resources */,
+				90A4F9E22020F56D0066F4E8 /* jmlpartyhard2partyhard22.gif in Resources */,
 				90C0E139201E435000574499 /* jmldstrrobot22.png in Resources */,
+				90A4F9D12020F56D0066F4E8 /* jmlpartyhard2musa.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

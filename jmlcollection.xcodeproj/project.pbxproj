@@ -13,6 +13,7 @@
 		903FFDE5201E12B50009EC9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903FFDE3201E12B50009EC9B /* LaunchScreen.storyboard */; };
 		90701A3E202E24A90023EA08 /* tutorial.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 90701A3D202E24A90023EA08 /* tutorial.mp4 */; };
 		90701A40202E24C70023EA08 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90701A3F202E24C70023EA08 /* TutorialView.swift */; };
+		90701A42202E26D90023EA08 /* tutorial.html in Resources */ = {isa = PBXBuildFile; fileRef = 90701A41202E26D90023EA08 /* tutorial.html */; };
 		90A4B448201E17EC006400F1 /* WorldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A4B445201E17EC006400F1 /* WorldsViewController.swift */; };
 		90A4B449201E17EC006400F1 /* track.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B446201E17EC006400F1 /* track.m4a */; };
 		90A4B44A201E17EC006400F1 /* texture1.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B447201E17EC006400F1 /* texture1.png */; };
@@ -138,6 +139,7 @@
 		903FFDE6201E12B50009EC9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90701A3D202E24A90023EA08 /* tutorial.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = tutorial.mp4; sourceTree = "<group>"; };
 		90701A3F202E24C70023EA08 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		90701A41202E26D90023EA08 /* tutorial.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tutorial.html; sourceTree = "<group>"; };
 		90866E5B201E66B3000CE68C /* jmlcollection-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jmlcollection-Bridging-Header.h"; sourceTree = "<group>"; };
 		90A4B445201E17EC006400F1 /* WorldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldsViewController.swift; sourceTree = "<group>"; };
 		90A4B446201E17EC006400F1 /* track.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = track.m4a; sourceTree = "<group>"; };
@@ -303,6 +305,7 @@
 				903FFDE1201E12B50009EC9B /* Assets.xcassets */,
 				903FFDE3201E12B50009EC9B /* LaunchScreen.storyboard */,
 				903FFDE6201E12B50009EC9B /* Info.plist */,
+				90701A41202E26D90023EA08 /* tutorial.html */,
 				90701A3D202E24A90023EA08 /* tutorial.mp4 */,
 			);
 			path = jmlcollection;
@@ -601,6 +604,7 @@
 				90A4F9C12020F56D0066F4E8 /* jmlpartyhard2partyhard03.gif in Resources */,
 				90A4F9CC2020F56D0066F4E8 /* jmlpartyhard2partyhard38.gif in Resources */,
 				90A4F9D72020F56D0066F4E8 /* jmlpartyhard2partyhard44.gif in Resources */,
+				90701A42202E26D90023EA08 /* tutorial.html in Resources */,
 				90C0E146201E435000574499 /* jmldstrintro3.png in Resources */,
 				90A4F9D32020F56D0066F4E8 /* jmlpartyhard2partyhard43.gif in Resources */,
 				90A4F9C72020F56D0066F4E8 /* jmlpartyhard2partyhard07.gif in Resources */,

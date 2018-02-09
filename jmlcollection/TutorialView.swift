@@ -51,7 +51,7 @@ class TutorialView: UIView {
         self.button.addTarget(self, action: #selector(buttonTouched), for: UIControlEvents.touchUpInside)
         self.addSubview(self.button)
 
-        self.backgroundColor = UIColor.clear
+        self.backgroundColor = UIColor.init(white: 00, alpha: 0.9)
     }
     
     override init(frame: CGRect) {

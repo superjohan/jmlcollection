@@ -19,6 +19,8 @@
 
 import UIKit
 
+let TutorialShownKey = "tutorialShownKey";
+
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     let demos: [Demo] = [
         Demo(name: "α", group: "Jumalauta", year: "2017", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "jmlalpha.html", path: "jmlalpha")),
@@ -87,11 +89,18 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let demo = self.demos[indexPath.row]
 
-        if let viewController = demo.viewController?() {
-            self.navigationController?.pushViewController(viewController, animated: true)
-        } else if let htmlDescription = demo.htmlDescription {
-            let webViewController = WebViewController(demoDescription: htmlDescription)
-            self.navigationController?.pushViewController(webViewController, animated: true)
+        let tutorialShown = UserDefaults.standard.bool(forKey: TutorialShownKey)
+        
+        if !tutorialShown {
+            UserDefaults.standard.set(true, forKey: TutorialShownKey)
+            
+            let tutorialView = TutorialView(frame: self.view.bounds, completion: { view in
+                view.removeFromSuperview()
+                self.showDemo(demo)
+            })
+            self.view.addSubview(tutorialView)
+        } else {
+            self.showDemo(demo)
         }
         
         tableView.deselectRow(at: indexPath, animated: true)
@@ -99,5 +108,16 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 96
+    }
+    
+    // MARK: - Private
+    
+    private func showDemo(_ demo: Demo) {
+        if let viewController = demo.viewController?() {
+            self.navigationController?.pushViewController(viewController, animated: true)
+        } else if let htmlDescription = demo.htmlDescription {
+            let webViewController = WebViewController(demoDescription: htmlDescription)
+            self.navigationController?.pushViewController(webViewController, animated: true)
+        }
     }
 }

@@ -23,6 +23,10 @@ class WebViewController: UIViewController {
         self.view.addSubview(self.webView)
     }
     
+    override func prefersHomeIndicatorAutoHidden() -> Bool {
+        return true
+    }
+
     init(demoDescription: HtmlDemoDescription) {
         let webViewConfiguration = WKWebViewConfiguration()
         webViewConfiguration.mediaTypesRequiringUserActionForPlayback = []

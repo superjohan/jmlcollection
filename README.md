@@ -6,7 +6,7 @@
 
 *update 5 february 2018:* the attempt worked! the app is [available on the app store](https://itunes.apple.com/fi/app/the-jumalauta-collection/id1344164506?mt=8)
 
-Some backstory: I tried to get Worlds on the App Store, but it was rejected several times, due to what Apple calls "minimal functionality" (well duh). We came up with a two-step plan to get the demo on the App Store, of which this was the first.
+Some backstory: I tried to get [Worlds](https://github.com/superjohan/worlds) on the App Store, but it was rejected several times, due to what Apple calls "minimal functionality" (well duh). We came up with a two-step plan to get the demo on the App Store, of which this was the first.
 
 The idea was that maybe they'd be okay with demos if there was at least *some* functionality, i.e. several demos, selectable from a menu. I coded the app in a couple evenings, and added some of our HTML prods to pad out the content. I didn't want to spend too much time on it, due to the uncertainty of it being approved. Now that it is approved, I might actually work on it some more. Make it look nicer and such.
 

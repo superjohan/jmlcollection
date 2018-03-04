@@ -14,6 +14,9 @@
 		9063B3B7204C3DF900562388 /* production_noise.shader.fragment in Resources */ = {isa = PBXBuildFile; fileRef = 9063B3B4204C3DF900562388 /* production_noise.shader.fragment */; };
 		9063B3B8204C3DF900562388 /* ProductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063B3B5204C3DF900562388 /* ProductionViewController.swift */; };
 		9063B3B9204C3DF900562388 /* production_audio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9063B3B6204C3DF900562388 /* production_audio.m4a */; };
+		9063B3BE204C459600562388 /* paatti.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9063B3BB204C459600562388 /* paatti.dae */; };
+		9063B3BF204C459600562388 /* FfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063B3BC204C459600562388 /* FfViewController.swift */; };
+		9063B3C0204C459600562388 /* farjan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9063B3BD204C459600562388 /* farjan.m4a */; };
 		90701A3E202E24A90023EA08 /* tutorial.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 90701A3D202E24A90023EA08 /* tutorial.mp4 */; };
 		90701A40202E24C70023EA08 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90701A3F202E24C70023EA08 /* TutorialView.swift */; };
 		90701A42202E26D90023EA08 /* tutorial.html in Resources */ = {isa = PBXBuildFile; fileRef = 90701A41202E26D90023EA08 /* tutorial.html */; };
@@ -143,6 +146,9 @@
 		9063B3B4204C3DF900562388 /* production_noise.shader.fragment */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = production_noise.shader.fragment; sourceTree = "<group>"; };
 		9063B3B5204C3DF900562388 /* ProductionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductionViewController.swift; sourceTree = "<group>"; };
 		9063B3B6204C3DF900562388 /* production_audio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = production_audio.m4a; sourceTree = "<group>"; };
+		9063B3BB204C459600562388 /* paatti.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = paatti.dae; sourceTree = "<group>"; };
+		9063B3BC204C459600562388 /* FfViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FfViewController.swift; sourceTree = "<group>"; };
+		9063B3BD204C459600562388 /* farjan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = farjan.m4a; sourceTree = "<group>"; };
 		90701A3D202E24A90023EA08 /* tutorial.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = tutorial.mp4; sourceTree = "<group>"; };
 		90701A3F202E24C70023EA08 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
 		90701A41202E26D90023EA08 /* tutorial.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tutorial.html; sourceTree = "<group>"; };
@@ -295,6 +301,7 @@
 		903FFDD9201E12B50009EC9B /* jmlcollection */ = {
 			isa = PBXGroup;
 			children = (
+				9063B3BA204C459600562388 /* ff */,
 				9063B3B3204C3DF900562388 /* production */,
 				90A4B444201E17EC006400F1 /* worlds */,
 				90A4B44D201E249B006400F1 /* jml_irc_ad */,
@@ -326,6 +333,16 @@
 				9063B3B6204C3DF900562388 /* production_audio.m4a */,
 			);
 			path = production;
+			sourceTree = "<group>";
+		};
+		9063B3BA204C459600562388 /* ff */ = {
+			isa = PBXGroup;
+			children = (
+				9063B3BB204C459600562388 /* paatti.dae */,
+				9063B3BC204C459600562388 /* FfViewController.swift */,
+				9063B3BD204C459600562388 /* farjan.m4a */,
+			);
+			path = ff;
 			sourceTree = "<group>";
 		};
 		90A4B444201E17EC006400F1 /* worlds */ = {
@@ -599,6 +616,7 @@
 				90A4F9C92020F56D0066F4E8 /* jmlpartyhard2partyhard05.gif in Resources */,
 				90A4F9ED2020F56D0066F4E8 /* jmlpartyhard2partyhard18.gif in Resources */,
 				90A4F9C42020F56D0066F4E8 /* jmlpartyhard2Artboard2.png in Resources */,
+				9063B3C0204C459600562388 /* farjan.m4a in Resources */,
 				90A4F9E62020F56D0066F4E8 /* jmlpartyhard2partyhard27.gif in Resources */,
 				90A4F9EC2020F56D0066F4E8 /* jmlpartyhard2partyhard30.gif in Resources */,
 				9063B3B9204C3DF900562388 /* production_audio.m4a in Resources */,
@@ -655,6 +673,7 @@
 				90C0E114201E40E700574499 /* jmlalpha4.png in Resources */,
 				90C0E117201E40E700574499 /* jmlalpha6.png in Resources */,
 				90A4F9032020F0B20066F4E8 /* jmldeltathree.min.js in Resources */,
+				9063B3BE204C459600562388 /* paatti.dae in Resources */,
 				903FFDE2201E12B50009EC9B /* Assets.xcassets in Resources */,
 				90C0E111201E40E700574499 /* jmlalphaassets.png in Resources */,
 				90A4F9042020F0B20066F4E8 /* jmldeltascreenshot.png in Resources */,
@@ -681,6 +700,7 @@
 				90A4B448201E17EC006400F1 /* WorldsViewController.swift in Sources */,
 				9063B3B8204C3DF900562388 /* ProductionViewController.swift in Sources */,
 				90701A40202E24C70023EA08 /* TutorialView.swift in Sources */,
+				9063B3BF204C459600562388 /* FfViewController.swift in Sources */,
 				90A4B44C201E1929006400F1 /* Demo.swift in Sources */,
 				90A4B458201E2523006400F1 /* WebViewController.swift in Sources */,
 				903FFDDB201E12B50009EC9B /* AppDelegate.swift in Sources */,

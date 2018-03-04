@@ -24,6 +24,7 @@ let TutorialShownKey = "tutorialShownKey";
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     let demos: [Demo] = [
         Demo(name: "Production", group: "Dekadence", year: "2018", viewController: { return ProductionViewController() }, htmlDescription: nil),
+        Demo(name: "Finlandsfärjan '18", group: "Jumalauta", year: "2018", viewController: { return FfViewController() }, htmlDescription: nil),
         Demo(name: "α", group: "Jumalauta", year: "2017", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "jmlalpha.html", path: "jmlalpha")),
         Demo(name: "Worlds", group: "Dekadence", year: "2017", viewController: { return WorldsViewController() }, htmlDescription: nil),
         Demo(name: "#jumalauta", group: "Jumalauta", year: "2017", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "jml_irc_ad.html", path: "jml_irc_ad")),

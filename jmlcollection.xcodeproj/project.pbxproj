@@ -11,6 +11,9 @@
 		903FFDDD201E12B50009EC9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903FFDDC201E12B50009EC9B /* ViewController.swift */; };
 		903FFDE2201E12B50009EC9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903FFDE1201E12B50009EC9B /* Assets.xcassets */; };
 		903FFDE5201E12B50009EC9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903FFDE3201E12B50009EC9B /* LaunchScreen.storyboard */; };
+		9063B3B7204C3DF900562388 /* production_noise.shader.fragment in Resources */ = {isa = PBXBuildFile; fileRef = 9063B3B4204C3DF900562388 /* production_noise.shader.fragment */; };
+		9063B3B8204C3DF900562388 /* ProductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063B3B5204C3DF900562388 /* ProductionViewController.swift */; };
+		9063B3B9204C3DF900562388 /* production_audio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 9063B3B6204C3DF900562388 /* production_audio.m4a */; };
 		90701A3E202E24A90023EA08 /* tutorial.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 90701A3D202E24A90023EA08 /* tutorial.mp4 */; };
 		90701A40202E24C70023EA08 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90701A3F202E24C70023EA08 /* TutorialView.swift */; };
 		90701A42202E26D90023EA08 /* tutorial.html in Resources */ = {isa = PBXBuildFile; fileRef = 90701A41202E26D90023EA08 /* tutorial.html */; };
@@ -137,6 +140,9 @@
 		903FFDE1201E12B50009EC9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		903FFDE4201E12B50009EC9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		903FFDE6201E12B50009EC9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9063B3B4204C3DF900562388 /* production_noise.shader.fragment */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = production_noise.shader.fragment; sourceTree = "<group>"; };
+		9063B3B5204C3DF900562388 /* ProductionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductionViewController.swift; sourceTree = "<group>"; };
+		9063B3B6204C3DF900562388 /* production_audio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = production_audio.m4a; sourceTree = "<group>"; };
 		90701A3D202E24A90023EA08 /* tutorial.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = tutorial.mp4; sourceTree = "<group>"; };
 		90701A3F202E24C70023EA08 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
 		90701A41202E26D90023EA08 /* tutorial.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tutorial.html; sourceTree = "<group>"; };
@@ -289,6 +295,7 @@
 		903FFDD9201E12B50009EC9B /* jmlcollection */ = {
 			isa = PBXGroup;
 			children = (
+				9063B3B3204C3DF900562388 /* production */,
 				90A4B444201E17EC006400F1 /* worlds */,
 				90A4B44D201E249B006400F1 /* jml_irc_ad */,
 				90A4B450201E249B006400F1 /* thinkpiece */,
@@ -309,6 +316,16 @@
 				90701A3D202E24A90023EA08 /* tutorial.mp4 */,
 			);
 			path = jmlcollection;
+			sourceTree = "<group>";
+		};
+		9063B3B3204C3DF900562388 /* production */ = {
+			isa = PBXGroup;
+			children = (
+				9063B3B4204C3DF900562388 /* production_noise.shader.fragment */,
+				9063B3B5204C3DF900562388 /* ProductionViewController.swift */,
+				9063B3B6204C3DF900562388 /* production_audio.m4a */,
+			);
+			path = production;
 			sourceTree = "<group>";
 		};
 		90A4B444201E17EC006400F1 /* worlds */ = {
@@ -539,6 +556,7 @@
 				90701A3E202E24A90023EA08 /* tutorial.mp4 in Resources */,
 				90C0E113201E40E700574499 /* jmlalpha7.png in Resources */,
 				90A4F9062020F0B20066F4E8 /* jmldeltacredits.png in Resources */,
+				9063B3B7204C3DF900562388 /* production_noise.shader.fragment in Resources */,
 				90A4F9E32020F56D0066F4E8 /* jmlpartyhard2partyhard23.gif in Resources */,
 				90A4F9CB2020F56D0066F4E8 /* jmlpartyhard2partyhard39.gif in Resources */,
 				90A4F9B82020F56D0066F4E8 /* jmlpartyhard2partyhard28.gif in Resources */,
@@ -583,6 +601,7 @@
 				90A4F9C42020F56D0066F4E8 /* jmlpartyhard2Artboard2.png in Resources */,
 				90A4F9E62020F56D0066F4E8 /* jmlpartyhard2partyhard27.gif in Resources */,
 				90A4F9EC2020F56D0066F4E8 /* jmlpartyhard2partyhard30.gif in Resources */,
+				9063B3B9204C3DF900562388 /* production_audio.m4a in Resources */,
 				90C0E133201E435000574499 /* jmldstrmain.js in Resources */,
 				90A4B455201E249B006400F1 /* thinkpiece.html in Resources */,
 				90A4F9C32020F56D0066F4E8 /* jmlpartyhard2partyhard16.gif in Resources */,
@@ -660,6 +679,7 @@
 			files = (
 				903FFDDD201E12B50009EC9B /* ViewController.swift in Sources */,
 				90A4B448201E17EC006400F1 /* WorldsViewController.swift in Sources */,
+				9063B3B8204C3DF900562388 /* ProductionViewController.swift in Sources */,
 				90701A40202E24C70023EA08 /* TutorialView.swift in Sources */,
 				90A4B44C201E1929006400F1 /* Demo.swift in Sources */,
 				90A4B458201E2523006400F1 /* WebViewController.swift in Sources */,

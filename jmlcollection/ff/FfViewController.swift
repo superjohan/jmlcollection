@@ -88,7 +88,13 @@ class FfViewController: UIViewController {
             scroller.frame = CGRect(x: -scroller.bounds.size.width, y: self.view.bounds.size.height - 10, width: scroller.bounds.size.width, height: scroller.bounds.size.height)
         })
     }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
         
+        self.audioPlayer.stop()
+    }
+    
     fileprivate func createScene() -> SCNScene {
         let scene = SCNScene()
         scene.background.contents = UIColor(red: 153.0 / 255.0, green: 153.0 / 255.0, blue: 204.0 / 255.0, alpha: 1.0)

@@ -1,0 +1,14 @@
+uniform vec2 resolution;
+uniform float scale;
+
+// adapted from https://thebookofshaders.com/10/
+
+vec2 pos = gl_FragCoord.xy / resolution;
+
+pos *= scale;
+vec2 ipos = floor(pos);
+
+float rnd = fract(sin(dot(ipos.xy, vec2(1.9898, 7.233))) * (43758.5453123 * (u_time)));
+vec3 inRgb = _output.color.rgb;
+
+_output.color = vec4(inRgb * clamp(rnd, 0.25, 1.0), 1.0);

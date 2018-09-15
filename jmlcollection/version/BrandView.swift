@@ -17,6 +17,7 @@ protocol BrandView {
 func loadImages(view: UIView, name: String, count: Int) {
     for i in 1...count {
         let imageView = UIImageView(image: UIImage(named: "\(name)\(i)"))
+        imageView.contentMode = .scaleAspectFit
         view.addSubview(imageView)
     }
 }

@@ -78,15 +78,15 @@ class ProductionViewController: UIViewController, SCNSceneRendererDelegate {
                 "presented at instanssi 2018\n" +
                 "\n" +
         "tap anywhere to start"
-        self.startButton = UIButton.init(type: UIButtonType.custom)
-        self.startButton.setTitle(startButtonText, for: UIControlState.normal)
+        self.startButton = UIButton.init(type: UIButton.ButtonType.custom)
+        self.startButton.setTitle(startButtonText, for: UIControl.State.normal)
         self.startButton.titleLabel?.numberOfLines = 0
         self.startButton.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
         self.startButton.backgroundColor = UIColor.black
 
         super.init(nibName: nil, bundle: nil)
         
-        self.startButton.addTarget(self, action: #selector(startButtonTouched), for: UIControlEvents.touchUpInside)
+        self.startButton.addTarget(self, action: #selector(startButtonTouched), for: UIControl.Event.touchUpInside)
 
         self.view.backgroundColor = .black
         self.sceneView.backgroundColor = .black
@@ -96,8 +96,8 @@ class ProductionViewController: UIViewController, SCNSceneRendererDelegate {
         
         self.qtFoolingBgView.backgroundColor = UIColor(white: 0.1, alpha: 1.0)
 
-        self.groupLogo.contentMode = UIViewContentMode.scaleAspectFit
-        self.nameLogo.contentMode = UIViewContentMode.scaleAspectFit
+        self.groupLogo.contentMode = UIView.ContentMode.scaleAspectFit
+        self.nameLogo.contentMode = UIView.ContentMode.scaleAspectFit
 
         self.view.addSubview(self.qtFoolingBgView)
         self.view.addSubview(self.sceneView)
@@ -112,7 +112,7 @@ class ProductionViewController: UIViewController, SCNSceneRendererDelegate {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func prefersHomeIndicatorAutoHidden() -> Bool {
+    override var prefersHomeIndicatorAutoHidden: Bool {
         return true
     }
     

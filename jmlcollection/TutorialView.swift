@@ -38,7 +38,7 @@ class TutorialView: UIView {
         self.webView.isOpaque = false
         self.webView.scrollView.backgroundColor = UIColor.clear
         
-        self.button = UIButton(type: UIButtonType.custom)
+        self.button = UIButton(type: UIButton.ButtonType.custom)
         self.button.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         self.button.frame = frame
         
@@ -48,7 +48,7 @@ class TutorialView: UIView {
         
         self.addSubview(self.webView)
 
-        self.button.addTarget(self, action: #selector(buttonTouched), for: UIControlEvents.touchUpInside)
+        self.button.addTarget(self, action: #selector(buttonTouched), for: UIControl.Event.touchUpInside)
         self.addSubview(self.button)
 
         self.backgroundColor = UIColor.init(white: 00, alpha: 0.9)

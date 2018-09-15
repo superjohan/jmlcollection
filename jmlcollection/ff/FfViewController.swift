@@ -51,7 +51,7 @@ class FfViewController: UIViewController {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func prefersHomeIndicatorAutoHidden() -> Bool {
+    override var prefersHomeIndicatorAutoHidden: Bool {
         return true
     }
     
@@ -84,7 +84,7 @@ class FfViewController: UIViewController {
         self.view.addSubview(scroller)
         
         scroller.frame = CGRect(x: self.view.bounds.size.width, y: self.view.bounds.size.height - scroller.bounds.size.height - 10, width: scroller.bounds.size.width, height: scroller.bounds.size.height)
-        UIView.animate(withDuration: 45, delay: 0, options: [UIViewAnimationOptions.repeat, UIViewAnimationOptions.curveLinear], animations: {
+        UIView.animate(withDuration: 45, delay: 0, options: [UIView.AnimationOptions.repeat, UIView.AnimationOptions.curveLinear], animations: {
             scroller.frame = CGRect(x: -scroller.bounds.size.width, y: self.view.bounds.size.height - 10, width: scroller.bounds.size.width, height: scroller.bounds.size.height)
         })
     }

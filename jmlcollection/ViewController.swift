@@ -35,14 +35,14 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         Demo(name: "Destroy All Humans", group: "Jumalauta", year: "2015", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "jmldstr.html", path: "jmldstr")),
     ]
 
-    let tableView = UITableView(frame: CGRect.zero, style: UITableViewStyle.plain)
+    let tableView = UITableView(frame: CGRect.zero, style: UITableView.Style.plain)
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.tableView.frame = CGRect(x: 0, y: 0, width: self.view.bounds.size.width, height: self.view.bounds.size.height)
         self.tableView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        self.tableView.separatorStyle = UITableViewCellSeparatorStyle.none
+        self.tableView.separatorStyle = UITableViewCell.SeparatorStyle.none
         self.tableView.backgroundColor = UIColor.yellow
         self.tableView.dataSource = self
         self.tableView.delegate = self
@@ -76,7 +76,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let demo = self.demos[indexPath.row]
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cellIdentifier") ?? UITableViewCell(style: UITableViewCellStyle.subtitle, reuseIdentifier: "cellIdentifier")
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cellIdentifier") ?? UITableViewCell(style: UITableViewCell.CellStyle.subtitle, reuseIdentifier: "cellIdentifier")
         
         cell.textLabel?.text = demo.name
         cell.textLabel?.font = UIFont.init(name: "Superclarendon-BoldItalic", size: 36)

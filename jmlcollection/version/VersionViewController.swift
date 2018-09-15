@@ -62,8 +62,8 @@ class VersionViewController: UIViewController, SCNSceneRendererDelegate {
                 "presented at revision 2018\n" +
                 "\n" +
         "tap anywhere to start"
-        self.startButton = UIButton.init(type: UIButtonType.custom)
-        self.startButton.setTitle(startButtonText, for: UIControlState.normal)
+        self.startButton = UIButton.init(type: UIButton.ButtonType.custom)
+        self.startButton.setTitle(startButtonText, for: UIControl.State.normal)
         self.startButton.titleLabel?.numberOfLines = 0
         self.startButton.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
         self.startButton.backgroundColor = UIColor.black
@@ -77,7 +77,7 @@ class VersionViewController: UIViewController, SCNSceneRendererDelegate {
         
         super.init(nibName: nil, bundle: nil)
         
-        self.startButton.addTarget(self, action: #selector(startButtonTouched), for: UIControlEvents.touchUpInside)
+        self.startButton.addTarget(self, action: #selector(startButtonTouched), for: UIControl.Event.touchUpInside)
         
         self.view.backgroundColor = .black
         self.sceneView.backgroundColor = .black
@@ -102,7 +102,7 @@ class VersionViewController: UIViewController, SCNSceneRendererDelegate {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func prefersHomeIndicatorAutoHidden() -> Bool {
+    override var prefersHomeIndicatorAutoHidden: Bool {
         return true
     }
     

@@ -34,7 +34,7 @@ class WebViewController: UIViewController {
         self.view.addSubview(self.webView)
     }
     
-    override func prefersHomeIndicatorAutoHidden() -> Bool {
+    override var prefersHomeIndicatorAutoHidden: Bool {
         return true
     }
 

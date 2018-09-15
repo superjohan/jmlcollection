@@ -276,7 +276,7 @@ class WorldsViewController: UIViewController, AVAudioPlayerDelegate {
             self.startButton.isUserInteractionEnabled = true
             self.startButton.alpha = 0
             self.startButton.isHidden = false
-            self.startButton.setTitle("tap anywhere to replay\n\nit will be different this time", for: UIControlState.normal)
+            self.startButton.setTitle("tap anywhere to replay\n\nit will be different this time", for: UIControl.State.normal)
             
             UIView.animate(withDuration: 0.2, delay: 3, options: [], animations: {
                 self.startButton.alpha = 1
@@ -326,7 +326,7 @@ class WorldsViewController: UIViewController, AVAudioPlayerDelegate {
         }
     }
         
-    override func prefersHomeIndicatorAutoHidden() -> Bool {
+    override var prefersHomeIndicatorAutoHidden: Bool {
         return true
     }
     
@@ -356,8 +356,8 @@ class WorldsViewController: UIViewController, AVAudioPlayerDelegate {
             "presented at vortex 2017\n" +
             "\n" +
             "tap anywhere to start"
-        self.startButton = UIButton.init(type: UIButtonType.custom)
-        self.startButton.setTitle(startButtonText, for: UIControlState.normal)
+        self.startButton = UIButton.init(type: UIButton.ButtonType.custom)
+        self.startButton.setTitle(startButtonText, for: UIControl.State.normal)
         self.startButton.titleLabel?.numberOfLines = 0
         self.startButton.titleLabel?.lineBreakMode = NSLineBreakMode.byWordWrapping
         self.startButton.backgroundColor = UIColor.black
@@ -391,7 +391,7 @@ class WorldsViewController: UIViewController, AVAudioPlayerDelegate {
         
         self.view.addSubview(self.sceneView)
         
-        self.startButton.addTarget(self, action: #selector(startButtonTouched), for: UIControlEvents.touchUpInside)
+        self.startButton.addTarget(self, action: #selector(startButtonTouched), for: UIControl.Event.touchUpInside)
         self.view.addSubview(self.startButton)
         
         for label in self.labels {

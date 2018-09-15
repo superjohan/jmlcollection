@@ -212,6 +212,12 @@
 		90E42526206CF2B800FD6157 /* tehdas.dae in Resources */ = {isa = PBXBuildFile; fileRef = 90E424D7206CF2B800FD6157 /* tehdas.dae */; };
 		90E42527206CF2B800FD6157 /* BrandViewContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E424D8206CF2B800FD6157 /* BrandViewContainerView.swift */; };
 		90E42528206CF2B800FD6157 /* MainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E424D9206CF2B800FD6157 /* MainScene.swift */; };
+		90E8EFCF214D001500222E7E /* saha.dae in Resources */ = {isa = PBXBuildFile; fileRef = 90E8EFC8214D001500222E7E /* saha.dae */; };
+		90E8EFD0214D001500222E7E /* sini.dae in Resources */ = {isa = PBXBuildFile; fileRef = 90E8EFC9214D001500222E7E /* sini.dae */; };
+		90E8EFD1214D001500222E7E /* UnderstandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E8EFCA214D001500222E7E /* UnderstandViewController.swift */; };
+		90E8EFD2214D001500222E7E /* checkerboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 90E8EFCB214D001500222E7E /* checkerboard.png */; };
+		90E8EFD4214D001500222E7E /* BlurredLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E8EFCD214D001500222E7E /* BlurredLabel.swift */; };
+		90E8EFD5214D001500222E7E /* understandaudio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 90E8EFCE214D001500222E7E /* understandaudio.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -425,6 +431,12 @@
 		90E424D7206CF2B800FD6157 /* tehdas.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = tehdas.dae; sourceTree = "<group>"; };
 		90E424D8206CF2B800FD6157 /* BrandViewContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandViewContainerView.swift; sourceTree = "<group>"; };
 		90E424D9206CF2B800FD6157 /* MainScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScene.swift; sourceTree = "<group>"; };
+		90E8EFC8214D001500222E7E /* saha.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = saha.dae; sourceTree = "<group>"; };
+		90E8EFC9214D001500222E7E /* sini.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = sini.dae; sourceTree = "<group>"; };
+		90E8EFCA214D001500222E7E /* UnderstandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderstandViewController.swift; sourceTree = "<group>"; };
+		90E8EFCB214D001500222E7E /* checkerboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkerboard.png; sourceTree = "<group>"; };
+		90E8EFCD214D001500222E7E /* BlurredLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurredLabel.swift; sourceTree = "<group>"; };
+		90E8EFCE214D001500222E7E /* understandaudio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = understandaudio.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -457,6 +469,7 @@
 		903FFDD9201E12B50009EC9B /* jmlcollection */ = {
 			isa = PBXGroup;
 			children = (
+				90E8EFC7214D001500222E7E /* understand */,
 				90E42469206CF2B800FD6157 /* version */,
 				9063B3BA204C459600562388 /* ff */,
 				9063B3B3204C3DF900562388 /* production */,
@@ -1014,6 +1027,19 @@
 			path = murtelio;
 			sourceTree = "<group>";
 		};
+		90E8EFC7214D001500222E7E /* understand */ = {
+			isa = PBXGroup;
+			children = (
+				90E8EFC8214D001500222E7E /* saha.dae */,
+				90E8EFC9214D001500222E7E /* sini.dae */,
+				90E8EFCA214D001500222E7E /* UnderstandViewController.swift */,
+				90E8EFCB214D001500222E7E /* checkerboard.png */,
+				90E8EFCD214D001500222E7E /* BlurredLabel.swift */,
+				90E8EFCE214D001500222E7E /* understandaudio.m4a */,
+			);
+			path = understand;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1111,6 +1137,7 @@
 				90A4F9F02020F56D0066F4E8 /* jmlpartyhard2partyhard25.gif in Resources */,
 				90C0E148201E435000574499 /* jmldstrmain.css in Resources */,
 				90A4F9DD2020F56D0066F4E8 /* jmlpartyhard2partyhard34.gif in Resources */,
+				90E8EFCF214D001500222E7E /* saha.dae in Resources */,
 				90A4F9E92020F56D0066F4E8 /* jmlpartyhard2partyhard32.gif in Resources */,
 				90E42500206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90A4F9E82020F56D0066F4E8 /* jmlpartyhard2partyhard26.gif in Resources */,
@@ -1121,6 +1148,7 @@
 				90A4F9B92020F56D0066F4E8 /* jmlpartyhard2partyhard00.gif in Resources */,
 				90C0E10F201E40E700574499 /* jmlalphascript.js in Resources */,
 				90C0E137201E435000574499 /* jmldstrrobot21.png in Resources */,
+				90E8EFD0214D001500222E7E /* sini.dae in Resources */,
 				90A4F9EB2020F56D0066F4E8 /* jmlpartyhard2partyhard24.gif in Resources */,
 				90A4F9DF2020F56D0066F4E8 /* jmlpartyhard2partyhard08.gif in Resources */,
 				90A4F9012020F0B20066F4E8 /* jmldeltaindex.html in Resources */,
@@ -1142,6 +1170,7 @@
 				90A4F9EC2020F56D0066F4E8 /* jmlpartyhard2partyhard30.gif in Resources */,
 				9063B3B9204C3DF900562388 /* production_audio.m4a in Resources */,
 				90E4251E206CF2B800FD6157 /* versionaudio.mp3 in Resources */,
+				90E8EFD5214D001500222E7E /* understandaudio.m4a in Resources */,
 				90E424E6206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90E424F8206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90E42502206CF2B800FD6157 /* Media.xcassets in Resources */,
@@ -1200,6 +1229,7 @@
 				90A4F9D82020F56D0066F4E8 /* jmlpartyhard2partyhard45.gif in Resources */,
 				90C0E118201E40E700574499 /* jmlalpha1.png in Resources */,
 				90A4F9EF2020F56D0066F4E8 /* jmlpartyhard2partyhard31.gif in Resources */,
+				90E8EFD2214D001500222E7E /* checkerboard.png in Resources */,
 				90A4F9052020F0B20066F4E8 /* jmldeltajml.png in Resources */,
 				90A4F9BA2020F56D0066F4E8 /* jmlpartyhard2partyhard14.gif in Resources */,
 				90A4F9D52020F56D0066F4E8 /* jmlpartyhard2partyhard40.gif in Resources */,
@@ -1253,6 +1283,8 @@
 				90E42503206CF2B800FD6157 /* BrandViewTechnikon.swift in Sources */,
 				903FFDDD201E12B50009EC9B /* ViewController.swift in Sources */,
 				90A4B448201E17EC006400F1 /* WorldsViewController.swift in Sources */,
+				90E8EFD4214D001500222E7E /* BlurredLabel.swift in Sources */,
+				90E8EFD1214D001500222E7E /* UnderstandViewController.swift in Sources */,
 				90E424F9206CF2B800FD6157 /* BrandViewHaemo.swift in Sources */,
 				9063B3B8204C3DF900562388 /* ProductionViewController.swift in Sources */,
 				90E424E4206CF2B800FD6157 /* BrandViewVisioland.swift in Sources */,

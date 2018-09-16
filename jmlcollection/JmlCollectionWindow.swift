@@ -9,7 +9,20 @@
 import UIKit
 
 class JmlCollectionWindow: UIWindow {
-    var isShowingDemo: Bool = false
+    private var _isShowingDemo: Bool = false
+    
+    var isShowingDemo: Bool {
+        get {
+            return _isShowingDemo
+        }
+        set(newValue) {
+            _isShowingDemo = newValue
+
+            if !_isShowingDemo {
+                setCloseButtonVisible(false)
+            }
+        }
+    }
     
     let closeButton = UIImageView(image: UIImage(named: "closebutton"))
     
@@ -88,7 +101,6 @@ class JmlCollectionWindow: UIWindow {
     private func closeButtonTouched() {
         if let navigationController = self.rootViewController as? UINavigationController {
             self.isShowingDemo = false
-            self.closeButton.isHidden = true
             
             navigationController.popViewController(animated: true)
         }

@@ -73,6 +73,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         self.tableView.tableHeaderView = headerView
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        setShowingDemo(false)
+    }
+    
     // MARK: - UITableViewDataSource
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -122,11 +128,19 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     // MARK: - Private
     
     private func showDemo(_ demo: Demo) {
+        setShowingDemo(true)
+        
         if let viewController = demo.viewController?() {
             self.navigationController?.pushViewController(viewController, animated: true)
         } else if let htmlDescription = demo.htmlDescription {
             let webViewController = WebViewController(demoDescription: htmlDescription)
             self.navigationController?.pushViewController(webViewController, animated: true)
+        }
+    }
+    
+    private func setShowingDemo(_ isShowingDemo: Bool) {
+        if let window = self.view.window as? JmlCollectionWindow {
+            window.isShowingDemo = isShowingDemo
         }
     }
 }

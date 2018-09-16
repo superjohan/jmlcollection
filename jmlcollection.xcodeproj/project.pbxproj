@@ -142,6 +142,7 @@
 		90CF855A214E416E00CACAB6 /* jml17.js in Resources */ = {isa = PBXBuildFile; fileRef = 90CF8558214E416E00CACAB6 /* jml17.js */; };
 		90CF855E214E41D400CACAB6 /* halfhourshit.js in Resources */ = {isa = PBXBuildFile; fileRef = 90CF855C214E41D400CACAB6 /* halfhourshit.js */; };
 		90CF855F214E41D400CACAB6 /* halfhourshit.html in Resources */ = {isa = PBXBuildFile; fileRef = 90CF855D214E41D400CACAB6 /* halfhourshit.html */; };
+		90CF8561214E45A000CACAB6 /* JmlCollectionWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CF8560214E45A000CACAB6 /* JmlCollectionWindow.swift */; };
 		90E424DA206CF2B800FD6157 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E4246A206CF2B800FD6157 /* Constants.swift */; };
 		90E424DB206CF2B800FD6157 /* VersionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E4246B206CF2B800FD6157 /* VersionViewController.swift */; };
 		90E424DC206CF2B800FD6157 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E4246E206CF2B800FD6157 /* Media.xcassets */; };
@@ -371,6 +372,7 @@
 		90CF8558214E416E00CACAB6 /* jml17.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jml17.js; sourceTree = "<group>"; };
 		90CF855C214E41D400CACAB6 /* halfhourshit.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = halfhourshit.js; sourceTree = "<group>"; };
 		90CF855D214E41D400CACAB6 /* halfhourshit.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = halfhourshit.html; sourceTree = "<group>"; };
+		90CF8560214E45A000CACAB6 /* JmlCollectionWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JmlCollectionWindow.swift; sourceTree = "<group>"; };
 		90E4246A206CF2B800FD6157 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		90E4246B206CF2B800FD6157 /* VersionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionViewController.swift; sourceTree = "<group>"; };
 		90E4246E206CF2B800FD6157 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -507,6 +509,7 @@
 				90A4F97C2020F56D0066F4E8 /* jmlpartyhard2 */,
 				903FFDDA201E12B50009EC9B /* AppDelegate.swift */,
 				903FFDDC201E12B50009EC9B /* ViewController.swift */,
+				90CF8560214E45A000CACAB6 /* JmlCollectionWindow.swift */,
 				90A4B44B201E1929006400F1 /* Demo.swift */,
 				90A4B457201E2523006400F1 /* WebViewController.swift */,
 				90701A3F202E24C70023EA08 /* TutorialView.swift */,
@@ -1365,6 +1368,7 @@
 				90E8EFD4214D001500222E7E /* BlurredLabel.swift in Sources */,
 				90E8EFD1214D001500222E7E /* UnderstandViewController.swift in Sources */,
 				90E424F9206CF2B800FD6157 /* BrandViewHaemo.swift in Sources */,
+				90CF8561214E45A000CACAB6 /* JmlCollectionWindow.swift in Sources */,
 				9063B3B8204C3DF900562388 /* ProductionViewController.swift in Sources */,
 				90E424E4206CF2B800FD6157 /* BrandViewVisioland.swift in Sources */,
 				90E4251B206CF2B800FD6157 /* BrandViewMurtelio.swift in Sources */,

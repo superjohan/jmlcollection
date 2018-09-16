@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UIGestureRecognizerDelega
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        self.window = UIWindow.init(frame: UIScreen.main.bounds)
+        self.window = JmlCollectionWindow.init(frame: UIScreen.main.bounds)
         
         let navigationController = UINavigationController(rootViewController: ViewController.init())
         navigationController.isNavigationBarHidden = true

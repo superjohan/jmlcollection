@@ -55,17 +55,23 @@ class JmlCollectionWindow: UIWindow {
     
     // MARK: - Private
     
-    private func didTouchCloseButton(_ event: UIEvent) -> Bool {
+    private func singleTouch(fromEvent event: UIEvent) -> UITouch? {
         if let touches = event.allTouches {
             if touches.count == 1 {
-                let touch = touches.first!
+                return touches.first
+            }
+        }
+        
+        return nil
+    }
+    
+    private func didTouchCloseButton(_ event: UIEvent) -> Bool {
+        if let touch = singleTouch(fromEvent: event) {
+            if touch.phase == UITouch.Phase.ended {
+                let location = touch.location(in: self.closeButton)
                 
-                if touch.phase == UITouch.Phase.ended {
-                    let location = touch.location(in: self.closeButton)
-                    
-                    if self.closeButton.point(inside: location, with: event) {
-                        return true
-                    }
+                if self.closeButton.point(inside: location, with: event) {
+                    return true
                 }
             }
         }

@@ -23,6 +23,7 @@ let TutorialShownKey = "tutorialShownKey";
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     let demos: [Demo] = [
+        Demo(name: "Basilisk", group: "Jumalauta", year: "2018", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "basilisk.html", path: "basilisk")),
         Demo(name: "Night Drive", group: "Jumalauta", year: "2018", viewController: { return NightDriveViewController() }, htmlDescription: nil),
         Demo(name: "Rock For Metal", group: "Jumalauta", year: "2018", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "rock_for_metal.html", path: "rockformetal")),
         Demo(name: "Understand", group: "Jumalauta", year: "2018", viewController: { return UnderstandViewController() }, htmlDescription: nil),
@@ -32,9 +33,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         Demo(name: "α", group: "Jumalauta", year: "2017", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "jmlalpha.html", path: "jmlalpha")),
         Demo(name: "Worlds", group: "Dekadence", year: "2017", viewController: { return WorldsViewController() }, htmlDescription: nil),
         Demo(name: "#jumalauta", group: "Jumalauta", year: "2017", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "jml_irc_ad.html", path: "jml_irc_ad")),
+        Demo(name: "Honey And Whore", group: "Jumalauta", year: "2017", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "jml17.html", path: "honeyandwhore")),
         Demo(name: "Δ", group: "Jumalauta", year: "2017", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "jmldeltaindex.html", path: "jmldelta")),
         Demo(name: "Thinkpiece", group: "Dekadence", year: "2017", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "thinkpiece.html", path: "thinkpiece")),
         Demo(name: "Party Hard 2", group: "Jumalauta", year: "2016", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "jmlpartyhard2index.html", path: "jmlpartyhard2")),
+        Demo(name: "thoron is not the answer to every quiplash question", group: "Jumalauta", year: "2016", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "halfhourshit.html", path: "thoron")),
         Demo(name: "Destroy All Humans", group: "Jumalauta", year: "2015", viewController: nil, htmlDescription: HtmlDemoDescription(htmlFilename: "jmldstr.html", path: "jmldstr")),
     ]
 

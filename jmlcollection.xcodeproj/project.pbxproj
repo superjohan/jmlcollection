@@ -136,6 +136,12 @@
 		90C0E149201E435000574499 /* jmldstrend.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E132201E435000574499 /* jmldstrend.png */; };
 		90CF854F214E3DB000CACAB6 /* rock_for_metal.js in Resources */ = {isa = PBXBuildFile; fileRef = 90CF854D214E3DB000CACAB6 /* rock_for_metal.js */; };
 		90CF8550214E3DB000CACAB6 /* rock_for_metal.html in Resources */ = {isa = PBXBuildFile; fileRef = 90CF854E214E3DB000CACAB6 /* rock_for_metal.html */; };
+		90CF8554214E409B00CACAB6 /* basilisk.html in Resources */ = {isa = PBXBuildFile; fileRef = 90CF8552214E409B00CACAB6 /* basilisk.html */; };
+		90CF8555214E409B00CACAB6 /* basilisk.js in Resources */ = {isa = PBXBuildFile; fileRef = 90CF8553214E409B00CACAB6 /* basilisk.js */; };
+		90CF8559214E416E00CACAB6 /* jml17.html in Resources */ = {isa = PBXBuildFile; fileRef = 90CF8557214E416E00CACAB6 /* jml17.html */; };
+		90CF855A214E416E00CACAB6 /* jml17.js in Resources */ = {isa = PBXBuildFile; fileRef = 90CF8558214E416E00CACAB6 /* jml17.js */; };
+		90CF855E214E41D400CACAB6 /* halfhourshit.js in Resources */ = {isa = PBXBuildFile; fileRef = 90CF855C214E41D400CACAB6 /* halfhourshit.js */; };
+		90CF855F214E41D400CACAB6 /* halfhourshit.html in Resources */ = {isa = PBXBuildFile; fileRef = 90CF855D214E41D400CACAB6 /* halfhourshit.html */; };
 		90E424DA206CF2B800FD6157 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E4246A206CF2B800FD6157 /* Constants.swift */; };
 		90E424DB206CF2B800FD6157 /* VersionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E4246B206CF2B800FD6157 /* VersionViewController.swift */; };
 		90E424DC206CF2B800FD6157 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E4246E206CF2B800FD6157 /* Media.xcassets */; };
@@ -359,6 +365,12 @@
 		90C0E132201E435000574499 /* jmldstrend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmldstrend.png; sourceTree = "<group>"; };
 		90CF854D214E3DB000CACAB6 /* rock_for_metal.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rock_for_metal.js; sourceTree = "<group>"; };
 		90CF854E214E3DB000CACAB6 /* rock_for_metal.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = rock_for_metal.html; sourceTree = "<group>"; };
+		90CF8552214E409B00CACAB6 /* basilisk.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = basilisk.html; sourceTree = "<group>"; };
+		90CF8553214E409B00CACAB6 /* basilisk.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = basilisk.js; sourceTree = "<group>"; };
+		90CF8557214E416E00CACAB6 /* jml17.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jml17.html; sourceTree = "<group>"; };
+		90CF8558214E416E00CACAB6 /* jml17.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jml17.js; sourceTree = "<group>"; };
+		90CF855C214E41D400CACAB6 /* halfhourshit.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = halfhourshit.js; sourceTree = "<group>"; };
+		90CF855D214E41D400CACAB6 /* halfhourshit.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = halfhourshit.html; sourceTree = "<group>"; };
 		90E4246A206CF2B800FD6157 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		90E4246B206CF2B800FD6157 /* VersionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionViewController.swift; sourceTree = "<group>"; };
 		90E4246E206CF2B800FD6157 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -477,6 +489,7 @@
 		903FFDD9201E12B50009EC9B /* jmlcollection */ = {
 			isa = PBXGroup;
 			children = (
+				90CF8551214E409B00CACAB6 /* basilisk */,
 				90E8EFD6214D00F900222E7E /* nightdrive */,
 				90CF854C214E3DB000CACAB6 /* rockformetal */,
 				90E8EFC7214D001500222E7E /* understand */,
@@ -485,7 +498,9 @@
 				9063B3B3204C3DF900562388 /* production */,
 				90A4B444201E17EC006400F1 /* worlds */,
 				90A4B44D201E249B006400F1 /* jml_irc_ad */,
+				90CF8556214E416E00CACAB6 /* honeyandwhore */,
 				90A4B450201E249B006400F1 /* thinkpiece */,
+				90CF855B214E41D400CACAB6 /* thoron */,
 				90C0E0DA201E2CF900574499 /* jmlalpha */,
 				90C0E11B201E435000574499 /* jmldstr */,
 				90A4F8F62020F0B20066F4E8 /* jmldelta */,
@@ -695,6 +710,33 @@
 				90CF854E214E3DB000CACAB6 /* rock_for_metal.html */,
 			);
 			path = rockformetal;
+			sourceTree = "<group>";
+		};
+		90CF8551214E409B00CACAB6 /* basilisk */ = {
+			isa = PBXGroup;
+			children = (
+				90CF8552214E409B00CACAB6 /* basilisk.html */,
+				90CF8553214E409B00CACAB6 /* basilisk.js */,
+			);
+			path = basilisk;
+			sourceTree = "<group>";
+		};
+		90CF8556214E416E00CACAB6 /* honeyandwhore */ = {
+			isa = PBXGroup;
+			children = (
+				90CF8557214E416E00CACAB6 /* jml17.html */,
+				90CF8558214E416E00CACAB6 /* jml17.js */,
+			);
+			path = honeyandwhore;
+			sourceTree = "<group>";
+		};
+		90CF855B214E41D400CACAB6 /* thoron */ = {
+			isa = PBXGroup;
+			children = (
+				90CF855C214E41D400CACAB6 /* halfhourshit.js */,
+				90CF855D214E41D400CACAB6 /* halfhourshit.html */,
+			);
+			path = thoron;
 			sourceTree = "<group>";
 		};
 		90E42469206CF2B800FD6157 /* version */ = {
@@ -1166,6 +1208,7 @@
 				90A4F9F02020F56D0066F4E8 /* jmlpartyhard2partyhard25.gif in Resources */,
 				90C0E148201E435000574499 /* jmldstrmain.css in Resources */,
 				90A4F9DD2020F56D0066F4E8 /* jmlpartyhard2partyhard34.gif in Resources */,
+				90CF8559214E416E00CACAB6 /* jml17.html in Resources */,
 				90E8EFCF214D001500222E7E /* saha.dae in Resources */,
 				90A4F9E92020F56D0066F4E8 /* jmlpartyhard2partyhard32.gif in Resources */,
 				90E42500206CF2B800FD6157 /* Media.xcassets in Resources */,
@@ -1180,6 +1223,7 @@
 				90E8EFD0214D001500222E7E /* sini.dae in Resources */,
 				90A4F9EB2020F56D0066F4E8 /* jmlpartyhard2partyhard24.gif in Resources */,
 				90A4F9DF2020F56D0066F4E8 /* jmlpartyhard2partyhard08.gif in Resources */,
+				90CF8555214E409B00CACAB6 /* basilisk.js in Resources */,
 				90A4F9012020F0B20066F4E8 /* jmldeltaindex.html in Resources */,
 				90C0E13C201E435000574499 /* jmldstrrobot_merged.dae in Resources */,
 				90E42516206CF2B800FD6157 /* Media.xcassets in Resources */,
@@ -1210,6 +1254,7 @@
 				90E42522206CF2B800FD6157 /* gear.dae in Resources */,
 				90C0E13B201E435000574499 /* jmldstrtitlescreen.png in Resources */,
 				90E424EE206CF2B800FD6157 /* Media.xcassets in Resources */,
+				90CF855E214E41D400CACAB6 /* halfhourshit.js in Resources */,
 				90A4F9072020F0B20066F4E8 /* jmldeltadelta.png in Resources */,
 				90E42514206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90C0E110201E40E700574499 /* jmlalpha3.png in Resources */,
@@ -1239,6 +1284,7 @@
 				90E4250A206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90C0E146201E435000574499 /* jmldstrintro3.png in Resources */,
 				90E424E5206CF2B800FD6157 /* Media.xcassets in Resources */,
+				90CF8554214E409B00CACAB6 /* basilisk.html in Resources */,
 				90A4F9D32020F56D0066F4E8 /* jmlpartyhard2partyhard43.gif in Resources */,
 				90A4F9C72020F56D0066F4E8 /* jmlpartyhard2partyhard07.gif in Resources */,
 				903FFDE5201E12B50009EC9B /* LaunchScreen.storyboard in Resources */,
@@ -1261,12 +1307,14 @@
 				90A4F9EF2020F56D0066F4E8 /* jmlpartyhard2partyhard31.gif in Resources */,
 				90E8EFD2214D001500222E7E /* checkerboard.png in Resources */,
 				90A4F9052020F0B20066F4E8 /* jmldeltajml.png in Resources */,
+				90CF855F214E41D400CACAB6 /* halfhourshit.html in Resources */,
 				90A4F9BA2020F56D0066F4E8 /* jmlpartyhard2partyhard14.gif in Resources */,
 				90A4F9D52020F56D0066F4E8 /* jmlpartyhard2partyhard40.gif in Resources */,
 				90A4F9D02020F56D0066F4E8 /* jmlpartyhard2main.cfaa3048.js in Resources */,
 				90A4F9DC2020F56D0066F4E8 /* jmlpartyhard2partyhard35.gif in Resources */,
 				90C0E134201E435000574499 /* jmldstrvendor.css in Resources */,
 				90E424E2206CF2B800FD6157 /* Media.xcassets in Resources */,
+				90CF855A214E416E00CACAB6 /* jml17.js in Resources */,
 				90A4F9BF2020F56D0066F4E8 /* jmlpartyhard2Artboard3.png in Resources */,
 				90A4F9DE2020F56D0066F4E8 /* jmlpartyhard2partyhard20.gif in Resources */,
 				90E8EFDA214D00F900222E7E /* synthfarjn.mp3 in Resources */,

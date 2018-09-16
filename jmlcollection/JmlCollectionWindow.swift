@@ -40,15 +40,17 @@ class JmlCollectionWindow: UIWindow {
         if didTouchCloseButton(event) {
             closeButtonTouched()
         } else {
-            bringSubviewToFront(self.closeButton)
+            if singleTouch(fromEvent: event)?.phase == UITouch.Phase.ended {
+                bringSubviewToFront(self.closeButton)
+                
+                self.closeButton.isHidden = false
+                self.closeButton.alpha = 1
+                
+                UIView.animate(withDuration: 0.2, delay: 3, options: [], animations: {
+                    self.closeButton.alpha = 0
+                }, completion: nil)
+            }
             
-            self.closeButton.isHidden = false
-            self.closeButton.alpha = 1
-            
-            UIView.animate(withDuration: 0.2, delay: 3, options: [], animations: {
-                self.closeButton.alpha = 0
-            }, completion: nil)
-
             super.sendEvent(event)
         }
     }

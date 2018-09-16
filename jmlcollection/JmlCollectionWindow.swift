@@ -19,7 +19,7 @@ class JmlCollectionWindow: UIWindow {
         super.init(frame: frame)
         
         self.closeButton.frame = CGRect(x: 10, y: 10, width: 44, height: 44)
-        self.closeButton.alpha = 0
+        setCloseButtonVisible(false)
         addSubview(self.closeButton)
     }
     
@@ -29,7 +29,7 @@ class JmlCollectionWindow: UIWindow {
     
     override func sendEvent(_ event: UIEvent) {
         if !self.isShowingDemo {
-            self.closeButton.alpha = 0
+            setCloseButtonVisible(false)
             
             super.sendEvent(event)
 
@@ -43,8 +43,7 @@ class JmlCollectionWindow: UIWindow {
             if singleTouch(fromEvent: event)?.phase == UITouch.Phase.ended {
                 bringSubviewToFront(self.closeButton)
                 
-                self.closeButton.isHidden = false
-                self.closeButton.alpha = 1
+                setCloseButtonVisible(true)
                 
                 UIView.animate(withDuration: 0.2, delay: 3, options: [], animations: {
                     self.closeButton.alpha = 0
@@ -56,6 +55,11 @@ class JmlCollectionWindow: UIWindow {
     }
     
     // MARK: - Private
+    
+    private func setCloseButtonVisible(_ visible: Bool) {
+        self.closeButton.isHidden = !visible
+        self.closeButton.alpha = visible ? 1 : 0
+    }
     
     private func singleTouch(fromEvent event: UIEvent) -> UITouch? {
         if let touches = event.allTouches {

@@ -134,6 +134,8 @@
 		90C0E147201E435000574499 /* jmldstrrobotelectric.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E130201E435000574499 /* jmldstrrobotelectric.mp3 */; };
 		90C0E148201E435000574499 /* jmldstrmain.css in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E131201E435000574499 /* jmldstrmain.css */; };
 		90C0E149201E435000574499 /* jmldstrend.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E132201E435000574499 /* jmldstrend.png */; };
+		90CF854F214E3DB000CACAB6 /* rock_for_metal.js in Resources */ = {isa = PBXBuildFile; fileRef = 90CF854D214E3DB000CACAB6 /* rock_for_metal.js */; };
+		90CF8550214E3DB000CACAB6 /* rock_for_metal.html in Resources */ = {isa = PBXBuildFile; fileRef = 90CF854E214E3DB000CACAB6 /* rock_for_metal.html */; };
 		90E424DA206CF2B800FD6157 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E4246A206CF2B800FD6157 /* Constants.swift */; };
 		90E424DB206CF2B800FD6157 /* VersionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E4246B206CF2B800FD6157 /* VersionViewController.swift */; };
 		90E424DC206CF2B800FD6157 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E4246E206CF2B800FD6157 /* Media.xcassets */; };
@@ -355,6 +357,8 @@
 		90C0E130201E435000574499 /* jmldstrrobotelectric.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jmldstrrobotelectric.mp3; sourceTree = "<group>"; };
 		90C0E131201E435000574499 /* jmldstrmain.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jmldstrmain.css; sourceTree = "<group>"; };
 		90C0E132201E435000574499 /* jmldstrend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmldstrend.png; sourceTree = "<group>"; };
+		90CF854D214E3DB000CACAB6 /* rock_for_metal.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = rock_for_metal.js; sourceTree = "<group>"; };
+		90CF854E214E3DB000CACAB6 /* rock_for_metal.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = rock_for_metal.html; sourceTree = "<group>"; };
 		90E4246A206CF2B800FD6157 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		90E4246B206CF2B800FD6157 /* VersionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VersionViewController.swift; sourceTree = "<group>"; };
 		90E4246E206CF2B800FD6157 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -474,6 +478,7 @@
 			isa = PBXGroup;
 			children = (
 				90E8EFD6214D00F900222E7E /* nightdrive */,
+				90CF854C214E3DB000CACAB6 /* rockformetal */,
 				90E8EFC7214D001500222E7E /* understand */,
 				90E42469206CF2B800FD6157 /* version */,
 				9063B3BA204C459600562388 /* ff */,
@@ -681,6 +686,15 @@
 				90C0E132201E435000574499 /* jmldstrend.png */,
 			);
 			path = jmldstr;
+			sourceTree = "<group>";
+		};
+		90CF854C214E3DB000CACAB6 /* rockformetal */ = {
+			isa = PBXGroup;
+			children = (
+				90CF854D214E3DB000CACAB6 /* rock_for_metal.js */,
+				90CF854E214E3DB000CACAB6 /* rock_for_metal.html */,
+			);
+			path = rockformetal;
 			sourceTree = "<group>";
 		};
 		90E42469206CF2B800FD6157 /* version */ = {
@@ -1147,6 +1161,7 @@
 				90A4F9DA2020F56D0066F4E8 /* jmlpartyhard2partyhard09.gif in Resources */,
 				90C0E116201E40E700574499 /* jmlalphajml.png in Resources */,
 				90A4F9E02020F56D0066F4E8 /* jmlpartyhard2noise.7a75a3ed.jpg in Resources */,
+				90CF8550214E3DB000CACAB6 /* rock_for_metal.html in Resources */,
 				90E42504206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90A4F9F02020F56D0066F4E8 /* jmlpartyhard2partyhard25.gif in Resources */,
 				90C0E148201E435000574499 /* jmldstrmain.css in Resources */,
@@ -1201,6 +1216,7 @@
 				90C0E119201E40E700574499 /* jmlalphademo.mp3 in Resources */,
 				90E424FA206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90C0E0EE201E2CF900574499 /* jmlalpha.html in Resources */,
+				90CF854F214E3DB000CACAB6 /* rock_for_metal.js in Resources */,
 				90A4F9BE2020F56D0066F4E8 /* jmlpartyhard2Artboard1.png in Resources */,
 				90C0E10D201E40E700574499 /* jmlalpha9.png in Resources */,
 				90A4F9CA2020F56D0066F4E8 /* jmlpartyhard2partyhard11.gif in Resources */,

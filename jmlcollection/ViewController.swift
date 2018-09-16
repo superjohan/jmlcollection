@@ -73,8 +73,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         self.tableView.tableHeaderView = headerView
     }
 
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         
         setShowingDemo(false)
     }

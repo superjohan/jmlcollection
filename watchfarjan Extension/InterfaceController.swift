@@ -121,7 +121,7 @@ class InterfaceController: WKInterfaceController {
         scene.rootNode.addChildNode(textNode)
 
         let moveAction = SCNAction.move(to: SCNVector3Make(10, -5, 11), duration: 0)
-        let moveAction2 = SCNAction.move(to: SCNVector3Make(-30, -5, 11), duration: 10)
+        let moveAction2 = SCNAction.move(to: SCNVector3Make(-120, -5, 11), duration: 20)
         textNode.runAction(SCNAction.repeatForever(SCNAction.sequence([moveAction, moveAction2])))
 
         return scene

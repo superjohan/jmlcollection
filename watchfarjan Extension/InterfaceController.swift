@@ -114,6 +114,16 @@ class InterfaceController: WKInterfaceController {
             scene.rootNode.addChildNode(referenceNode!)
         }
 
+        let text = SCNText(string: "Welcome to Jumalauta 18 Years party 24.-26.8.2018 at Hauho in potentially sunny Finland!", extrusionDepth: 1)
+        text.firstMaterial?.diffuse.contents = UIColor(white: 1.0, alpha: 1.0)
+        text.font = UIFont.boldSystemFont(ofSize: 2)
+        let textNode = SCNNode(geometry: text)
+        scene.rootNode.addChildNode(textNode)
+
+        let moveAction = SCNAction.move(to: SCNVector3Make(10, -5, 11), duration: 0)
+        let moveAction2 = SCNAction.move(to: SCNVector3Make(-30, -5, 11), duration: 10)
+        textNode.runAction(SCNAction.repeatForever(SCNAction.sequence([moveAction, moveAction2])))
+
         return scene
     }
     

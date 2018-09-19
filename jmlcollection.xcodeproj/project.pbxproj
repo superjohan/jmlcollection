@@ -229,7 +229,60 @@
 		90E8EFD5214D001500222E7E /* understandaudio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 90E8EFCE214D001500222E7E /* understandaudio.m4a */; };
 		90E8EFD9214D00F900222E7E /* NightDriveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E8EFD7214D00F900222E7E /* NightDriveViewController.swift */; };
 		90E8EFDA214D00F900222E7E /* synthfarjn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 90E8EFD8214D00F900222E7E /* synthfarjn.mp3 */; };
+		90EC7EDD2152B665003835C1 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EC7EDB2152B665003835C1 /* Interface.storyboard */; };
+		90EC7EDF2152B666003835C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EC7EDE2152B666003835C1 /* Assets.xcassets */; };
+		90EC7EE62152B666003835C1 /* watchfarjan Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 90EC7EE52152B666003835C1 /* watchfarjan Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		90EC7EEB2152B666003835C1 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EC7EEA2152B666003835C1 /* InterfaceController.swift */; };
+		90EC7EED2152B666003835C1 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EC7EEC2152B666003835C1 /* art.scnassets */; };
+		90EC7EEF2152B666003835C1 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EC7EEE2152B666003835C1 /* ExtensionDelegate.swift */; };
+		90EC7EF12152B666003835C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EC7EF02152B666003835C1 /* Assets.xcassets */; };
+		90EC7EF52152B666003835C1 /* watchfarjan.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 90EC7ED92152B665003835C1 /* watchfarjan.app */; };
+		90EC7F012152B8F0003835C1 /* farjan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 90EC7F002152B8F0003835C1 /* farjan.m4a */; };
+		90EC7F052152BAEF003835C1 /* paatti.dae in Resources */ = {isa = PBXBuildFile; fileRef = 90EC7F042152BAEF003835C1 /* paatti.dae */; };
+		90EC7F082152BB36003835C1 /* paatti.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90EC7F072152BB36003835C1 /* paatti.jpg */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90EC7EE72152B666003835C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 903FFDCF201E12B50009EC9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90EC7EE42152B666003835C1;
+			remoteInfo = "watchfarjan Extension";
+		};
+		90EC7EF32152B666003835C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 903FFDCF201E12B50009EC9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90EC7ED82152B665003835C1;
+			remoteInfo = watchfarjan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		90EC7EFB2152B666003835C1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				90EC7EE62152B666003835C1 /* watchfarjan Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EC7EFD2152B666003835C1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				90EC7EF52152B666003835C1 /* watchfarjan.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		903FFDD7201E12B50009EC9B /* jmlcollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jmlcollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -459,10 +512,30 @@
 		90E8EFCE214D001500222E7E /* understandaudio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = understandaudio.m4a; sourceTree = "<group>"; };
 		90E8EFD7214D00F900222E7E /* NightDriveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightDriveViewController.swift; sourceTree = "<group>"; };
 		90E8EFD8214D00F900222E7E /* synthfarjn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = synthfarjn.mp3; sourceTree = "<group>"; };
+		90EC7ED92152B665003835C1 /* watchfarjan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchfarjan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90EC7EDC2152B665003835C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		90EC7EDE2152B666003835C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90EC7EE02152B666003835C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90EC7EE52152B666003835C1 /* watchfarjan Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watchfarjan Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90EC7EEA2152B666003835C1 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		90EC7EEC2152B666003835C1 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		90EC7EEE2152B666003835C1 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		90EC7EF02152B666003835C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90EC7EF22152B666003835C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90EC7F002152B8F0003835C1 /* farjan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = farjan.m4a; sourceTree = "<group>"; };
+		90EC7F042152BAEF003835C1 /* paatti.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = paatti.dae; sourceTree = "<group>"; };
+		90EC7F072152BB36003835C1 /* paatti.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paatti.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		903FFDD4201E12B50009EC9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EC7EE22152B666003835C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -476,6 +549,8 @@
 			isa = PBXGroup;
 			children = (
 				903FFDD9201E12B50009EC9B /* jmlcollection */,
+				90EC7EDA2152B665003835C1 /* watchfarjan */,
+				90EC7EE92152B666003835C1 /* watchfarjan Extension */,
 				903FFDD8201E12B50009EC9B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -484,6 +559,8 @@
 			isa = PBXGroup;
 			children = (
 				903FFDD7201E12B50009EC9B /* jmlcollection.app */,
+				90EC7ED92152B665003835C1 /* watchfarjan.app */,
+				90EC7EE52152B666003835C1 /* watchfarjan Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1113,6 +1190,31 @@
 			path = nightdrive;
 			sourceTree = "<group>";
 		};
+		90EC7EDA2152B665003835C1 /* watchfarjan */ = {
+			isa = PBXGroup;
+			children = (
+				90EC7EDB2152B665003835C1 /* Interface.storyboard */,
+				90EC7EDE2152B666003835C1 /* Assets.xcassets */,
+				90EC7EE02152B666003835C1 /* Info.plist */,
+			);
+			path = watchfarjan;
+			sourceTree = "<group>";
+		};
+		90EC7EE92152B666003835C1 /* watchfarjan Extension */ = {
+			isa = PBXGroup;
+			children = (
+				90EC7F002152B8F0003835C1 /* farjan.m4a */,
+				90EC7F042152BAEF003835C1 /* paatti.dae */,
+				90EC7F072152BB36003835C1 /* paatti.jpg */,
+				90EC7EEA2152B666003835C1 /* InterfaceController.swift */,
+				90EC7EEC2152B666003835C1 /* art.scnassets */,
+				90EC7EEE2152B666003835C1 /* ExtensionDelegate.swift */,
+				90EC7EF02152B666003835C1 /* Assets.xcassets */,
+				90EC7EF22152B666003835C1 /* Info.plist */,
+			);
+			path = "watchfarjan Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1123,15 +1225,51 @@
 				903FFDD3201E12B50009EC9B /* Sources */,
 				903FFDD4201E12B50009EC9B /* Frameworks */,
 				903FFDD5201E12B50009EC9B /* Resources */,
+				90EC7EFD2152B666003835C1 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				90EC7EF42152B666003835C1 /* PBXTargetDependency */,
 			);
 			name = jmlcollection;
 			productName = jmlcollection;
 			productReference = 903FFDD7201E12B50009EC9B /* jmlcollection.app */;
 			productType = "com.apple.product-type.application";
+		};
+		90EC7ED82152B665003835C1 /* watchfarjan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90EC7EFC2152B666003835C1 /* Build configuration list for PBXNativeTarget "watchfarjan" */;
+			buildPhases = (
+				90EC7ED72152B665003835C1 /* Resources */,
+				90EC7EFB2152B666003835C1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90EC7EE82152B666003835C1 /* PBXTargetDependency */,
+			);
+			name = watchfarjan;
+			productName = watchfarjan;
+			productReference = 90EC7ED92152B665003835C1 /* watchfarjan.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		90EC7EE42152B666003835C1 /* watchfarjan Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90EC7EFA2152B666003835C1 /* Build configuration list for PBXNativeTarget "watchfarjan Extension" */;
+			buildPhases = (
+				90EC7EE12152B666003835C1 /* Sources */,
+				90EC7EE22152B666003835C1 /* Frameworks */,
+				90EC7EE32152B666003835C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchfarjan Extension";
+			productName = "watchfarjan Extension";
+			productReference = 90EC7EE52152B666003835C1 /* watchfarjan Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -1139,13 +1277,21 @@
 		903FFDCF201E12B50009EC9B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0920;
+				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = Jumalauta;
 				TargetAttributes = {
 					903FFDD6201E12B50009EC9B = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+					};
+					90EC7ED82152B665003835C1 = {
+						CreatedOnToolsVersion = 10.0;
+						ProvisioningStyle = Automatic;
+					};
+					90EC7EE42152B666003835C1 = {
+						CreatedOnToolsVersion = 10.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -1164,6 +1310,8 @@
 			projectRoot = "";
 			targets = (
 				903FFDD6201E12B50009EC9B /* jmlcollection */,
+				90EC7ED82152B665003835C1 /* watchfarjan */,
+				90EC7EE42152B666003835C1 /* watchfarjan Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -1346,6 +1494,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		90EC7ED72152B665003835C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EC7EDF2152B666003835C1 /* Assets.xcassets in Resources */,
+				90EC7EDD2152B665003835C1 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90EC7EE32152B666003835C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EC7EF12152B666003835C1 /* Assets.xcassets in Resources */,
+				90EC7F082152BB36003835C1 /* paatti.jpg in Resources */,
+				90EC7F052152BAEF003835C1 /* paatti.dae in Resources */,
+				90EC7F012152B8F0003835C1 /* farjan.m4a in Resources */,
+				90EC7EED2152B666003835C1 /* art.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1408,7 +1577,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		90EC7EE12152B666003835C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90EC7EEF2152B666003835C1 /* ExtensionDelegate.swift in Sources */,
+				90EC7EEB2152B666003835C1 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90EC7EE82152B666003835C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90EC7EE42152B666003835C1 /* watchfarjan Extension */;
+			targetProxy = 90EC7EE72152B666003835C1 /* PBXContainerItemProxy */;
+		};
+		90EC7EF42152B666003835C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90EC7ED82152B665003835C1 /* watchfarjan */;
+			targetProxy = 90EC7EF32152B666003835C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		903FFDE3201E12B50009EC9B /* LaunchScreen.storyboard */ = {
@@ -1417,6 +1608,14 @@
 				903FFDE4201E12B50009EC9B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		90EC7EDB2152B665003835C1 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90EC7EDC2152B665003835C1 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1565,6 +1764,90 @@
 			};
 			name = Release;
 		};
+		90EC7EF62152B666003835C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T583396HNX;
+				IBSC_MODULE = watchfarjan_Extension;
+				INFOPLIST_FILE = watchfarjan/Info.plist;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.jumalauta.jmlcollection.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		90EC7EF72152B666003835C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T583396HNX;
+				IBSC_MODULE = watchfarjan_Extension;
+				INFOPLIST_FILE = watchfarjan/Info.plist;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.jumalauta.jmlcollection.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		90EC7EF82152B666003835C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T583396HNX;
+				INFOPLIST_FILE = "watchfarjan Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.jumalauta.jmlcollection.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		90EC7EF92152B666003835C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T583396HNX;
+				INFOPLIST_FILE = "watchfarjan Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.jumalauta.jmlcollection.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1582,6 +1865,24 @@
 			buildConfigurations = (
 				903FFDEA201E12B50009EC9B /* Debug */,
 				903FFDEB201E12B50009EC9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90EC7EFA2152B666003835C1 /* Build configuration list for PBXNativeTarget "watchfarjan Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90EC7EF82152B666003835C1 /* Debug */,
+				90EC7EF92152B666003835C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90EC7EFC2152B666003835C1 /* Build configuration list for PBXNativeTarget "watchfarjan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90EC7EF62152B666003835C1 /* Debug */,
+				90EC7EF72152B666003835C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

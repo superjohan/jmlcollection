@@ -57,6 +57,7 @@
     {
       "size" : "86x86",
       "idiom" : "watch",
+      "filename" : "172.png",
       "scale" : "2x",
       "role" : "quickLook",
       "subtype" : "38mm"
@@ -64,6 +65,7 @@
     {
       "size" : "98x98",
       "idiom" : "watch",
+      "filename" : "196.png",
       "scale" : "2x",
       "role" : "quickLook",
       "subtype" : "42mm"
@@ -71,6 +73,7 @@
     {
       "size" : "108x108",
       "idiom" : "watch",
+      "filename" : "216.png",
       "scale" : "2x",
       "role" : "quickLook",
       "subtype" : "44mm"

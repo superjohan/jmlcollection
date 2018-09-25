@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90179E09215AA41200730595 /* finlandstidsmaskinen.js in Resources */ = {isa = PBXBuildFile; fileRef = 90179E07215AA41200730595 /* finlandstidsmaskinen.js */; };
+		90179E0A215AA41200730595 /* finlandstidsmaskinen.html in Resources */ = {isa = PBXBuildFile; fileRef = 90179E08215AA41200730595 /* finlandstidsmaskinen.html */; };
 		903FFDDB201E12B50009EC9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903FFDDA201E12B50009EC9B /* AppDelegate.swift */; };
 		903FFDDD201E12B50009EC9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903FFDDC201E12B50009EC9B /* ViewController.swift */; };
 		903FFDE2201E12B50009EC9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903FFDE1201E12B50009EC9B /* Assets.xcassets */; };
@@ -285,6 +287,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		90179E07215AA41200730595 /* finlandstidsmaskinen.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = finlandstidsmaskinen.js; sourceTree = "<group>"; };
+		90179E08215AA41200730595 /* finlandstidsmaskinen.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = finlandstidsmaskinen.html; sourceTree = "<group>"; };
 		903FFDD7201E12B50009EC9B /* jmlcollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jmlcollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		903FFDDA201E12B50009EC9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		903FFDDC201E12B50009EC9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -545,6 +549,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90179E06215AA41200730595 /* ftm */ = {
+			isa = PBXGroup;
+			children = (
+				90179E07215AA41200730595 /* finlandstidsmaskinen.js */,
+				90179E08215AA41200730595 /* finlandstidsmaskinen.html */,
+			);
+			path = ftm;
+			sourceTree = "<group>";
+		};
 		903FFDCE201E12B50009EC9B = {
 			isa = PBXGroup;
 			children = (
@@ -568,6 +581,7 @@
 		903FFDD9201E12B50009EC9B /* jmlcollection */ = {
 			isa = PBXGroup;
 			children = (
+				90179E06215AA41200730595 /* ftm */,
 				90CF8551214E409B00CACAB6 /* basilisk */,
 				90E8EFD6214D00F900222E7E /* nightdrive */,
 				90CF854C214E3DB000CACAB6 /* rockformetal */,
@@ -1450,6 +1464,7 @@
 				90C0E135201E435000574499 /* jmldstrmiddlerobo.png in Resources */,
 				90C0E149201E435000574499 /* jmldstrend.png in Resources */,
 				90C0E13A201E435000574499 /* jmldstrmiddlerobo2.png in Resources */,
+				90179E09215AA41200730595 /* finlandstidsmaskinen.js in Resources */,
 				90C0E140201E435000574499 /* jmldstrintro1.png in Resources */,
 				90C0E115201E40E700574499 /* jmlalpha8.png in Resources */,
 				90A4B44A201E17EC006400F1 /* texture1.png in Resources */,
@@ -1457,6 +1472,7 @@
 				90C0E118201E40E700574499 /* jmlalpha1.png in Resources */,
 				90A4F9EF2020F56D0066F4E8 /* jmlpartyhard2partyhard31.gif in Resources */,
 				90E8EFD2214D001500222E7E /* checkerboard.png in Resources */,
+				90179E0A215AA41200730595 /* finlandstidsmaskinen.html in Resources */,
 				90A4F9052020F0B20066F4E8 /* jmldeltajml.png in Resources */,
 				90CF855F214E41D400CACAB6 /* halfhourshit.html in Resources */,
 				90A4F9BA2020F56D0066F4E8 /* jmlpartyhard2partyhard14.gif in Resources */,

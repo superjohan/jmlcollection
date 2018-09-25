@@ -23,6 +23,7 @@ let TutorialShownKey = "tutorialShownKey";
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     let demos: [Demo] = [
+        Demo(name: "Finlandstidsmaskinen", group: "Jumalauta", year: "2018", viewController: nil, htmlFilename: "finlandstidsmaskinen.html"),
         Demo(name: "Basilisk", group: "Jumalauta", year: "2018", viewController: nil, htmlFilename: "basilisk.html"),
         Demo(name: "Night Drive", group: "Jumalauta", year: "2018", viewController: { return NightDriveViewController() }, htmlFilename: nil),
         Demo(name: "Rock For Metal", group: "Jumalauta", year: "2018", viewController: nil, htmlFilename: "rock_for_metal.html"),

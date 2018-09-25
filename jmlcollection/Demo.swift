@@ -28,10 +28,5 @@ struct Demo {
     
     // MARK: - Information for launching
     let viewController: (() -> UIViewController)?
-    let htmlDescription: HtmlDemoDescription?
-}
-
-struct HtmlDemoDescription {
-    let htmlFilename: String
-    let path: String
+    let htmlFilename: String?
 }

@@ -29,7 +29,8 @@ class WebViewController: UIViewController {
 
         self.webView.frame = CGRect(x: 0, y: 0, width: self.view.bounds.size.width, height: self.view.bounds.size.height)
         self.webView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        self.webView.loadFileURL(Bundle.main.bundleURL.appendingPathComponent(self.demoDescription.htmlFilename), allowingReadAccessTo: Bundle.main.bundleURL.appendingPathComponent(self.demoDescription.path))
+        let url: URL = Bundle.main.bundleURL.appendingPathComponent(self.demoDescription.htmlFilename)
+        self.webView.loadFileURL(url, allowingReadAccessTo: url)
         self.webView.scrollView.isScrollEnabled = false
         self.view.addSubview(self.webView)
     }

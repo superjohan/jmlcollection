@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90114D3621AC62ED00124B5A /* AcidPhaseShufflingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90114D3221AC62ED00124B5A /* AcidPhaseShufflingView.swift */; };
+		90114D3721AC62ED00124B5A /* AcidPhaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90114D3321AC62ED00124B5A /* AcidPhaseViewController.swift */; };
+		90114D3821AC62ED00124B5A /* AcidPhaseBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90114D3421AC62ED00124B5A /* AcidPhaseBoard.swift */; };
+		90114D3921AC62ED00124B5A /* literalacidphase.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 90114D3521AC62ED00124B5A /* literalacidphase.m4a */; };
 		90179E09215AA41200730595 /* finlandstidsmaskinen.js in Resources */ = {isa = PBXBuildFile; fileRef = 90179E07215AA41200730595 /* finlandstidsmaskinen.js */; };
 		90179E0A215AA41200730595 /* finlandstidsmaskinen.html in Resources */ = {isa = PBXBuildFile; fileRef = 90179E08215AA41200730595 /* finlandstidsmaskinen.html */; };
 		903FFDDB201E12B50009EC9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903FFDDA201E12B50009EC9B /* AppDelegate.swift */; };
@@ -287,6 +291,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		90114D3221AC62ED00124B5A /* AcidPhaseShufflingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcidPhaseShufflingView.swift; sourceTree = "<group>"; };
+		90114D3321AC62ED00124B5A /* AcidPhaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcidPhaseViewController.swift; sourceTree = "<group>"; };
+		90114D3421AC62ED00124B5A /* AcidPhaseBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcidPhaseBoard.swift; sourceTree = "<group>"; };
+		90114D3521AC62ED00124B5A /* literalacidphase.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = literalacidphase.m4a; sourceTree = "<group>"; };
 		90179E07215AA41200730595 /* finlandstidsmaskinen.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = finlandstidsmaskinen.js; sourceTree = "<group>"; };
 		90179E08215AA41200730595 /* finlandstidsmaskinen.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = finlandstidsmaskinen.html; sourceTree = "<group>"; };
 		903FFDD7201E12B50009EC9B /* jmlcollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jmlcollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -549,6 +557,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90114D3121AC62ED00124B5A /* acidphase */ = {
+			isa = PBXGroup;
+			children = (
+				90114D3221AC62ED00124B5A /* AcidPhaseShufflingView.swift */,
+				90114D3321AC62ED00124B5A /* AcidPhaseViewController.swift */,
+				90114D3421AC62ED00124B5A /* AcidPhaseBoard.swift */,
+				90114D3521AC62ED00124B5A /* literalacidphase.m4a */,
+			);
+			path = acidphase;
+			sourceTree = "<group>";
+		};
 		90179E06215AA41200730595 /* ftm */ = {
 			isa = PBXGroup;
 			children = (
@@ -581,6 +600,7 @@
 		903FFDD9201E12B50009EC9B /* jmlcollection */ = {
 			isa = PBXGroup;
 			children = (
+				90114D3121AC62ED00124B5A /* acidphase */,
 				90179E06215AA41200730595 /* ftm */,
 				90CF8551214E409B00CACAB6 /* basilisk */,
 				90E8EFD6214D00F900222E7E /* nightdrive */,
@@ -1438,6 +1458,7 @@
 				90E42510206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90C0E13F201E435000574499 /* jmldstrcredits.png in Resources */,
 				90A4F9DB2020F56D0066F4E8 /* jmlpartyhard2partyhard21.gif in Resources */,
+				90114D3921AC62ED00124B5A /* literalacidphase.m4a in Resources */,
 				90A4F9092020F0B20066F4E8 /* jmldeltanoise.png in Resources */,
 				90A4F9C12020F56D0066F4E8 /* jmlpartyhard2partyhard03.gif in Resources */,
 				90A4F9CC2020F56D0066F4E8 /* jmlpartyhard2partyhard38.gif in Resources */,
@@ -1557,6 +1578,7 @@
 				9063B3B8204C3DF900562388 /* ProductionViewController.swift in Sources */,
 				90E424E4206CF2B800FD6157 /* BrandViewVisioland.swift in Sources */,
 				90E4251B206CF2B800FD6157 /* BrandViewMurtelio.swift in Sources */,
+				90114D3721AC62ED00124B5A /* AcidPhaseViewController.swift in Sources */,
 				90E42509206CF2B800FD6157 /* BrandViewDistando.swift in Sources */,
 				90E42520206CF2B800FD6157 /* BrandView.swift in Sources */,
 				90701A40202E24C70023EA08 /* TutorialView.swift in Sources */,
@@ -1574,6 +1596,7 @@
 				90E424F3206CF2B800FD6157 /* BrandViewPreolio.swift in Sources */,
 				90E42528206CF2B800FD6157 /* MainScene.swift in Sources */,
 				90E424ED206CF2B800FD6157 /* BrandViewWebtraks.swift in Sources */,
+				90114D3621AC62ED00124B5A /* AcidPhaseShufflingView.swift in Sources */,
 				90E42515206CF2B800FD6157 /* BrandViewSantafelos.swift in Sources */,
 				90E424E9206CF2B800FD6157 /* BrandViewJoolenta.swift in Sources */,
 				90E424FD206CF2B800FD6157 /* BrandViewXerion.swift in Sources */,
@@ -1584,6 +1607,7 @@
 				903FFDDB201E12B50009EC9B /* AppDelegate.swift in Sources */,
 				90E424DA206CF2B800FD6157 /* Constants.swift in Sources */,
 				90E424DD206CF2B800FD6157 /* BrandViewUniventa.swift in Sources */,
+				90114D3821AC62ED00124B5A /* AcidPhaseBoard.swift in Sources */,
 				90E424E3206CF2B800FD6157 /* BrandViewFreemo.swift in Sources */,
 				90E42505206CF2B800FD6157 /* BrandViewUltrox.swift in Sources */,
 				90E424F7206CF2B800FD6157 /* BrandViewYamageruto.swift in Sources */,

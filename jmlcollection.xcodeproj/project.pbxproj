@@ -38,6 +38,8 @@
 		9083432D222C23EE00AC5E07 /* MaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90834321222C23EE00AC5E07 /* MaskView.swift */; };
 		9083432E222C23EE00AC5E07 /* MaskedTextContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90834322222C23EE00AC5E07 /* MaskedTextContainerView.swift */; };
 		9083432F222C23EE00AC5E07 /* MaskedCirclesContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90834323222C23EE00AC5E07 /* MaskedCirclesContainerView.swift */; };
+		90834337222C2AC500AC5E07 /* techno-utopian_edict.html in Resources */ = {isa = PBXBuildFile; fileRef = 90834335222C2AC500AC5E07 /* techno-utopian_edict.html */; };
+		90834338222C2AC500AC5E07 /* techno-utopian_edict.js in Resources */ = {isa = PBXBuildFile; fileRef = 90834336222C2AC500AC5E07 /* techno-utopian_edict.js */; };
 		90A4B448201E17EC006400F1 /* WorldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A4B445201E17EC006400F1 /* WorldsViewController.swift */; };
 		90A4B449201E17EC006400F1 /* track.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B446201E17EC006400F1 /* track.m4a */; };
 		90A4B44A201E17EC006400F1 /* texture1.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B447201E17EC006400F1 /* texture1.png */; };
@@ -336,6 +338,8 @@
 		90834321222C23EE00AC5E07 /* MaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskView.swift; sourceTree = "<group>"; };
 		90834322222C23EE00AC5E07 /* MaskedTextContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskedTextContainerView.swift; sourceTree = "<group>"; };
 		90834323222C23EE00AC5E07 /* MaskedCirclesContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskedCirclesContainerView.swift; sourceTree = "<group>"; };
+		90834335222C2AC500AC5E07 /* techno-utopian_edict.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "techno-utopian_edict.html"; sourceTree = "<group>"; };
+		90834336222C2AC500AC5E07 /* techno-utopian_edict.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "techno-utopian_edict.js"; sourceTree = "<group>"; };
 		90866E5B201E66B3000CE68C /* jmlcollection-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jmlcollection-Bridging-Header.h"; sourceTree = "<group>"; };
 		90A4B445201E17EC006400F1 /* WorldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldsViewController.swift; sourceTree = "<group>"; };
 		90A4B446201E17EC006400F1 /* track.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = track.m4a; sourceTree = "<group>"; };
@@ -624,6 +628,7 @@
 		903FFDD9201E12B50009EC9B /* jmlcollection */ = {
 			isa = PBXGroup;
 			children = (
+				90834334222C2AC500AC5E07 /* technoutopianedict */,
 				90834317222C23EE00AC5E07 /* modernpictures */,
 				90114D3121AC62ED00124B5A /* acidphase */,
 				90179E06215AA41200730595 /* ftm */,
@@ -696,6 +701,15 @@
 				90834323222C23EE00AC5E07 /* MaskedCirclesContainerView.swift */,
 			);
 			path = modernpictures;
+			sourceTree = "<group>";
+		};
+		90834334222C2AC500AC5E07 /* technoutopianedict */ = {
+			isa = PBXGroup;
+			children = (
+				90834335222C2AC500AC5E07 /* techno-utopian_edict.html */,
+				90834336222C2AC500AC5E07 /* techno-utopian_edict.js */,
+			);
+			path = technoutopianedict;
 			sourceTree = "<group>";
 		};
 		90A4B444201E17EC006400F1 /* worlds */ = {
@@ -1455,6 +1469,7 @@
 				90CF8555214E409B00CACAB6 /* basilisk.js in Resources */,
 				90A4F9012020F0B20066F4E8 /* jmldeltaindex.html in Resources */,
 				90C0E13C201E435000574499 /* jmldstrrobot_merged.dae in Resources */,
+				90834338222C2AC500AC5E07 /* techno-utopian_edict.js in Resources */,
 				90E42516206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90A4F9CE2020F56D0066F4E8 /* jmlpartyhard2partyhard04.gif in Resources */,
 				90C0E138201E435000574499 /* jmldstrrobot23.png in Resources */,
@@ -1543,6 +1558,7 @@
 				90A4F9BA2020F56D0066F4E8 /* jmlpartyhard2partyhard14.gif in Resources */,
 				9083432C222C23EE00AC5E07 /* placeholder.m4a in Resources */,
 				90A4F9D52020F56D0066F4E8 /* jmlpartyhard2partyhard40.gif in Resources */,
+				90834337222C2AC500AC5E07 /* techno-utopian_edict.html in Resources */,
 				90A4F9D02020F56D0066F4E8 /* jmlpartyhard2main.cfaa3048.js in Resources */,
 				90A4F9DC2020F56D0066F4E8 /* jmlpartyhard2partyhard35.gif in Resources */,
 				90C0E134201E435000574499 /* jmldstrvendor.css in Resources */,

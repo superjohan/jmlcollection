@@ -75,6 +75,7 @@ class ModernPicturesViewController: UIViewController {
         self.contentView.backgroundColor = .black
         self.view.addSubview(self.contentView)
         
+        self.tunnelContentView.contentMode = .scaleAspectFill
         self.tunnelContentView.addSubview(self.tunnelView)
         
         self.view.addSubview(self.startButton)

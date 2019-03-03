@@ -26,6 +26,18 @@
 		90701A3E202E24A90023EA08 /* tutorial.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 90701A3D202E24A90023EA08 /* tutorial.mp4 */; };
 		90701A40202E24C70023EA08 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90701A3F202E24C70023EA08 /* TutorialView.swift */; };
 		90701A42202E26D90023EA08 /* tutorial.html in Resources */ = {isa = PBXBuildFile; fileRef = 90701A41202E26D90023EA08 /* tutorial.html */; };
+		90834324222C23EE00AC5E07 /* MaskedVerticalCirclesContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90834318222C23EE00AC5E07 /* MaskedVerticalCirclesContainerView.swift */; };
+		90834325222C23EE00AC5E07 /* MaskVerticalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90834319222C23EE00AC5E07 /* MaskVerticalView.swift */; };
+		90834326222C23EE00AC5E07 /* MaskedHorizontalCirclesContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083431A222C23EE00AC5E07 /* MaskedHorizontalCirclesContainerView.swift */; };
+		90834327222C23EE00AC5E07 /* ModernPicturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083431B222C23EE00AC5E07 /* ModernPicturesViewController.swift */; };
+		90834328222C23EE00AC5E07 /* MaskedSquaresFlipContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083431C222C23EE00AC5E07 /* MaskedSquaresFlipContainerView.swift */; };
+		90834329222C23EE00AC5E07 /* TextFlickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083431D222C23EE00AC5E07 /* TextFlickerView.swift */; };
+		9083432A222C23EE00AC5E07 /* MaskedSquaresRotationContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083431E222C23EE00AC5E07 /* MaskedSquaresRotationContainerView.swift */; };
+		9083432B222C23EE00AC5E07 /* ModernPicturesConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9083431F222C23EE00AC5E07 /* ModernPicturesConstants.swift */; };
+		9083432C222C23EE00AC5E07 /* placeholder.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 90834320222C23EE00AC5E07 /* placeholder.m4a */; };
+		9083432D222C23EE00AC5E07 /* MaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90834321222C23EE00AC5E07 /* MaskView.swift */; };
+		9083432E222C23EE00AC5E07 /* MaskedTextContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90834322222C23EE00AC5E07 /* MaskedTextContainerView.swift */; };
+		9083432F222C23EE00AC5E07 /* MaskedCirclesContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90834323222C23EE00AC5E07 /* MaskedCirclesContainerView.swift */; };
 		90A4B448201E17EC006400F1 /* WorldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A4B445201E17EC006400F1 /* WorldsViewController.swift */; };
 		90A4B449201E17EC006400F1 /* track.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B446201E17EC006400F1 /* track.m4a */; };
 		90A4B44A201E17EC006400F1 /* texture1.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B447201E17EC006400F1 /* texture1.png */; };
@@ -312,6 +324,18 @@
 		90701A3D202E24A90023EA08 /* tutorial.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = tutorial.mp4; sourceTree = "<group>"; };
 		90701A3F202E24C70023EA08 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
 		90701A41202E26D90023EA08 /* tutorial.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = tutorial.html; sourceTree = "<group>"; };
+		90834318222C23EE00AC5E07 /* MaskedVerticalCirclesContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskedVerticalCirclesContainerView.swift; sourceTree = "<group>"; };
+		90834319222C23EE00AC5E07 /* MaskVerticalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskVerticalView.swift; sourceTree = "<group>"; };
+		9083431A222C23EE00AC5E07 /* MaskedHorizontalCirclesContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskedHorizontalCirclesContainerView.swift; sourceTree = "<group>"; };
+		9083431B222C23EE00AC5E07 /* ModernPicturesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModernPicturesViewController.swift; sourceTree = "<group>"; };
+		9083431C222C23EE00AC5E07 /* MaskedSquaresFlipContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskedSquaresFlipContainerView.swift; sourceTree = "<group>"; };
+		9083431D222C23EE00AC5E07 /* TextFlickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFlickerView.swift; sourceTree = "<group>"; };
+		9083431E222C23EE00AC5E07 /* MaskedSquaresRotationContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskedSquaresRotationContainerView.swift; sourceTree = "<group>"; };
+		9083431F222C23EE00AC5E07 /* ModernPicturesConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModernPicturesConstants.swift; sourceTree = "<group>"; };
+		90834320222C23EE00AC5E07 /* placeholder.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = placeholder.m4a; sourceTree = "<group>"; };
+		90834321222C23EE00AC5E07 /* MaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskView.swift; sourceTree = "<group>"; };
+		90834322222C23EE00AC5E07 /* MaskedTextContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskedTextContainerView.swift; sourceTree = "<group>"; };
+		90834323222C23EE00AC5E07 /* MaskedCirclesContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskedCirclesContainerView.swift; sourceTree = "<group>"; };
 		90866E5B201E66B3000CE68C /* jmlcollection-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jmlcollection-Bridging-Header.h"; sourceTree = "<group>"; };
 		90A4B445201E17EC006400F1 /* WorldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldsViewController.swift; sourceTree = "<group>"; };
 		90A4B446201E17EC006400F1 /* track.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = track.m4a; sourceTree = "<group>"; };
@@ -600,6 +624,7 @@
 		903FFDD9201E12B50009EC9B /* jmlcollection */ = {
 			isa = PBXGroup;
 			children = (
+				90834317222C23EE00AC5E07 /* modernpictures */,
 				90114D3121AC62ED00124B5A /* acidphase */,
 				90179E06215AA41200730595 /* ftm */,
 				90CF8551214E409B00CACAB6 /* basilisk */,
@@ -652,6 +677,25 @@
 				9063B3BD204C459600562388 /* farjan.m4a */,
 			);
 			path = ff;
+			sourceTree = "<group>";
+		};
+		90834317222C23EE00AC5E07 /* modernpictures */ = {
+			isa = PBXGroup;
+			children = (
+				90834318222C23EE00AC5E07 /* MaskedVerticalCirclesContainerView.swift */,
+				90834319222C23EE00AC5E07 /* MaskVerticalView.swift */,
+				9083431A222C23EE00AC5E07 /* MaskedHorizontalCirclesContainerView.swift */,
+				9083431B222C23EE00AC5E07 /* ModernPicturesViewController.swift */,
+				9083431C222C23EE00AC5E07 /* MaskedSquaresFlipContainerView.swift */,
+				9083431D222C23EE00AC5E07 /* TextFlickerView.swift */,
+				9083431E222C23EE00AC5E07 /* MaskedSquaresRotationContainerView.swift */,
+				9083431F222C23EE00AC5E07 /* ModernPicturesConstants.swift */,
+				90834320222C23EE00AC5E07 /* placeholder.m4a */,
+				90834321222C23EE00AC5E07 /* MaskView.swift */,
+				90834322222C23EE00AC5E07 /* MaskedTextContainerView.swift */,
+				90834323222C23EE00AC5E07 /* MaskedCirclesContainerView.swift */,
+			);
+			path = modernpictures;
 			sourceTree = "<group>";
 		};
 		90A4B444201E17EC006400F1 /* worlds */ = {
@@ -1497,6 +1541,7 @@
 				90A4F9052020F0B20066F4E8 /* jmldeltajml.png in Resources */,
 				90CF855F214E41D400CACAB6 /* halfhourshit.html in Resources */,
 				90A4F9BA2020F56D0066F4E8 /* jmlpartyhard2partyhard14.gif in Resources */,
+				9083432C222C23EE00AC5E07 /* placeholder.m4a in Resources */,
 				90A4F9D52020F56D0066F4E8 /* jmlpartyhard2partyhard40.gif in Resources */,
 				90A4F9D02020F56D0066F4E8 /* jmlpartyhard2main.cfaa3048.js in Resources */,
 				90A4F9DC2020F56D0066F4E8 /* jmlpartyhard2partyhard35.gif in Resources */,
@@ -1572,14 +1617,22 @@
 				903FFDDD201E12B50009EC9B /* ViewController.swift in Sources */,
 				90A4B448201E17EC006400F1 /* WorldsViewController.swift in Sources */,
 				90E8EFD4214D001500222E7E /* BlurredLabel.swift in Sources */,
+				90834324222C23EE00AC5E07 /* MaskedVerticalCirclesContainerView.swift in Sources */,
+				9083432A222C23EE00AC5E07 /* MaskedSquaresRotationContainerView.swift in Sources */,
 				90E8EFD1214D001500222E7E /* UnderstandViewController.swift in Sources */,
+				9083432D222C23EE00AC5E07 /* MaskView.swift in Sources */,
+				90834326222C23EE00AC5E07 /* MaskedHorizontalCirclesContainerView.swift in Sources */,
 				90E424F9206CF2B800FD6157 /* BrandViewHaemo.swift in Sources */,
+				9083432E222C23EE00AC5E07 /* MaskedTextContainerView.swift in Sources */,
 				90CF8561214E45A000CACAB6 /* JmlCollectionWindow.swift in Sources */,
 				9063B3B8204C3DF900562388 /* ProductionViewController.swift in Sources */,
+				90834325222C23EE00AC5E07 /* MaskVerticalView.swift in Sources */,
 				90E424E4206CF2B800FD6157 /* BrandViewVisioland.swift in Sources */,
 				90E4251B206CF2B800FD6157 /* BrandViewMurtelio.swift in Sources */,
+				90834329222C23EE00AC5E07 /* TextFlickerView.swift in Sources */,
 				90114D3721AC62ED00124B5A /* AcidPhaseViewController.swift in Sources */,
 				90E42509206CF2B800FD6157 /* BrandViewDistando.swift in Sources */,
+				9083432F222C23EE00AC5E07 /* MaskedCirclesContainerView.swift in Sources */,
 				90E42520206CF2B800FD6157 /* BrandView.swift in Sources */,
 				90701A40202E24C70023EA08 /* TutorialView.swift in Sources */,
 				9063B3BF204C459600562388 /* FfViewController.swift in Sources */,
@@ -1588,6 +1641,7 @@
 				90E4250B206CF2B800FD6157 /* BrandViewIodyne.swift in Sources */,
 				90E42513206CF2B800FD6157 /* BrandViewFantisol.swift in Sources */,
 				90E424F5206CF2B800FD6157 /* BrandViewEkrom.swift in Sources */,
+				9083432B222C23EE00AC5E07 /* ModernPicturesConstants.swift in Sources */,
 				90E8EFD9214D00F900222E7E /* NightDriveViewController.swift in Sources */,
 				90A4B44C201E1929006400F1 /* Demo.swift in Sources */,
 				90E42524206CF2B800FD6157 /* SceneKitUtils.swift in Sources */,
@@ -1601,10 +1655,12 @@
 				90E424E9206CF2B800FD6157 /* BrandViewJoolenta.swift in Sources */,
 				90E424FD206CF2B800FD6157 /* BrandViewXerion.swift in Sources */,
 				90A4B458201E2523006400F1 /* WebViewController.swift in Sources */,
+				90834328222C23EE00AC5E07 /* MaskedSquaresFlipContainerView.swift in Sources */,
 				90E424FF206CF2B800FD6157 /* BrandViewAntiflex.swift in Sources */,
 				90E42517206CF2B800FD6157 /* BrandViewCromteq.swift in Sources */,
 				90E42523206CF2B800FD6157 /* GearScene.swift in Sources */,
 				903FFDDB201E12B50009EC9B /* AppDelegate.swift in Sources */,
+				90834327222C23EE00AC5E07 /* ModernPicturesViewController.swift in Sources */,
 				90E424DA206CF2B800FD6157 /* Constants.swift in Sources */,
 				90E424DD206CF2B800FD6157 /* BrandViewUniventa.swift in Sources */,
 				90114D3821AC62ED00124B5A /* AcidPhaseBoard.swift in Sources */,

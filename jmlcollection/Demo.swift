@@ -21,10 +21,16 @@ import Foundation
 import UIKit
 
 struct Demo {
+    struct Requirements: OptionSet {
+        let rawValue: Int
+        static let metal_v4 = Requirements(rawValue: 1 << 0) // Metal, with feature set 4 or higher (iPhone XS or higher)
+    }
+	
     // MARK: - Information for UI
     let name: String
     let group: String
     let year: String
+    let requirements: Requirements?
     
     // MARK: - Information for launching
     let viewController: (() -> UIViewController)?

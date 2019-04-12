@@ -22,33 +22,36 @@ import UIKit
 let TutorialShownKey = "tutorialShownKey";
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    let demos: [Demo] = [
-        Demo(name: "Techno-Utopian Edict", group: "Jumalauta", year: "2019", viewController: nil, htmlFilename: "techno-utopian_edict.html"),
-        Demo(name: "Modern Pictures", group: "Dekadence", year: "2019", viewController: { return ModernPicturesViewController() }, htmlFilename: nil),
-        Demo(name: "Literal Acid Phase", group: "Dekadence", year: "2018", viewController: { return AcidPhaseViewController() }, htmlFilename: nil),
-        Demo(name: "Finlandstidsmaskinen", group: "Jumalauta", year: "2018", viewController: nil, htmlFilename: "finlandstidsmaskinen.html"),
-        Demo(name: "Basilisk", group: "Jumalauta", year: "2018", viewController: nil, htmlFilename: "basilisk.html"),
-        Demo(name: "Night Drive", group: "Jumalauta", year: "2018", viewController: { return NightDriveViewController() }, htmlFilename: nil),
-        Demo(name: "Rock For Metal", group: "Jumalauta", year: "2018", viewController: nil, htmlFilename: "rock_for_metal.html"),
-        Demo(name: "Understand", group: "Jumalauta", year: "2018", viewController: { return UnderstandViewController() }, htmlFilename: nil),
-        Demo(name: "Version: Labor", group: "Dekadence", year: "2018", viewController: { return VersionViewController() }, htmlFilename: nil),
-        Demo(name: "Production", group: "Dekadence", year: "2018", viewController: { return ProductionViewController() }, htmlFilename: nil),
-        Demo(name: "Finlandsfärjan '18", group: "Jumalauta", year: "2018", viewController: { return FfViewController() }, htmlFilename: nil),
-        Demo(name: "α", group: "Jumalauta", year: "2017", viewController: nil, htmlFilename: "jmlalpha.html"),
-        Demo(name: "Worlds", group: "Dekadence", year: "2017", viewController: { return WorldsViewController() }, htmlFilename: nil),
-        Demo(name: "#jumalauta", group: "Jumalauta", year: "2017", viewController: nil, htmlFilename: "jml_irc_ad.html"),
-        Demo(name: "Honey And Whore", group: "Jumalauta", year: "2017", viewController: nil, htmlFilename: "jml17.html"),
-        Demo(name: "Δ", group: "Jumalauta", year: "2017", viewController: nil, htmlFilename: "jmldeltaindex.html"),
-        Demo(name: "Thinkpiece", group: "Dekadence", year: "2017", viewController: nil, htmlFilename: "thinkpiece.html"),
-        Demo(name: "Party Hard 2", group: "Jumalauta", year: "2016", viewController: nil, htmlFilename: "jmlpartyhard2index.html"),
-        Demo(name: "thoron is not the answer to every quiplash question", group: "Jumalauta", year: "2016", viewController: nil, htmlFilename: "halfhourshit.html"),
-        Demo(name: "Destroy All Humans", group: "Jumalauta", year: "2015", viewController: nil, htmlFilename: "jmldstr.html"),
-    ]
+	var demos: [Demo] = [
+		Demo(name: "technofundamental", group: "CRTC + RiFT", year: "2018", requirements: .metal_v4, viewController: { return TechnofundamentalViewController() }, htmlFilename: nil),
+		Demo(name: "Modern Pictures", group: "Dekadence", year: "2019", requirements: nil, viewController: { return ModernPicturesViewController() }, htmlFilename: nil),
+		Demo(name: "Literal Acid Phase", group: "Dekadence", year: "2018", requirements: nil, viewController: { return AcidPhaseViewController() }, htmlFilename: nil),
+		Demo(name: "Finlandstidsmaskinen", group: "Jumalauta", year: "2018", requirements: nil, viewController: nil, htmlFilename: "finlandstidsmaskinen.html"),
+		Demo(name: "Basilisk", group: "Jumalauta", year: "2018", requirements: nil, viewController: nil, htmlFilename: "basilisk.html"),
+		Demo(name: "Night Drive", group: "Jumalauta", year: "2018", requirements: nil, viewController: { return NightDriveViewController() }, htmlFilename: nil),
+		Demo(name: "Rock For Metal", group: "Jumalauta", year: "2018", requirements: nil, viewController: nil, htmlFilename: "rock_for_metal.html"),
+		Demo(name: "Understand", group: "Jumalauta", year: "2018", requirements: nil, viewController: { return UnderstandViewController() }, htmlFilename: nil),
+		Demo(name: "Version: Labor", group: "Dekadence", year: "2018", requirements: nil, viewController: { return VersionViewController() }, htmlFilename: nil),
+		Demo(name: "Production", group: "Dekadence", year: "2018", requirements: nil, viewController: { return ProductionViewController() }, htmlFilename: nil),
+		Demo(name: "Finlandsfärjan '18", group: "Jumalauta", year: "2018", requirements: nil, viewController: { return FfViewController() }, htmlFilename: nil),
+		Demo(name: "α", group: "Jumalauta", year: "2017", requirements: nil, viewController: nil, htmlFilename: "jmlalpha.html"),
+		Demo(name: "Worlds", group: "Dekadence", year: "2017", requirements: nil, viewController: { return WorldsViewController() }, htmlFilename: nil),
+		Demo(name: "#jumalauta", group: "Jumalauta", year: "2017", requirements: nil, viewController: nil, htmlFilename: "jml_irc_ad.html"),
+		Demo(name: "Honey And Whore", group: "Jumalauta", year: "2017", requirements: nil, viewController: nil, htmlFilename: "jml17.html"),
+		Demo(name: "Δ", group: "Jumalauta", year: "2017", requirements: nil, viewController: nil, htmlFilename: "jmldeltaindex.html"),
+		Demo(name: "Thinkpiece", group: "Dekadence", year: "2017", requirements: nil, viewController: nil, htmlFilename: "thinkpiece.html"),
+		Demo(name: "Party Hard 2", group: "Jumalauta", year: "2016", requirements: nil, viewController: nil, htmlFilename: "jmlpartyhard2index.html"),
+		Demo(name: "thoron is not the answer to every quiplash question", group: "Jumalauta", year: "2016", requirements: nil, viewController: nil, htmlFilename: "halfhourshit.html"),
+		Demo(name: "Destroy All Humans", group: "Jumalauta", year: "2015", requirements: nil, viewController: nil, htmlFilename: "jmldstr.html"),
+	]
 
     let tableView = UITableView(frame: CGRect.zero, style: UITableView.Style.plain)
     
     override func viewDidLoad() {
         super.viewDidLoad()
+		
+		// Filter out any demos that won't work on this hardware
+		prefilterDemoList()
         
         self.tableView.frame = CGRect(x: 0, y: 0, width: self.view.bounds.size.width, height: self.view.bounds.size.height)
         self.tableView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
@@ -82,6 +85,35 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         setShowingDemo(false)
     }
+	
+	/// Checks all the demos in the list, and removes any that don't meet hardware requirements
+	func prefilterDemoList() {
+		let metalDevice = MTLCreateSystemDefaultDevice()
+		var supportedDemos = [Demo]()
+		
+		for demo in demos {
+			if let reqs = demo.requirements {
+				if reqs.contains(.metal_v4) {
+					// Requires a metal device support v4+ feature set and iOS 12
+					if #available(iOS 12.0, *) {
+						if metalDevice == nil {
+							// No metal capable hardware at all
+							continue
+						}
+						if !metalDevice!.supportsFeatureSet(.iOS_GPUFamily4_v2) {
+							// GPU is too old to run this
+							continue
+						}
+					} else {
+						// Device is too old, skip this demo
+						continue
+					}
+				}
+			}
+			supportedDemos.append(demo)
+		}
+		demos = supportedDemos
+	}
     
     // MARK: - UITableViewDataSource
     

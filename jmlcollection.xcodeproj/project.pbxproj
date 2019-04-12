@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		831E0CF52260C5C700ADCC77 /* DemoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E0CE72260C5C700ADCC77 /* DemoConfig.swift */; };
+		831E0CF62260C5C700ADCC77 /* Demo.metal in Sources */ = {isa = PBXBuildFile; fileRef = 831E0CE82260C5C700ADCC77 /* Demo.metal */; };
+		831E0CF72260C5C700ADCC77 /* TextureLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E0CE92260C5C700ADCC77 /* TextureLoader.swift */; };
+		831E0CF82260C5C700ADCC77 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E0CEA2260C5C700ADCC77 /* MusicPlayer.swift */; };
+		831E0CF92260C5C700ADCC77 /* DemoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E0CEB2260C5C700ADCC77 /* DemoPlayer.swift */; };
+		831E0CFA2260C5C700ADCC77 /* TechnofundamentalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E0CEC2260C5C700ADCC77 /* TechnofundamentalViewController.swift */; };
+		831E0CFB2260C5C700ADCC77 /* TechnofundamentalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 831E0CED2260C5C700ADCC77 /* TechnofundamentalView.xib */; };
+		831E0CFC2260C5C700ADCC77 /* code.png in Resources */ = {isa = PBXBuildFile; fileRef = 831E0CEF2260C5C700ADCC77 /* code.png */; };
+		831E0CFD2260C5C700ADCC77 /* BOSSMAN.png in Resources */ = {isa = PBXBuildFile; fileRef = 831E0CF02260C5C700ADCC77 /* BOSSMAN.png */; };
+		831E0CFE2260C5C700ADCC77 /* PSONICE.png in Resources */ = {isa = PBXBuildFile; fileRef = 831E0CF12260C5C700ADCC77 /* PSONICE.png */; };
+		831E0CFF2260C5C700ADCC77 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = 831E0CF22260C5C700ADCC77 /* music.png */; };
+		831E0D002260C5C700ADCC77 /* technofundamental.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 831E0CF32260C5C700ADCC77 /* technofundamental.mp3 */; };
+		831E0D012260C5C700ADCC77 /* technofundamental.png in Resources */ = {isa = PBXBuildFile; fileRef = 831E0CF42260C5C700ADCC77 /* technofundamental.png */; };
 		90114D3621AC62ED00124B5A /* AcidPhaseShufflingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90114D3221AC62ED00124B5A /* AcidPhaseShufflingView.swift */; };
 		90114D3721AC62ED00124B5A /* AcidPhaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90114D3321AC62ED00124B5A /* AcidPhaseViewController.swift */; };
 		90114D3821AC62ED00124B5A /* AcidPhaseBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90114D3421AC62ED00124B5A /* AcidPhaseBoard.swift */; };
@@ -305,6 +318,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		831E0CE72260C5C700ADCC77 /* DemoConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoConfig.swift; sourceTree = "<group>"; };
+		831E0CE82260C5C700ADCC77 /* Demo.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Demo.metal; sourceTree = "<group>"; };
+		831E0CE92260C5C700ADCC77 /* TextureLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextureLoader.swift; sourceTree = "<group>"; };
+		831E0CEA2260C5C700ADCC77 /* MusicPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		831E0CEB2260C5C700ADCC77 /* DemoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPlayer.swift; sourceTree = "<group>"; };
+		831E0CEC2260C5C700ADCC77 /* TechnofundamentalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechnofundamentalViewController.swift; sourceTree = "<group>"; };
+		831E0CED2260C5C700ADCC77 /* TechnofundamentalView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TechnofundamentalView.xib; sourceTree = "<group>"; };
+		831E0CEF2260C5C700ADCC77 /* code.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = code.png; sourceTree = "<group>"; };
+		831E0CF02260C5C700ADCC77 /* BOSSMAN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BOSSMAN.png; sourceTree = "<group>"; };
+		831E0CF12260C5C700ADCC77 /* PSONICE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PSONICE.png; sourceTree = "<group>"; };
+		831E0CF22260C5C700ADCC77 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
+		831E0CF32260C5C700ADCC77 /* technofundamental.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = technofundamental.mp3; sourceTree = "<group>"; };
+		831E0CF42260C5C700ADCC77 /* technofundamental.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = technofundamental.png; sourceTree = "<group>"; };
 		90114D3221AC62ED00124B5A /* AcidPhaseShufflingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcidPhaseShufflingView.swift; sourceTree = "<group>"; };
 		90114D3321AC62ED00124B5A /* AcidPhaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcidPhaseViewController.swift; sourceTree = "<group>"; };
 		90114D3421AC62ED00124B5A /* AcidPhaseBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AcidPhaseBoard.swift; sourceTree = "<group>"; };
@@ -585,6 +611,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		831E0CE62260C5C700ADCC77 /* technofundamental */ = {
+			isa = PBXGroup;
+			children = (
+				831E0CE72260C5C700ADCC77 /* DemoConfig.swift */,
+				831E0CE82260C5C700ADCC77 /* Demo.metal */,
+				831E0CE92260C5C700ADCC77 /* TextureLoader.swift */,
+				831E0CEA2260C5C700ADCC77 /* MusicPlayer.swift */,
+				831E0CEB2260C5C700ADCC77 /* DemoPlayer.swift */,
+				831E0CEC2260C5C700ADCC77 /* TechnofundamentalViewController.swift */,
+				831E0CED2260C5C700ADCC77 /* TechnofundamentalView.xib */,
+				831E0CEE2260C5C700ADCC77 /* Assets */,
+			);
+			path = technofundamental;
+			sourceTree = "<group>";
+		};
+		831E0CEE2260C5C700ADCC77 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				831E0CEF2260C5C700ADCC77 /* code.png */,
+				831E0CF02260C5C700ADCC77 /* BOSSMAN.png */,
+				831E0CF12260C5C700ADCC77 /* PSONICE.png */,
+				831E0CF22260C5C700ADCC77 /* music.png */,
+				831E0CF32260C5C700ADCC77 /* technofundamental.mp3 */,
+				831E0CF42260C5C700ADCC77 /* technofundamental.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		90114D3121AC62ED00124B5A /* acidphase */ = {
 			isa = PBXGroup;
 			children = (
@@ -628,6 +682,7 @@
 		903FFDD9201E12B50009EC9B /* jmlcollection */ = {
 			isa = PBXGroup;
 			children = (
+				831E0CE62260C5C700ADCC77 /* technofundamental */,
 				90834334222C2AC500AC5E07 /* technoutopianedict */,
 				90834317222C23EE00AC5E07 /* modernpictures */,
 				90114D3121AC62ED00124B5A /* acidphase */,
@@ -1426,6 +1481,7 @@
 				90E424EC206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90A4F9B82020F56D0066F4E8 /* jmlpartyhard2partyhard28.gif in Resources */,
 				90E424DC206CF2B800FD6157 /* Media.xcassets in Resources */,
+				831E0D002260C5C700ADCC77 /* technofundamental.mp3 in Resources */,
 				90C0E142201E435000574499 /* jmldstrintro2.png in Resources */,
 				90A4F9CD2020F56D0066F4E8 /* jmlpartyhard2partyhard10.gif in Resources */,
 				90A4F9E52020F56D0066F4E8 /* jmlpartyhard2partyhard33.gif in Resources */,
@@ -1436,10 +1492,12 @@
 				90A4F9BD2020F56D0066F4E8 /* jmlpartyhard2partyhard29.gif in Resources */,
 				90A4B454201E249B006400F1 /* audio.mp3 in Resources */,
 				90E4251C206CF2B800FD6157 /* Assets.xcassets in Resources */,
+				831E0CFB2260C5C700ADCC77 /* TechnofundamentalView.xib in Resources */,
 				90E424F2206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90A4F9C62020F56D0066F4E8 /* jmlpartyhard2partyhard06.gif in Resources */,
 				90C0E112201E40E700574499 /* jmlalpha5.png in Resources */,
 				90A4F9082020F0B20066F4E8 /* jmldeltascript.js in Resources */,
+				831E0CFC2260C5C700ADCC77 /* code.png in Resources */,
 				90E4250E206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90A4F9C82020F56D0066F4E8 /* jmlpartyhard2partyhard13.gif in Resources */,
 				90A4F9BB2020F56D0066F4E8 /* jmlpartyhard2partyhard15.gif in Resources */,
@@ -1462,6 +1520,7 @@
 				90A4F9D22020F56D0066F4E8 /* jmlpartyhard2partyhard42.gif in Resources */,
 				90A4F9B92020F56D0066F4E8 /* jmlpartyhard2partyhard00.gif in Resources */,
 				90C0E10F201E40E700574499 /* jmlalphascript.js in Resources */,
+				831E0CFE2260C5C700ADCC77 /* PSONICE.png in Resources */,
 				90C0E137201E435000574499 /* jmldstrrobot21.png in Resources */,
 				90E8EFD0214D001500222E7E /* sini.dae in Resources */,
 				90A4F9EB2020F56D0066F4E8 /* jmlpartyhard2partyhard24.gif in Resources */,
@@ -1469,6 +1528,7 @@
 				90CF8555214E409B00CACAB6 /* basilisk.js in Resources */,
 				90A4F9012020F0B20066F4E8 /* jmldeltaindex.html in Resources */,
 				90C0E13C201E435000574499 /* jmldstrrobot_merged.dae in Resources */,
+				831E0D012260C5C700ADCC77 /* technofundamental.png in Resources */,
 				90834338222C2AC500AC5E07 /* techno-utopian_edict.js in Resources */,
 				90E42516206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90A4F9CE2020F56D0066F4E8 /* jmlpartyhard2partyhard04.gif in Resources */,
@@ -1541,6 +1601,7 @@
 				90E424E0206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90C0E141201E435000574499 /* jmldstrrobot12.png in Resources */,
 				90E4250C206CF2B800FD6157 /* Media.xcassets in Resources */,
+				831E0CFF2260C5C700ADCC77 /* music.png in Resources */,
 				90C0E135201E435000574499 /* jmldstrmiddlerobo.png in Resources */,
 				90C0E149201E435000574499 /* jmldstrend.png in Resources */,
 				90C0E13A201E435000574499 /* jmldstrmiddlerobo2.png in Resources */,
@@ -1557,6 +1618,7 @@
 				90CF855F214E41D400CACAB6 /* halfhourshit.html in Resources */,
 				90A4F9BA2020F56D0066F4E8 /* jmlpartyhard2partyhard14.gif in Resources */,
 				9083432C222C23EE00AC5E07 /* placeholder.m4a in Resources */,
+				831E0CFD2260C5C700ADCC77 /* BOSSMAN.png in Resources */,
 				90A4F9D52020F56D0066F4E8 /* jmlpartyhard2partyhard40.gif in Resources */,
 				90834337222C2AC500AC5E07 /* techno-utopian_edict.html in Resources */,
 				90A4F9D02020F56D0066F4E8 /* jmlpartyhard2main.cfaa3048.js in Resources */,
@@ -1629,21 +1691,26 @@
 				90E42501206CF2B800FD6157 /* BrandViewOeland.swift in Sources */,
 				90E42527206CF2B800FD6157 /* BrandViewContainerView.swift in Sources */,
 				90E424F1206CF2B800FD6157 /* BrandViewGiontas.swift in Sources */,
+				831E0CF92260C5C700ADCC77 /* DemoPlayer.swift in Sources */,
 				90E42503206CF2B800FD6157 /* BrandViewTechnikon.swift in Sources */,
 				903FFDDD201E12B50009EC9B /* ViewController.swift in Sources */,
+				831E0CF72260C5C700ADCC77 /* TextureLoader.swift in Sources */,
 				90A4B448201E17EC006400F1 /* WorldsViewController.swift in Sources */,
 				90E8EFD4214D001500222E7E /* BlurredLabel.swift in Sources */,
 				90834324222C23EE00AC5E07 /* MaskedVerticalCirclesContainerView.swift in Sources */,
 				9083432A222C23EE00AC5E07 /* MaskedSquaresRotationContainerView.swift in Sources */,
 				90E8EFD1214D001500222E7E /* UnderstandViewController.swift in Sources */,
 				9083432D222C23EE00AC5E07 /* MaskView.swift in Sources */,
+				831E0CF82260C5C700ADCC77 /* MusicPlayer.swift in Sources */,
 				90834326222C23EE00AC5E07 /* MaskedHorizontalCirclesContainerView.swift in Sources */,
 				90E424F9206CF2B800FD6157 /* BrandViewHaemo.swift in Sources */,
 				9083432E222C23EE00AC5E07 /* MaskedTextContainerView.swift in Sources */,
+				831E0CFA2260C5C700ADCC77 /* TechnofundamentalViewController.swift in Sources */,
 				90CF8561214E45A000CACAB6 /* JmlCollectionWindow.swift in Sources */,
 				9063B3B8204C3DF900562388 /* ProductionViewController.swift in Sources */,
 				90834325222C23EE00AC5E07 /* MaskVerticalView.swift in Sources */,
 				90E424E4206CF2B800FD6157 /* BrandViewVisioland.swift in Sources */,
+				831E0CF52260C5C700ADCC77 /* DemoConfig.swift in Sources */,
 				90E4251B206CF2B800FD6157 /* BrandViewMurtelio.swift in Sources */,
 				90834329222C23EE00AC5E07 /* TextFlickerView.swift in Sources */,
 				90114D3721AC62ED00124B5A /* AcidPhaseViewController.swift in Sources */,
@@ -1659,6 +1726,7 @@
 				90E424F5206CF2B800FD6157 /* BrandViewEkrom.swift in Sources */,
 				9083432B222C23EE00AC5E07 /* ModernPicturesConstants.swift in Sources */,
 				90E8EFD9214D00F900222E7E /* NightDriveViewController.swift in Sources */,
+				831E0CF62260C5C700ADCC77 /* Demo.metal in Sources */,
 				90A4B44C201E1929006400F1 /* Demo.swift in Sources */,
 				90E42524206CF2B800FD6157 /* SceneKitUtils.swift in Sources */,
 				90E424FB206CF2B800FD6157 /* BrandViewQuantifex.swift in Sources */,

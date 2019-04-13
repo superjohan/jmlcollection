@@ -14,13 +14,13 @@ import MetalPerformanceShaders
 
 class TechnofundamentalViewController: UIViewController {
 	
-	var demoPlayer: DemoPlayer?
+	var demoPlayer: TechnofundamentalDemoPlayer?
 	override func viewDidLoad() {
 		super.viewDidLoad()
 	}
 	
 	@IBAction func startDemo() {
-		demoPlayer = DemoPlayer()
+		demoPlayer = TechnofundamentalDemoPlayer()
 		self.view.addSubview(demoPlayer!.view)
 		
 		demoPlayer?.endDemoBlock = {

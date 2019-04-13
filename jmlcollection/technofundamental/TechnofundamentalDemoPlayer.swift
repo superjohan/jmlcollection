@@ -11,23 +11,7 @@ import MetalKit
 import simd
 import MetalPerformanceShaders
 
-struct Quad {
-	let vertices = [
-		float4(-1.0,	-1.0,	0.0,	1.0),
-		float4(-1.0,	1.0,	0.0,	1.0),
-		float4(1.0,		-1.0,	0.0,	1.0),
-		float4(1.0,		1.0,	0.0,	1.0)
-	]
-	
-	let texCoords = [
-		float2(0.0,		1.0),
-		float2(0.0,		0.0),
-		float2(1.0,		1.0),
-		float2(1.0,		0.0)
-	]
-}
-
-class DemoPlayer: NSObject, MTKViewDelegate {
+class TechnofundamentalDemoPlayer: NSObject, MTKViewDelegate {
 	
 	// Create the view and get the screen size
 	#if os(iOS)
@@ -62,8 +46,8 @@ class DemoPlayer: NSObject, MTKViewDelegate {
 	// If you want to chain your shader into metal performance shaders, declare them here:
 	var mpsMedian: MPSImageMedian?
 	
-	let musicPlayer = MusicPlayer()
-	var textureLoader: TextureLoader!
+	let musicPlayer = TechnofundamentalMusicPlayer()
+	var textureLoader: TechnofundamentalTextureLoader!
 	
 	var endDemoBlock: (() -> Void)?
 	
@@ -75,13 +59,13 @@ class DemoPlayer: NSObject, MTKViewDelegate {
 		}
 		
 		#if os(iOS)
-		renderTargetWidth = config.iOSRenderTargetWidth
-		fps = config.iOSFPS
+		renderTargetWidth = technoFundamentalConfig.iOSRenderTargetWidth
+		fps = technoFundamentalConfig.iOSFPS
 		#else
 		
 		#endif
 		
-		textureLoader = TextureLoader(dev: device)
+		textureLoader = TechnofundamentalTextureLoader(dev: device)
 		
 		// Do any additional setup after loading the view.
 		queue = device.makeCommandQueue()!
@@ -93,7 +77,7 @@ class DemoPlayer: NSObject, MTKViewDelegate {
 		let lib = device.makeDefaultLibrary()!
 		
 		// Load all the scene shaders
-		for i in 0..<config.numberOfScenes {
+		for i in 0..<technoFundamentalConfig.numberOfScenes {
 			var sceneNo = Int32(i)
 			let constants = MTLFunctionConstantValues.init()
 			
@@ -161,18 +145,18 @@ class DemoPlayer: NSObject, MTKViewDelegate {
 		guard let buffer = self.timeBuffer else { return }
 		
 		// Scale time by bpm so time is measured in beats
-		time = max(0.0, musicPlayer.time * config.bpm) // + 208.0
+		time = max(0.0, musicPlayer.time * technoFundamentalConfig.bpm) // + 208.0
 		
 		// Finally get the active scene
 		activeScene = 0
 		
-		for i in 0..<config.sceneStartTime.count {
-			if time > config.sceneStartTime[i] {
+		for i in 0..<technoFundamentalConfig.sceneStartTime.count {
+			if time > technoFundamentalConfig.sceneStartTime[i] {
 				activeScene = i
 //				break
 			}
 		}
-		time -= config.sceneStartTime[activeScene]
+		time -= technoFundamentalConfig.sceneStartTime[activeScene]
 		activeScene += 1
 		
 		let bufferPointer = buffer.contents()
@@ -230,7 +214,7 @@ class DemoPlayer: NSObject, MTKViewDelegate {
 			currentTexture = textureLoader.textures[.Technofundamental]
 		} else {
 			let idx = Int(fmodf(floor(time / 4.0), 4.0))
-			let name: DemoConfig.TextureName = [.Code, .Psonice, .Music, .Bossman][idx]
+			let name: TechnofundamentalDemoConfig.TextureName = [.Code, .Psonice, .Music, .Bossman][idx]
 			currentTexture = textureLoader.textures[name]
 		}
 		cmdEncoder.setTexture(currentTexture, index: 1)

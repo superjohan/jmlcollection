@@ -12,7 +12,7 @@ import UIKit
 	This is where you set your demo up.
 */
 
-struct DemoConfig {
+struct TechnofundamentalDemoConfig {
 	
 	// Configure your demo here!
 	
@@ -49,4 +49,4 @@ struct DemoConfig {
 }
 
 // Config is a global (shock, horror, etc)
-let config = DemoConfig()
+let technoFundamentalConfig = TechnofundamentalDemoConfig()

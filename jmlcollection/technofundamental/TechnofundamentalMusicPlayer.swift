@@ -9,7 +9,7 @@
 import Foundation
 import AVFoundation
 
-class MusicPlayer {
+class TechnofundamentalMusicPlayer {
 	
 	private let mainPlayer: AVPlayer
 	var player: AVPlayer
@@ -55,13 +55,13 @@ class MusicPlayer {
 		play = false
 		player = mainPlayer
 		currentItem = player.currentItem!
-		let startTime = CMTime(seconds: Double(config.demoStartTime), preferredTimescale: 1000)
+		let startTime = CMTime(seconds: Double(technoFundamentalConfig.demoStartTime), preferredTimescale: 1000)
 		player.seek(to: startTime)
 		play = true
 	}
 	
 	init() {
-		let mainUrl = Bundle.main.url(forResource: config.musicFilename, withExtension: config.musicFileExtension)!
+		let mainUrl = Bundle.main.url(forResource: technoFundamentalConfig.musicFilename, withExtension: technoFundamentalConfig.musicFileExtension)!
 		mainPlayer = AVPlayer.init(url: mainUrl)
 		mainPlayer.automaticallyWaitsToMinimizeStalling = true
 		

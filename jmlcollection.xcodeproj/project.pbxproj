@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		831E0CF52260C5C700ADCC77 /* DemoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E0CE72260C5C700ADCC77 /* DemoConfig.swift */; };
-		831E0CF62260C5C700ADCC77 /* Demo.metal in Sources */ = {isa = PBXBuildFile; fileRef = 831E0CE82260C5C700ADCC77 /* Demo.metal */; };
-		831E0CF72260C5C700ADCC77 /* TextureLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E0CE92260C5C700ADCC77 /* TextureLoader.swift */; };
-		831E0CF82260C5C700ADCC77 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E0CEA2260C5C700ADCC77 /* MusicPlayer.swift */; };
-		831E0CF92260C5C700ADCC77 /* DemoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E0CEB2260C5C700ADCC77 /* DemoPlayer.swift */; };
+		831E0CF52260C5C700ADCC77 /* TechnofundamentalDemoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E0CE72260C5C700ADCC77 /* TechnofundamentalDemoConfig.swift */; };
+		831E0CF62260C5C700ADCC77 /* TechnofundamentalDemo.metal in Sources */ = {isa = PBXBuildFile; fileRef = 831E0CE82260C5C700ADCC77 /* TechnofundamentalDemo.metal */; };
+		831E0CF72260C5C700ADCC77 /* TechnofundamentalTextureLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E0CE92260C5C700ADCC77 /* TechnofundamentalTextureLoader.swift */; };
+		831E0CF82260C5C700ADCC77 /* TechnofundamentalMusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E0CEA2260C5C700ADCC77 /* TechnofundamentalMusicPlayer.swift */; };
+		831E0CF92260C5C700ADCC77 /* TechnofundamentalDemoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E0CEB2260C5C700ADCC77 /* TechnofundamentalDemoPlayer.swift */; };
 		831E0CFA2260C5C700ADCC77 /* TechnofundamentalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831E0CEC2260C5C700ADCC77 /* TechnofundamentalViewController.swift */; };
 		831E0CFB2260C5C700ADCC77 /* TechnofundamentalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 831E0CED2260C5C700ADCC77 /* TechnofundamentalView.xib */; };
 		831E0CFC2260C5C700ADCC77 /* code.png in Resources */ = {isa = PBXBuildFile; fileRef = 831E0CEF2260C5C700ADCC77 /* code.png */; };
@@ -318,11 +318,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		831E0CE72260C5C700ADCC77 /* DemoConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoConfig.swift; sourceTree = "<group>"; };
-		831E0CE82260C5C700ADCC77 /* Demo.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = Demo.metal; sourceTree = "<group>"; };
-		831E0CE92260C5C700ADCC77 /* TextureLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextureLoader.swift; sourceTree = "<group>"; };
-		831E0CEA2260C5C700ADCC77 /* MusicPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
-		831E0CEB2260C5C700ADCC77 /* DemoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPlayer.swift; sourceTree = "<group>"; };
+		831E0CE72260C5C700ADCC77 /* TechnofundamentalDemoConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechnofundamentalDemoConfig.swift; sourceTree = "<group>"; };
+		831E0CE82260C5C700ADCC77 /* TechnofundamentalDemo.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = TechnofundamentalDemo.metal; sourceTree = "<group>"; };
+		831E0CE92260C5C700ADCC77 /* TechnofundamentalTextureLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechnofundamentalTextureLoader.swift; sourceTree = "<group>"; };
+		831E0CEA2260C5C700ADCC77 /* TechnofundamentalMusicPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechnofundamentalMusicPlayer.swift; sourceTree = "<group>"; };
+		831E0CEB2260C5C700ADCC77 /* TechnofundamentalDemoPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechnofundamentalDemoPlayer.swift; sourceTree = "<group>"; };
 		831E0CEC2260C5C700ADCC77 /* TechnofundamentalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechnofundamentalViewController.swift; sourceTree = "<group>"; };
 		831E0CED2260C5C700ADCC77 /* TechnofundamentalView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TechnofundamentalView.xib; sourceTree = "<group>"; };
 		831E0CEF2260C5C700ADCC77 /* code.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = code.png; sourceTree = "<group>"; };
@@ -614,11 +614,11 @@
 		831E0CE62260C5C700ADCC77 /* technofundamental */ = {
 			isa = PBXGroup;
 			children = (
-				831E0CE72260C5C700ADCC77 /* DemoConfig.swift */,
-				831E0CE82260C5C700ADCC77 /* Demo.metal */,
-				831E0CE92260C5C700ADCC77 /* TextureLoader.swift */,
-				831E0CEA2260C5C700ADCC77 /* MusicPlayer.swift */,
-				831E0CEB2260C5C700ADCC77 /* DemoPlayer.swift */,
+				831E0CE72260C5C700ADCC77 /* TechnofundamentalDemoConfig.swift */,
+				831E0CE82260C5C700ADCC77 /* TechnofundamentalDemo.metal */,
+				831E0CE92260C5C700ADCC77 /* TechnofundamentalTextureLoader.swift */,
+				831E0CEA2260C5C700ADCC77 /* TechnofundamentalMusicPlayer.swift */,
+				831E0CEB2260C5C700ADCC77 /* TechnofundamentalDemoPlayer.swift */,
 				831E0CEC2260C5C700ADCC77 /* TechnofundamentalViewController.swift */,
 				831E0CED2260C5C700ADCC77 /* TechnofundamentalView.xib */,
 				831E0CEE2260C5C700ADCC77 /* Assets */,
@@ -1691,17 +1691,17 @@
 				90E42501206CF2B800FD6157 /* BrandViewOeland.swift in Sources */,
 				90E42527206CF2B800FD6157 /* BrandViewContainerView.swift in Sources */,
 				90E424F1206CF2B800FD6157 /* BrandViewGiontas.swift in Sources */,
-				831E0CF92260C5C700ADCC77 /* DemoPlayer.swift in Sources */,
+				831E0CF92260C5C700ADCC77 /* TechnofundamentalDemoPlayer.swift in Sources */,
 				90E42503206CF2B800FD6157 /* BrandViewTechnikon.swift in Sources */,
 				903FFDDD201E12B50009EC9B /* ViewController.swift in Sources */,
-				831E0CF72260C5C700ADCC77 /* TextureLoader.swift in Sources */,
+				831E0CF72260C5C700ADCC77 /* TechnofundamentalTextureLoader.swift in Sources */,
 				90A4B448201E17EC006400F1 /* WorldsViewController.swift in Sources */,
 				90E8EFD4214D001500222E7E /* BlurredLabel.swift in Sources */,
 				90834324222C23EE00AC5E07 /* MaskedVerticalCirclesContainerView.swift in Sources */,
 				9083432A222C23EE00AC5E07 /* MaskedSquaresRotationContainerView.swift in Sources */,
 				90E8EFD1214D001500222E7E /* UnderstandViewController.swift in Sources */,
 				9083432D222C23EE00AC5E07 /* MaskView.swift in Sources */,
-				831E0CF82260C5C700ADCC77 /* MusicPlayer.swift in Sources */,
+				831E0CF82260C5C700ADCC77 /* TechnofundamentalMusicPlayer.swift in Sources */,
 				90834326222C23EE00AC5E07 /* MaskedHorizontalCirclesContainerView.swift in Sources */,
 				90E424F9206CF2B800FD6157 /* BrandViewHaemo.swift in Sources */,
 				9083432E222C23EE00AC5E07 /* MaskedTextContainerView.swift in Sources */,
@@ -1710,7 +1710,7 @@
 				9063B3B8204C3DF900562388 /* ProductionViewController.swift in Sources */,
 				90834325222C23EE00AC5E07 /* MaskVerticalView.swift in Sources */,
 				90E424E4206CF2B800FD6157 /* BrandViewVisioland.swift in Sources */,
-				831E0CF52260C5C700ADCC77 /* DemoConfig.swift in Sources */,
+				831E0CF52260C5C700ADCC77 /* TechnofundamentalDemoConfig.swift in Sources */,
 				90E4251B206CF2B800FD6157 /* BrandViewMurtelio.swift in Sources */,
 				90834329222C23EE00AC5E07 /* TextFlickerView.swift in Sources */,
 				90114D3721AC62ED00124B5A /* AcidPhaseViewController.swift in Sources */,
@@ -1726,7 +1726,7 @@
 				90E424F5206CF2B800FD6157 /* BrandViewEkrom.swift in Sources */,
 				9083432B222C23EE00AC5E07 /* ModernPicturesConstants.swift in Sources */,
 				90E8EFD9214D00F900222E7E /* NightDriveViewController.swift in Sources */,
-				831E0CF62260C5C700ADCC77 /* Demo.metal in Sources */,
+				831E0CF62260C5C700ADCC77 /* TechnofundamentalDemo.metal in Sources */,
 				90A4B44C201E1929006400F1 /* Demo.swift in Sources */,
 				90E42524206CF2B800FD6157 /* SceneKitUtils.swift in Sources */,
 				90E424FB206CF2B800FD6157 /* BrandViewQuantifex.swift in Sources */,

@@ -10,9 +10,9 @@ import Foundation
 import simd
 import MetalKit
 
-struct TextureLoader {
+struct TechnofundamentalTextureLoader {
 	
-	var textures = [DemoConfig.TextureName: MTLTexture]()
+	var textures = [TechnofundamentalDemoConfig.TextureName: MTLTexture]()
 	
 	init(dev: MTLDevice) {
 		// Create a texture loader
@@ -24,9 +24,9 @@ struct TextureLoader {
 			MTKTextureLoader.Option.textureStorageMode : NSNumber.init(value: MTLStorageMode.private.rawValue)
 		]
 		
-		var tempTextures = [DemoConfig.TextureName: MTLTexture]()
+		var tempTextures = [TechnofundamentalDemoConfig.TextureName: MTLTexture]()
 		
-		for name in DemoConfig.TextureName.allCases {
+		for name in TechnofundamentalDemoConfig.TextureName.allCases {
 			let url = Bundle.main.url(forResource: name.rawValue, withExtension: "png")!
 			let tex = try! loader.newTexture(URL: url, options: opts)
 			tempTextures[name] = tex

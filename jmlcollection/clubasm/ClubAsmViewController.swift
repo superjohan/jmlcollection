@@ -88,7 +88,12 @@ class ClubAsmViewController: UIViewController {
         if !self.autostart {
             self.view.addSubview(self.startButton)
         }
+        
+        self.blackView.backgroundColor = .black
+        self.view.addSubview(self.blackView)
     }
+    
+    private let blackView = UIView(frame: .zero)
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
@@ -121,6 +126,9 @@ class ClubAsmViewController: UIViewController {
             let ratio = screenSize.height / referenceSize.height
             self.view.transform = CGAffineTransform.identity.scaledBy(x: ratio, y: ratio)
         }
+        
+        // hack hack hack
+        self.blackView.frame = CGRect(x: 0, y: self.view.bounds.size.height, width: self.view.bounds.size.width, height: self.view.bounds.size.height)
         
         self.qtFoolingBgView.frame = CGRect(
             x: (self.view.bounds.size.width / 2) - 1,

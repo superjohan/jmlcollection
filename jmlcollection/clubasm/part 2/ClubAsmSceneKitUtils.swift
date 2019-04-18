@@ -9,42 +9,44 @@
 import UIKit
 import SceneKit
 
-func loadModel(name: String, textureName: String?, color: UIColor?) -> SCNNode {
-    guard let filePath = Bundle.main.path(forResource: name, ofType: "dae", inDirectory: "") else { abort() }
-    let referenceURL = URL(fileURLWithPath: filePath)
-    guard let referenceNode = SCNReferenceNode(url: referenceURL) else { abort() }
-    referenceNode.load()
+class ClubAsmSceneKitUtils {
+    static func loadModel(name: String, textureName: String?, color: UIColor?) -> SCNNode {
+        guard let filePath = Bundle.main.path(forResource: name, ofType: "dae", inDirectory: "") else { abort() }
+        let referenceURL = URL(fileURLWithPath: filePath)
+        guard let referenceNode = SCNReferenceNode(url: referenceURL) else { abort() }
+        referenceNode.load()
+        
+        if let textureName = textureName {
+            let boatImage: UIImage? = UIImage(named: textureName)
+            let childNodes = referenceNode.childNodes
+            for childNode in childNodes {
+                childNode.geometry?.firstMaterial = SCNMaterial()
+                childNode.geometry?.firstMaterial?.diffuse.contents = boatImage
+            }
+        } else if let color = color {
+            setColorInChildnodes(node: referenceNode, color: color)
+        }
+        
+        return referenceNode
+    }
     
-    if let textureName = textureName {
-        let boatImage: UIImage? = UIImage(named: textureName)
-        let childNodes = referenceNode.childNodes
+    static func setColorInChildnodes(node: SCNNode, color: UIColor) {
+        let childNodes = node.childNodes
         for childNode in childNodes {
             childNode.geometry?.firstMaterial = SCNMaterial()
-            childNode.geometry?.firstMaterial?.diffuse.contents = boatImage
+            childNode.geometry?.firstMaterial?.diffuse.contents = color
+            
+            setColorInChildnodes(node: childNode, color: color)
         }
-    } else if let color = color {
-        setColorInChildnodes(node: referenceNode, color: color)
     }
     
-    return referenceNode
-}
-
-func setColorInChildnodes(node: SCNNode, color: UIColor) {
-    let childNodes = node.childNodes
-    for childNode in childNodes {
-        childNode.geometry?.firstMaterial = SCNMaterial()
-        childNode.geometry?.firstMaterial?.diffuse.contents = color
+    static func applyShader(object: SCNGeometry, shaderName: String, size: CGSize) {
+        do {
+            object.firstMaterial?.shaderModifiers = [
+                SCNShaderModifierEntryPoint.fragment: try String(contentsOfFile: Bundle.main.path(forResource: shaderName, ofType: "fsh")!, encoding: String.Encoding.utf8)
+            ]
+        } catch {}
         
-        setColorInChildnodes(node: childNode, color: color)
+        object.firstMaterial?.setValue(CGPoint(x: size.width, y: size.height), forKey: "resolution")
     }
-}
-
-func applyShader(object: SCNGeometry, shaderName: String, size: CGSize) {
-    do {
-        object.firstMaterial?.shaderModifiers = [
-            SCNShaderModifierEntryPoint.fragment: try String(contentsOfFile: Bundle.main.path(forResource: shaderName, ofType: "fsh")!, encoding: String.Encoding.utf8)
-        ]
-    } catch {}
-    
-    object.firstMaterial?.setValue(CGPoint(x: size.width, y: size.height), forKey: "resolution")
 }

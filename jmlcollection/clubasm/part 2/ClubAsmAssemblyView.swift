@@ -13,7 +13,7 @@ class ClubAsmAssemblyView: UIView, ClubAsmActions {
     private let sceneView = SCNView()
     private let camera = SCNNode()
     private let logoWrapper = SCNNode()
-    private let assemblyLogo = loadModel(name: "asm19_a_wTextures", textureName: nil, color: nil)
+    private let assemblyLogo = ClubAsmSceneKitUtils.loadModel(name: "asm19_a_wTextures", textureName: nil, color: nil)
     private var starField: SCNParticleSystem?
     private var explosion: SCNParticleSystem?
     private let explosionNode = SCNNode()
@@ -66,7 +66,7 @@ class ClubAsmAssemblyView: UIView, ClubAsmActions {
     func setupShaders() {
         let plane = SCNPlane(width: 300, height: 300)
         let size = CGSize(width: self.bounds.size.width * UIScreen.main.scale, height: self.bounds.size.height * UIScreen.main.scale)
-        applyShader(object: plane, shaderName: "plasma", size: size)
+        ClubAsmSceneKitUtils.applyShader(object: plane, shaderName: "plasma", size: size)
         self.plasma.geometry = plane
         self.plasma.position = SCNVector3Make(0, 0, -100)
         self.plasma.opacity = 0.0001
@@ -74,7 +74,7 @@ class ClubAsmAssemblyView: UIView, ClubAsmActions {
         
         let ballPlane = SCNPlane(width: 100, height: 50)
         let ballPlaneSize = CGSize(width: self.bounds.size.width * UIScreen.main.scale, height: self.bounds.size.height * UIScreen.main.scale)
-        applyShader(object: ballPlane, shaderName: "metaballs", size: ballPlaneSize)
+        ClubAsmSceneKitUtils.applyShader(object: ballPlane, shaderName: "metaballs", size: ballPlaneSize)
         ballPlane.firstMaterial?.setValue(0, forKey: "offset")
         ballPlane.firstMaterial?.setValue(-0.2, forKey: "sphereSize")
         self.ballNode.geometry = ballPlane

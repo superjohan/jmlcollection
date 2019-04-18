@@ -445,6 +445,44 @@
 		90A4F9B52020F56D0066F4E8 /* jmlpartyhard2partyhard19.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard19.gif; sourceTree = "<group>"; };
 		90A4F9B62020F56D0066F4E8 /* jmlpartyhard2partyhard31.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard31.gif; sourceTree = "<group>"; };
 		90A4F9B72020F56D0066F4E8 /* jmlpartyhard2partyhard25.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jmlpartyhard2partyhard25.gif; sourceTree = "<group>"; };
+		90BEB4C42268884B006BBE9B /* ClubAsmLocalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmLocalView.swift; sourceTree = "<group>"; };
+		90BEB4C52268884B006BBE9B /* ClubAsmGlobalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmGlobalView.swift; sourceTree = "<group>"; };
+		90BEB4C62268884B006BBE9B /* ClubAsmLearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmLearnView.swift; sourceTree = "<group>"; };
+		90BEB4C72268884B006BBE9B /* ClubAsmRivalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmRivalsView.swift; sourceTree = "<group>"; };
+		90BEB4C82268884B006BBE9B /* ClubAsmGamingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmGamingView.swift; sourceTree = "<group>"; };
+		90BEB4C92268884B006BBE9B /* ClubAsmCompetitionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmCompetitionsView.swift; sourceTree = "<group>"; };
+		90BEB4CA2268884B006BBE9B /* ClubAsmDefeatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmDefeatView.swift; sourceTree = "<group>"; };
+		90BEB4CB2268884B006BBE9B /* ClubAsmContendersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmContendersView.swift; sourceTree = "<group>"; };
+		90BEB4CC2268884B006BBE9B /* ClubAsmVictoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmVictoryView.swift; sourceTree = "<group>"; };
+		90BEB4CD2268884B006BBE9B /* ClubAsmLegendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmLegendsView.swift; sourceTree = "<group>"; };
+		90BEB4CE2268884B006BBE9B /* ClubAsmRelaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmRelaxView.swift; sourceTree = "<group>"; };
+		90BEB4CF2268884B006BBE9B /* ClubAsmFriendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmFriendsView.swift; sourceTree = "<group>"; };
+		90BEB4D02268884B006BBE9B /* ClubAsmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmViewController.swift; sourceTree = "<group>"; };
+		90BEB4D12268884B006BBE9B /* ClubAsmActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmActions.swift; sourceTree = "<group>"; };
+		90BEB4D32268884B006BBE9B /* stars.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = stars.scnp; sourceTree = "<group>"; };
+		90BEB4D42268884B006BBE9B /* plasma.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = plasma.fsh; sourceTree = "<group>"; };
+		90BEB4D52268884B006BBE9B /* ClubAsmAssemblyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmAssemblyView.swift; sourceTree = "<group>"; };
+		90BEB4D62268884B006BBE9B /* asm_a.dae */ = {isa = PBXFileReference; lastKnownFileType = text.xml.dae; path = asm_a.dae; sourceTree = "<group>"; };
+		90BEB4D72268884B006BBE9B /* ClubAsmSceneKitUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmSceneKitUtils.swift; sourceTree = "<group>"; };
+		90BEB4D82268884B006BBE9B /* metal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metal.png; sourceTree = "<group>"; };
+		90BEB4D92268884B006BBE9B /* metaballs.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = metaballs.fsh; sourceTree = "<group>"; };
+		90BEB4DA2268884B006BBE9B /* bokeh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bokeh.png; sourceTree = "<group>"; };
+		90BEB4DB2268884B006BBE9B /* asm19_a_wTextures.dae */ = {isa = PBXFileReference; lastKnownFileType = text.xml.dae; path = asm19_a_wTextures.dae; sourceTree = "<group>"; };
+		90BEB4DC2268884B006BBE9B /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		90BEB4DD2268884B006BBE9B /* boom.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = boom.scnp; sourceTree = "<group>"; };
+		90BEB4DE2268884B006BBE9B /* ClubAsmConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmConstants.swift; sourceTree = "<group>"; };
+		90BEB4DF2268884B006BBE9B /* ClubAsmUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmUtils.swift; sourceTree = "<group>"; };
+		90BEB4E12268884B006BBE9B /* ClubAsmCompoCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmCompoCircleView.swift; sourceTree = "<group>"; };
+		90BEB4E22268884B006BBE9B /* ClubAsmCompoCirclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmCompoCirclesView.swift; sourceTree = "<group>"; };
+		90BEB4E32268884B006BBE9B /* ClubAsmDemoIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmDemoIntroView.swift; sourceTree = "<group>"; };
+		90BEB4E42268884B006BBE9B /* ClubAsmCompoSquaresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmCompoSquaresView.swift; sourceTree = "<group>"; };
+		90BEB4E52268884B006BBE9B /* ClubAsmEndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmEndView.swift; sourceTree = "<group>"; };
+		90BEB4E72268884B006BBE9B /* ClubAsmLogo1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmLogo1View.swift; sourceTree = "<group>"; };
+		90BEB4E82268884B006BBE9B /* ClubAsmMacView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmMacView.swift; sourceTree = "<group>"; };
+		90BEB4E92268884B006BBE9B /* ClubAsmLogo3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmLogo3View.swift; sourceTree = "<group>"; };
+		90BEB4EA2268884B006BBE9B /* ClubAsmLogo2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmLogo2View.swift; sourceTree = "<group>"; };
+		90BEB4EB2268884B006BBE9B /* ClubAsmCreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubAsmCreditView.swift; sourceTree = "<group>"; };
+		90BEB4EC2268884C006BBE9B /* clubasmsoundtrack.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = clubasmsoundtrack.m4a; sourceTree = "<group>"; };
 		90C0E0DB201E2CF900574499 /* jmlalpha.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jmlalpha.html; sourceTree = "<group>"; };
 		90C0E0FF201E40E700574499 /* jmlalpha9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmlalpha9.png; sourceTree = "<group>"; };
 		90C0E100201E40E700574499 /* jmlalpha2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmlalpha2.png; sourceTree = "<group>"; };
@@ -682,6 +720,7 @@
 		903FFDD9201E12B50009EC9B /* jmlcollection */ = {
 			isa = PBXGroup;
 			children = (
+				90BEB4C22268883B006BBE9B /* clubasm */,
 				831E0CE62260C5C700ADCC77 /* technofundamental */,
 				90834334222C2AC500AC5E07 /* technoutopianedict */,
 				90834317222C23EE00AC5E07 /* modernpictures */,
@@ -876,6 +915,83 @@
 				90A4F9B72020F56D0066F4E8 /* jmlpartyhard2partyhard25.gif */,
 			);
 			path = jmlpartyhard2;
+			sourceTree = "<group>";
+		};
+		90BEB4C22268883B006BBE9B /* clubasm */ = {
+			isa = PBXGroup;
+			children = (
+				90BEB4D12268884B006BBE9B /* ClubAsmActions.swift */,
+				90BEB4DE2268884B006BBE9B /* ClubAsmConstants.swift */,
+				90BEB4DF2268884B006BBE9B /* ClubAsmUtils.swift */,
+				90BEB4D02268884B006BBE9B /* ClubAsmViewController.swift */,
+				90BEB4E62268884B006BBE9B /* intro */,
+				90BEB4C32268884B006BBE9B /* part 1 */,
+				90BEB4D22268884B006BBE9B /* part 2 */,
+				90BEB4E02268884B006BBE9B /* part 3 */,
+				90BEB4EC2268884C006BBE9B /* clubasmsoundtrack.m4a */,
+			);
+			path = clubasm;
+			sourceTree = "<group>";
+		};
+		90BEB4C32268884B006BBE9B /* part 1 */ = {
+			isa = PBXGroup;
+			children = (
+				90BEB4C42268884B006BBE9B /* ClubAsmLocalView.swift */,
+				90BEB4C52268884B006BBE9B /* ClubAsmGlobalView.swift */,
+				90BEB4C62268884B006BBE9B /* ClubAsmLearnView.swift */,
+				90BEB4C72268884B006BBE9B /* ClubAsmRivalsView.swift */,
+				90BEB4C82268884B006BBE9B /* ClubAsmGamingView.swift */,
+				90BEB4C92268884B006BBE9B /* ClubAsmCompetitionsView.swift */,
+				90BEB4CA2268884B006BBE9B /* ClubAsmDefeatView.swift */,
+				90BEB4CB2268884B006BBE9B /* ClubAsmContendersView.swift */,
+				90BEB4CC2268884B006BBE9B /* ClubAsmVictoryView.swift */,
+				90BEB4CD2268884B006BBE9B /* ClubAsmLegendsView.swift */,
+				90BEB4CE2268884B006BBE9B /* ClubAsmRelaxView.swift */,
+				90BEB4CF2268884B006BBE9B /* ClubAsmFriendsView.swift */,
+			);
+			path = "part 1";
+			sourceTree = "<group>";
+		};
+		90BEB4D22268884B006BBE9B /* part 2 */ = {
+			isa = PBXGroup;
+			children = (
+				90BEB4D32268884B006BBE9B /* stars.scnp */,
+				90BEB4D42268884B006BBE9B /* plasma.fsh */,
+				90BEB4D52268884B006BBE9B /* ClubAsmAssemblyView.swift */,
+				90BEB4D62268884B006BBE9B /* asm_a.dae */,
+				90BEB4D72268884B006BBE9B /* ClubAsmSceneKitUtils.swift */,
+				90BEB4D82268884B006BBE9B /* metal.png */,
+				90BEB4D92268884B006BBE9B /* metaballs.fsh */,
+				90BEB4DA2268884B006BBE9B /* bokeh.png */,
+				90BEB4DB2268884B006BBE9B /* asm19_a_wTextures.dae */,
+				90BEB4DC2268884B006BBE9B /* star.png */,
+				90BEB4DD2268884B006BBE9B /* boom.scnp */,
+			);
+			path = "part 2";
+			sourceTree = "<group>";
+		};
+		90BEB4E02268884B006BBE9B /* part 3 */ = {
+			isa = PBXGroup;
+			children = (
+				90BEB4E12268884B006BBE9B /* ClubAsmCompoCircleView.swift */,
+				90BEB4E22268884B006BBE9B /* ClubAsmCompoCirclesView.swift */,
+				90BEB4E32268884B006BBE9B /* ClubAsmDemoIntroView.swift */,
+				90BEB4E42268884B006BBE9B /* ClubAsmCompoSquaresView.swift */,
+				90BEB4E52268884B006BBE9B /* ClubAsmEndView.swift */,
+			);
+			path = "part 3";
+			sourceTree = "<group>";
+		};
+		90BEB4E62268884B006BBE9B /* intro */ = {
+			isa = PBXGroup;
+			children = (
+				90BEB4E72268884B006BBE9B /* ClubAsmLogo1View.swift */,
+				90BEB4E82268884B006BBE9B /* ClubAsmMacView.swift */,
+				90BEB4E92268884B006BBE9B /* ClubAsmLogo3View.swift */,
+				90BEB4EA2268884B006BBE9B /* ClubAsmLogo2View.swift */,
+				90BEB4EB2268884B006BBE9B /* ClubAsmCreditView.swift */,
+			);
+			path = intro;
 			sourceTree = "<group>";
 		};
 		90C0E0DA201E2CF900574499 /* jmlalpha */ = {

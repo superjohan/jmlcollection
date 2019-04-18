@@ -129,6 +129,44 @@
 		90A4F9EE2020F56D0066F4E8 /* jmlpartyhard2partyhard19.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9B52020F56D0066F4E8 /* jmlpartyhard2partyhard19.gif */; };
 		90A4F9EF2020F56D0066F4E8 /* jmlpartyhard2partyhard31.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9B62020F56D0066F4E8 /* jmlpartyhard2partyhard31.gif */; };
 		90A4F9F02020F56D0066F4E8 /* jmlpartyhard2partyhard25.gif in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F9B72020F56D0066F4E8 /* jmlpartyhard2partyhard25.gif */; };
+		90BEB4ED22688919006BBE9B /* ClubAsmActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4D12268884B006BBE9B /* ClubAsmActions.swift */; };
+		90BEB4EE22688919006BBE9B /* ClubAsmConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4DE2268884B006BBE9B /* ClubAsmConstants.swift */; };
+		90BEB4EF22688919006BBE9B /* ClubAsmUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4DF2268884B006BBE9B /* ClubAsmUtils.swift */; };
+		90BEB4F022688919006BBE9B /* ClubAsmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4D02268884B006BBE9B /* ClubAsmViewController.swift */; };
+		90BEB4F122688919006BBE9B /* ClubAsmLogo1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4E72268884B006BBE9B /* ClubAsmLogo1View.swift */; };
+		90BEB4F222688919006BBE9B /* ClubAsmMacView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4E82268884B006BBE9B /* ClubAsmMacView.swift */; };
+		90BEB4F322688919006BBE9B /* ClubAsmLogo3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4E92268884B006BBE9B /* ClubAsmLogo3View.swift */; };
+		90BEB4F422688919006BBE9B /* ClubAsmLogo2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4EA2268884B006BBE9B /* ClubAsmLogo2View.swift */; };
+		90BEB4F522688919006BBE9B /* ClubAsmCreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4EB2268884B006BBE9B /* ClubAsmCreditView.swift */; };
+		90BEB4F622688919006BBE9B /* ClubAsmLocalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4C42268884B006BBE9B /* ClubAsmLocalView.swift */; };
+		90BEB4F722688919006BBE9B /* ClubAsmGlobalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4C52268884B006BBE9B /* ClubAsmGlobalView.swift */; };
+		90BEB4F822688919006BBE9B /* ClubAsmLearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4C62268884B006BBE9B /* ClubAsmLearnView.swift */; };
+		90BEB4F922688919006BBE9B /* ClubAsmRivalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4C72268884B006BBE9B /* ClubAsmRivalsView.swift */; };
+		90BEB4FA22688919006BBE9B /* ClubAsmGamingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4C82268884B006BBE9B /* ClubAsmGamingView.swift */; };
+		90BEB4FB22688919006BBE9B /* ClubAsmCompetitionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4C92268884B006BBE9B /* ClubAsmCompetitionsView.swift */; };
+		90BEB4FC22688919006BBE9B /* ClubAsmDefeatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4CA2268884B006BBE9B /* ClubAsmDefeatView.swift */; };
+		90BEB4FD22688919006BBE9B /* ClubAsmContendersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4CB2268884B006BBE9B /* ClubAsmContendersView.swift */; };
+		90BEB4FE22688919006BBE9B /* ClubAsmVictoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4CC2268884B006BBE9B /* ClubAsmVictoryView.swift */; };
+		90BEB4FF22688919006BBE9B /* ClubAsmLegendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4CD2268884B006BBE9B /* ClubAsmLegendsView.swift */; };
+		90BEB50022688919006BBE9B /* ClubAsmRelaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4CE2268884B006BBE9B /* ClubAsmRelaxView.swift */; };
+		90BEB50122688919006BBE9B /* ClubAsmFriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4CF2268884B006BBE9B /* ClubAsmFriendsView.swift */; };
+		90BEB50222688919006BBE9B /* stars.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 90BEB4D32268884B006BBE9B /* stars.scnp */; };
+		90BEB50322688919006BBE9B /* plasma.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 90BEB4D42268884B006BBE9B /* plasma.fsh */; };
+		90BEB50422688919006BBE9B /* ClubAsmAssemblyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4D52268884B006BBE9B /* ClubAsmAssemblyView.swift */; };
+		90BEB50522688919006BBE9B /* asm_a.dae in Resources */ = {isa = PBXBuildFile; fileRef = 90BEB4D62268884B006BBE9B /* asm_a.dae */; };
+		90BEB50622688919006BBE9B /* ClubAsmSceneKitUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4D72268884B006BBE9B /* ClubAsmSceneKitUtils.swift */; };
+		90BEB50722688919006BBE9B /* metal.png in Resources */ = {isa = PBXBuildFile; fileRef = 90BEB4D82268884B006BBE9B /* metal.png */; };
+		90BEB50822688919006BBE9B /* metaballs.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 90BEB4D92268884B006BBE9B /* metaballs.fsh */; };
+		90BEB50922688919006BBE9B /* bokeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 90BEB4DA2268884B006BBE9B /* bokeh.png */; };
+		90BEB50A22688919006BBE9B /* asm19_a_wTextures.dae in Resources */ = {isa = PBXBuildFile; fileRef = 90BEB4DB2268884B006BBE9B /* asm19_a_wTextures.dae */; };
+		90BEB50B22688919006BBE9B /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 90BEB4DC2268884B006BBE9B /* star.png */; };
+		90BEB50C22688919006BBE9B /* boom.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 90BEB4DD2268884B006BBE9B /* boom.scnp */; };
+		90BEB50D22688919006BBE9B /* ClubAsmCompoCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4E12268884B006BBE9B /* ClubAsmCompoCircleView.swift */; };
+		90BEB50E22688919006BBE9B /* ClubAsmCompoCirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4E22268884B006BBE9B /* ClubAsmCompoCirclesView.swift */; };
+		90BEB50F22688919006BBE9B /* ClubAsmDemoIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4E32268884B006BBE9B /* ClubAsmDemoIntroView.swift */; };
+		90BEB51022688919006BBE9B /* ClubAsmCompoSquaresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4E42268884B006BBE9B /* ClubAsmCompoSquaresView.swift */; };
+		90BEB51122688919006BBE9B /* ClubAsmEndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90BEB4E52268884B006BBE9B /* ClubAsmEndView.swift */; };
+		90BEB51222688919006BBE9B /* clubasmsoundtrack.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 90BEB4EC2268884C006BBE9B /* clubasmsoundtrack.m4a */; };
 		90C0E0EE201E2CF900574499 /* jmlalpha.html in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E0DB201E2CF900574499 /* jmlalpha.html */; };
 		90C0E10D201E40E700574499 /* jmlalpha9.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E0FF201E40E700574499 /* jmlalpha9.png */; };
 		90C0E10E201E40E700574499 /* jmlalpha2.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C0E100201E40E700574499 /* jmlalpha2.png */; };
@@ -1595,6 +1633,7 @@
 				90A4F9E32020F56D0066F4E8 /* jmlpartyhard2partyhard23.gif in Resources */,
 				90A4F9CB2020F56D0066F4E8 /* jmlpartyhard2partyhard39.gif in Resources */,
 				90E424EC206CF2B800FD6157 /* Media.xcassets in Resources */,
+				90BEB50922688919006BBE9B /* bokeh.png in Resources */,
 				90A4F9B82020F56D0066F4E8 /* jmlpartyhard2partyhard28.gif in Resources */,
 				90E424DC206CF2B800FD6157 /* Media.xcassets in Resources */,
 				831E0D002260C5C700ADCC77 /* technofundamental.mp3 in Resources */,
@@ -1609,12 +1648,14 @@
 				90A4B454201E249B006400F1 /* audio.mp3 in Resources */,
 				90E4251C206CF2B800FD6157 /* Assets.xcassets in Resources */,
 				831E0CFB2260C5C700ADCC77 /* TechnofundamentalView.xib in Resources */,
+				90BEB50822688919006BBE9B /* metaballs.fsh in Resources */,
 				90E424F2206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90A4F9C62020F56D0066F4E8 /* jmlpartyhard2partyhard06.gif in Resources */,
 				90C0E112201E40E700574499 /* jmlalpha5.png in Resources */,
 				90A4F9082020F0B20066F4E8 /* jmldeltascript.js in Resources */,
 				831E0CFC2260C5C700ADCC77 /* code.png in Resources */,
 				90E4250E206CF2B800FD6157 /* Media.xcassets in Resources */,
+				90BEB50322688919006BBE9B /* plasma.fsh in Resources */,
 				90A4F9C82020F56D0066F4E8 /* jmlpartyhard2partyhard13.gif in Resources */,
 				90A4F9BB2020F56D0066F4E8 /* jmlpartyhard2partyhard15.gif in Resources */,
 				90A4F9DA2020F56D0066F4E8 /* jmlpartyhard2partyhard09.gif in Resources */,
@@ -1631,6 +1672,7 @@
 				90E42500206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90A4F9E82020F56D0066F4E8 /* jmlpartyhard2partyhard26.gif in Resources */,
 				90C0E13D201E435000574499 /* jmldstrvendor.js in Resources */,
+				90BEB51222688919006BBE9B /* clubasmsoundtrack.m4a in Resources */,
 				90C0E147201E435000574499 /* jmldstrrobotelectric.mp3 in Resources */,
 				90E4251A206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90A4F9D22020F56D0066F4E8 /* jmlpartyhard2partyhard42.gif in Resources */,
@@ -1648,6 +1690,8 @@
 				90834338222C2AC500AC5E07 /* techno-utopian_edict.js in Resources */,
 				90E42516206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90A4F9CE2020F56D0066F4E8 /* jmlpartyhard2partyhard04.gif in Resources */,
+				90BEB50722688919006BBE9B /* metal.png in Resources */,
+				90BEB50A22688919006BBE9B /* asm19_a_wTextures.dae in Resources */,
 				90C0E138201E435000574499 /* jmldstrrobot23.png in Resources */,
 				90A4F9C22020F56D0066F4E8 /* jmlpartyhard2partyhard02.gif in Resources */,
 				90C0E13E201E435000574499 /* jmldstr.html in Resources */,
@@ -1658,6 +1702,7 @@
 				90A4F9ED2020F56D0066F4E8 /* jmlpartyhard2partyhard18.gif in Resources */,
 				90A4F9C42020F56D0066F4E8 /* jmlpartyhard2Artboard2.png in Resources */,
 				9063B3C0204C459600562388 /* farjan.m4a in Resources */,
+				90BEB50B22688919006BBE9B /* star.png in Resources */,
 				90E42506206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90A4F9E62020F56D0066F4E8 /* jmlpartyhard2partyhard27.gif in Resources */,
 				90A4F9EC2020F56D0066F4E8 /* jmlpartyhard2partyhard30.gif in Resources */,
@@ -1689,6 +1734,7 @@
 				90A4F9BC2020F56D0066F4E8 /* jmlpartyhard2partyhard01.gif in Resources */,
 				90A4F9D62020F56D0066F4E8 /* jmlpartyhard2asset-manifest.json in Resources */,
 				90E4251F206CF2B800FD6157 /* tehras.dae in Resources */,
+				90BEB50222688919006BBE9B /* stars.scnp in Resources */,
 				90E424FE206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90E42510206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90C0E13F201E435000574499 /* jmldstrcredits.png in Resources */,
@@ -1729,6 +1775,7 @@
 				90C0E118201E40E700574499 /* jmlalpha1.png in Resources */,
 				90A4F9EF2020F56D0066F4E8 /* jmlpartyhard2partyhard31.gif in Resources */,
 				90E8EFD2214D001500222E7E /* checkerboard.png in Resources */,
+				90BEB50C22688919006BBE9B /* boom.scnp in Resources */,
 				90179E0A215AA41200730595 /* finlandstidsmaskinen.html in Resources */,
 				90A4F9052020F0B20066F4E8 /* jmldeltajml.png in Resources */,
 				90CF855F214E41D400CACAB6 /* halfhourshit.html in Resources */,
@@ -1754,6 +1801,7 @@
 				9063B3BE204C459600562388 /* paatti.dae in Resources */,
 				90E424FC206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90E42526206CF2B800FD6157 /* tehdas.dae in Resources */,
+				90BEB50522688919006BBE9B /* asm_a.dae in Resources */,
 				903FFDE2201E12B50009EC9B /* Assets.xcassets in Resources */,
 				90E424F6206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90C0E111201E40E700574499 /* jmlalphaassets.png in Resources */,
@@ -1803,8 +1851,10 @@
 				90E42519206CF2B800FD6157 /* BrandViewSeptogon.swift in Sources */,
 				90E424DB206CF2B800FD6157 /* VersionViewController.swift in Sources */,
 				90E4251D206CF2B800FD6157 /* MiddleScene.swift in Sources */,
+				90BEB4ED22688919006BBE9B /* ClubAsmActions.swift in Sources */,
 				90E424EB206CF2B800FD6157 /* BrandViewLateqniq.swift in Sources */,
 				90E42501206CF2B800FD6157 /* BrandViewOeland.swift in Sources */,
+				90BEB4F022688919006BBE9B /* ClubAsmViewController.swift in Sources */,
 				90E42527206CF2B800FD6157 /* BrandViewContainerView.swift in Sources */,
 				90E424F1206CF2B800FD6157 /* BrandViewGiontas.swift in Sources */,
 				831E0CF92260C5C700ADCC77 /* TechnofundamentalDemoPlayer.swift in Sources */,
@@ -1816,16 +1866,20 @@
 				90834324222C23EE00AC5E07 /* MaskedVerticalCirclesContainerView.swift in Sources */,
 				9083432A222C23EE00AC5E07 /* MaskedSquaresRotationContainerView.swift in Sources */,
 				90E8EFD1214D001500222E7E /* UnderstandViewController.swift in Sources */,
+				90BEB4EF22688919006BBE9B /* ClubAsmUtils.swift in Sources */,
 				9083432D222C23EE00AC5E07 /* MaskView.swift in Sources */,
 				831E0CF82260C5C700ADCC77 /* TechnofundamentalMusicPlayer.swift in Sources */,
 				90834326222C23EE00AC5E07 /* MaskedHorizontalCirclesContainerView.swift in Sources */,
 				90E424F9206CF2B800FD6157 /* BrandViewHaemo.swift in Sources */,
 				9083432E222C23EE00AC5E07 /* MaskedTextContainerView.swift in Sources */,
 				831E0CFA2260C5C700ADCC77 /* TechnofundamentalViewController.swift in Sources */,
+				90BEB50122688919006BBE9B /* ClubAsmFriendsView.swift in Sources */,
+				90BEB50F22688919006BBE9B /* ClubAsmDemoIntroView.swift in Sources */,
 				90CF8561214E45A000CACAB6 /* JmlCollectionWindow.swift in Sources */,
 				9063B3B8204C3DF900562388 /* ProductionViewController.swift in Sources */,
 				90834325222C23EE00AC5E07 /* MaskVerticalView.swift in Sources */,
 				90E424E4206CF2B800FD6157 /* BrandViewVisioland.swift in Sources */,
+				90BEB4FD22688919006BBE9B /* ClubAsmContendersView.swift in Sources */,
 				831E0CF52260C5C700ADCC77 /* TechnofundamentalDemoConfig.swift in Sources */,
 				90E4251B206CF2B800FD6157 /* BrandViewMurtelio.swift in Sources */,
 				90834329222C23EE00AC5E07 /* TextFlickerView.swift in Sources */,
@@ -1834,40 +1888,62 @@
 				9083432F222C23EE00AC5E07 /* MaskedCirclesContainerView.swift in Sources */,
 				90E42520206CF2B800FD6157 /* BrandView.swift in Sources */,
 				90701A40202E24C70023EA08 /* TutorialView.swift in Sources */,
+				90BEB50D22688919006BBE9B /* ClubAsmCompoCircleView.swift in Sources */,
 				9063B3BF204C459600562388 /* FfViewController.swift in Sources */,
+				90BEB4F222688919006BBE9B /* ClubAsmMacView.swift in Sources */,
 				90E42511206CF2B800FD6157 /* BrandViewOventus.swift in Sources */,
+				90BEB4F522688919006BBE9B /* ClubAsmCreditView.swift in Sources */,
 				90E4250F206CF2B800FD6157 /* BrandViewBrentax.swift in Sources */,
 				90E4250B206CF2B800FD6157 /* BrandViewIodyne.swift in Sources */,
+				90BEB4EE22688919006BBE9B /* ClubAsmConstants.swift in Sources */,
 				90E42513206CF2B800FD6157 /* BrandViewFantisol.swift in Sources */,
 				90E424F5206CF2B800FD6157 /* BrandViewEkrom.swift in Sources */,
+				90BEB4F622688919006BBE9B /* ClubAsmLocalView.swift in Sources */,
 				9083432B222C23EE00AC5E07 /* ModernPicturesConstants.swift in Sources */,
+				90BEB51022688919006BBE9B /* ClubAsmCompoSquaresView.swift in Sources */,
 				90E8EFD9214D00F900222E7E /* NightDriveViewController.swift in Sources */,
 				831E0CF62260C5C700ADCC77 /* TechnofundamentalDemo.metal in Sources */,
 				90A4B44C201E1929006400F1 /* Demo.swift in Sources */,
 				90E42524206CF2B800FD6157 /* SceneKitUtils.swift in Sources */,
 				90E424FB206CF2B800FD6157 /* BrandViewQuantifex.swift in Sources */,
 				90E424E1206CF2B800FD6157 /* BrandViewNeandertek.swift in Sources */,
+				90BEB4F422688919006BBE9B /* ClubAsmLogo2View.swift in Sources */,
 				90E424F3206CF2B800FD6157 /* BrandViewPreolio.swift in Sources */,
+				90BEB4F322688919006BBE9B /* ClubAsmLogo3View.swift in Sources */,
+				90BEB51122688919006BBE9B /* ClubAsmEndView.swift in Sources */,
 				90E42528206CF2B800FD6157 /* MainScene.swift in Sources */,
 				90E424ED206CF2B800FD6157 /* BrandViewWebtraks.swift in Sources */,
+				90BEB4FC22688919006BBE9B /* ClubAsmDefeatView.swift in Sources */,
+				90BEB4F822688919006BBE9B /* ClubAsmLearnView.swift in Sources */,
 				90114D3621AC62ED00124B5A /* AcidPhaseShufflingView.swift in Sources */,
+				90BEB50622688919006BBE9B /* ClubAsmSceneKitUtils.swift in Sources */,
 				90E42515206CF2B800FD6157 /* BrandViewSantafelos.swift in Sources */,
 				90E424E9206CF2B800FD6157 /* BrandViewJoolenta.swift in Sources */,
 				90E424FD206CF2B800FD6157 /* BrandViewXerion.swift in Sources */,
+				90BEB4F122688919006BBE9B /* ClubAsmLogo1View.swift in Sources */,
+				90BEB50E22688919006BBE9B /* ClubAsmCompoCirclesView.swift in Sources */,
 				90A4B458201E2523006400F1 /* WebViewController.swift in Sources */,
 				90834328222C23EE00AC5E07 /* MaskedSquaresFlipContainerView.swift in Sources */,
 				90E424FF206CF2B800FD6157 /* BrandViewAntiflex.swift in Sources */,
 				90E42517206CF2B800FD6157 /* BrandViewCromteq.swift in Sources */,
+				90BEB4FB22688919006BBE9B /* ClubAsmCompetitionsView.swift in Sources */,
+				90BEB4FF22688919006BBE9B /* ClubAsmLegendsView.swift in Sources */,
 				90E42523206CF2B800FD6157 /* GearScene.swift in Sources */,
 				903FFDDB201E12B50009EC9B /* AppDelegate.swift in Sources */,
 				90834327222C23EE00AC5E07 /* ModernPicturesViewController.swift in Sources */,
 				90E424DA206CF2B800FD6157 /* Constants.swift in Sources */,
 				90E424DD206CF2B800FD6157 /* BrandViewUniventa.swift in Sources */,
 				90114D3821AC62ED00124B5A /* AcidPhaseBoard.swift in Sources */,
+				90BEB4F922688919006BBE9B /* ClubAsmRivalsView.swift in Sources */,
 				90E424E3206CF2B800FD6157 /* BrandViewFreemo.swift in Sources */,
 				90E42505206CF2B800FD6157 /* BrandViewUltrox.swift in Sources */,
+				90BEB4F722688919006BBE9B /* ClubAsmGlobalView.swift in Sources */,
 				90E424F7206CF2B800FD6157 /* BrandViewYamageruto.swift in Sources */,
 				90E424DF206CF2B800FD6157 /* BrandViewRemotex.swift in Sources */,
+				90BEB50422688919006BBE9B /* ClubAsmAssemblyView.swift in Sources */,
+				90BEB50022688919006BBE9B /* ClubAsmRelaxView.swift in Sources */,
+				90BEB4FA22688919006BBE9B /* ClubAsmGamingView.swift in Sources */,
+				90BEB4FE22688919006BBE9B /* ClubAsmVictoryView.swift in Sources */,
 				90E424EF206CF2B800FD6157 /* BrandViewEftua.swift in Sources */,
 				90E424E7206CF2B800FD6157 /* BrandViewBotastica.swift in Sources */,
 			);

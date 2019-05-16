@@ -156,7 +156,7 @@ class WorldsViewController: UIViewController, AVAudioPlayerDelegate {
         for label in self.labels {
             label.alpha = 1
             
-            if let index = self.labels.index(of: label) {
+            if let index = self.labels.firstIndex(of: label) {
                 label.text = "\(texts[index * 3])\n"
                     + "\(texts[(index * 3) + 1])\n"
                     + "\(texts[(index * 3) + 2])"
@@ -400,7 +400,7 @@ class WorldsViewController: UIViewController, AVAudioPlayerDelegate {
             label.backgroundColor = UIColor.clear
             label.lineBreakMode = NSLineBreakMode.byClipping
             
-            let index = self.labels.index(of: label)
+            let index = self.labels.firstIndex(of: label)
             if index == 0 {
                 label.textAlignment = NSTextAlignment.left
             } else if index == 1 {

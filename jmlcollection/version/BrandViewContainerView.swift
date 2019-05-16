@@ -73,7 +73,7 @@ class BrandViewContainerView: UIView {
     
     func showBrand(_ index: Int, animated: Bool) {
         for view in self.subviews {
-            if self.subviews.index(of: view) == index {
+            if self.subviews.firstIndex(of: view) == index {
                 view.isHidden = false
             } else {
                 view.isHidden = true

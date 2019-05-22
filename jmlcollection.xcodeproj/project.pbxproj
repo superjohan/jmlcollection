@@ -66,6 +66,8 @@
 		90A4B455201E249B006400F1 /* thinkpiece.html in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B451201E249B006400F1 /* thinkpiece.html */; };
 		90A4B456201E249B006400F1 /* intro.js in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B452201E249B006400F1 /* intro.js */; };
 		90A4B458201E2523006400F1 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A4B457201E2523006400F1 /* WebViewController.swift */; };
+		90A4D60A229598E600A9EDAE /* white_ale_in_benin.js in Resources */ = {isa = PBXBuildFile; fileRef = 90A4D607229598E600A9EDAE /* white_ale_in_benin.js */; };
+		90A4D60B229598E600A9EDAE /* white_ale_in_benin.html in Resources */ = {isa = PBXBuildFile; fileRef = 90A4D608229598E600A9EDAE /* white_ale_in_benin.html */; };
 		90A4F9012020F0B20066F4E8 /* jmldeltaindex.html in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F8F72020F0B20066F4E8 /* jmldeltaindex.html */; };
 		90A4F9022020F0B20066F4E8 /* jmldeltafist.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F8F82020F0B20066F4E8 /* jmldeltafist.png */; };
 		90A4F9032020F0B20066F4E8 /* jmldeltathree.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F8F92020F0B20066F4E8 /* jmldeltathree.min.js */; };
@@ -422,6 +424,8 @@
 		90A4B451201E249B006400F1 /* thinkpiece.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = thinkpiece.html; sourceTree = "<group>"; };
 		90A4B452201E249B006400F1 /* intro.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = intro.js; sourceTree = "<group>"; };
 		90A4B457201E2523006400F1 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		90A4D607229598E600A9EDAE /* white_ale_in_benin.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = white_ale_in_benin.js; sourceTree = "<group>"; };
+		90A4D608229598E600A9EDAE /* white_ale_in_benin.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = white_ale_in_benin.html; sourceTree = "<group>"; };
 		90A4F8F72020F0B20066F4E8 /* jmldeltaindex.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jmldeltaindex.html; sourceTree = "<group>"; };
 		90A4F8F82020F0B20066F4E8 /* jmldeltafist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmldeltafist.png; sourceTree = "<group>"; };
 		90A4F8F92020F0B20066F4E8 /* jmldeltathree.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jmldeltathree.min.js; sourceTree = "<group>"; };
@@ -768,6 +772,7 @@
 			children = (
 				908FD552228DDAE800A4DEE3 /* beaches */,
 				90BEB4C22268883B006BBE9B /* clubasm */,
+				90A4D606229598E600A9EDAE /* benin */,
 				831E0CE62260C5C700ADCC77 /* technofundamental */,
 				90834334222C2AC500AC5E07 /* technoutopianedict */,
 				90834317222C23EE00AC5E07 /* modernpictures */,
@@ -890,6 +895,15 @@
 				90A4B452201E249B006400F1 /* intro.js */,
 			);
 			path = thinkpiece;
+			sourceTree = "<group>";
+		};
+		90A4D606229598E600A9EDAE /* benin */ = {
+			isa = PBXGroup;
+			children = (
+				90A4D607229598E600A9EDAE /* white_ale_in_benin.js */,
+				90A4D608229598E600A9EDAE /* white_ale_in_benin.html */,
+			);
+			path = benin;
 			sourceTree = "<group>";
 		};
 		90A4F8F62020F0B20066F4E8 /* jmldelta */ = {
@@ -1742,7 +1756,9 @@
 				90C0E13B201E435000574499 /* jmldstrtitlescreen.png in Resources */,
 				90E424EE206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90CF855E214E41D400CACAB6 /* halfhourshit.js in Resources */,
+				90A4D60A229598E600A9EDAE /* white_ale_in_benin.js in Resources */,
 				90A4F9072020F0B20066F4E8 /* jmldeltadelta.png in Resources */,
+				90A4D60B229598E600A9EDAE /* white_ale_in_benin.html in Resources */,
 				90E42514206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90C0E110201E40E700574499 /* jmlalpha3.png in Resources */,
 				90C0E119201E40E700574499 /* jmlalphademo.mp3 in Resources */,

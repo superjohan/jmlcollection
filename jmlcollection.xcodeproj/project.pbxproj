@@ -53,6 +53,10 @@
 		9083432F222C23EE00AC5E07 /* MaskedCirclesContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90834323222C23EE00AC5E07 /* MaskedCirclesContainerView.swift */; };
 		90834337222C2AC500AC5E07 /* techno-utopian_edict.html in Resources */ = {isa = PBXBuildFile; fileRef = 90834335222C2AC500AC5E07 /* techno-utopian_edict.html */; };
 		90834338222C2AC500AC5E07 /* techno-utopian_edict.js in Resources */ = {isa = PBXBuildFile; fileRef = 90834336222C2AC500AC5E07 /* techno-utopian_edict.js */; };
+		908FD557228DDBAE00A4DEE3 /* BeachesWobblyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908FD553228DDBAE00A4DEE3 /* BeachesWobblyView.swift */; };
+		908FD558228DDBAE00A4DEE3 /* BeachesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908FD554228DDBAE00A4DEE3 /* BeachesViewController.swift */; };
+		908FD559228DDBAE00A4DEE3 /* beaches.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 908FD555228DDBAE00A4DEE3 /* beaches.m4a */; };
+		908FD55A228DDBAE00A4DEE3 /* BeachesTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908FD556228DDBAE00A4DEE3 /* BeachesTextView.swift */; };
 		90A4B448201E17EC006400F1 /* WorldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A4B445201E17EC006400F1 /* WorldsViewController.swift */; };
 		90A4B449201E17EC006400F1 /* track.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B446201E17EC006400F1 /* track.m4a */; };
 		90A4B44A201E17EC006400F1 /* texture1.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B447201E17EC006400F1 /* texture1.png */; };
@@ -62,6 +66,8 @@
 		90A4B455201E249B006400F1 /* thinkpiece.html in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B451201E249B006400F1 /* thinkpiece.html */; };
 		90A4B456201E249B006400F1 /* intro.js in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B452201E249B006400F1 /* intro.js */; };
 		90A4B458201E2523006400F1 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A4B457201E2523006400F1 /* WebViewController.swift */; };
+		90A4D60A229598E600A9EDAE /* white_ale_in_benin.js in Resources */ = {isa = PBXBuildFile; fileRef = 90A4D607229598E600A9EDAE /* white_ale_in_benin.js */; };
+		90A4D60B229598E600A9EDAE /* white_ale_in_benin.html in Resources */ = {isa = PBXBuildFile; fileRef = 90A4D608229598E600A9EDAE /* white_ale_in_benin.html */; };
 		90A4F9012020F0B20066F4E8 /* jmldeltaindex.html in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F8F72020F0B20066F4E8 /* jmldeltaindex.html */; };
 		90A4F9022020F0B20066F4E8 /* jmldeltafist.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F8F82020F0B20066F4E8 /* jmldeltafist.png */; };
 		90A4F9032020F0B20066F4E8 /* jmldeltathree.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 90A4F8F92020F0B20066F4E8 /* jmldeltathree.min.js */; };
@@ -405,6 +411,10 @@
 		90834335222C2AC500AC5E07 /* techno-utopian_edict.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "techno-utopian_edict.html"; sourceTree = "<group>"; };
 		90834336222C2AC500AC5E07 /* techno-utopian_edict.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "techno-utopian_edict.js"; sourceTree = "<group>"; };
 		90866E5B201E66B3000CE68C /* jmlcollection-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jmlcollection-Bridging-Header.h"; sourceTree = "<group>"; };
+		908FD553228DDBAE00A4DEE3 /* BeachesWobblyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeachesWobblyView.swift; sourceTree = "<group>"; };
+		908FD554228DDBAE00A4DEE3 /* BeachesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeachesViewController.swift; sourceTree = "<group>"; };
+		908FD555228DDBAE00A4DEE3 /* beaches.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = beaches.m4a; sourceTree = "<group>"; };
+		908FD556228DDBAE00A4DEE3 /* BeachesTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeachesTextView.swift; sourceTree = "<group>"; };
 		90A4B445201E17EC006400F1 /* WorldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldsViewController.swift; sourceTree = "<group>"; };
 		90A4B446201E17EC006400F1 /* track.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = track.m4a; sourceTree = "<group>"; };
 		90A4B447201E17EC006400F1 /* texture1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture1.png; sourceTree = "<group>"; };
@@ -414,6 +424,8 @@
 		90A4B451201E249B006400F1 /* thinkpiece.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = thinkpiece.html; sourceTree = "<group>"; };
 		90A4B452201E249B006400F1 /* intro.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = intro.js; sourceTree = "<group>"; };
 		90A4B457201E2523006400F1 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		90A4D607229598E600A9EDAE /* white_ale_in_benin.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = white_ale_in_benin.js; sourceTree = "<group>"; };
+		90A4D608229598E600A9EDAE /* white_ale_in_benin.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = white_ale_in_benin.html; sourceTree = "<group>"; };
 		90A4F8F72020F0B20066F4E8 /* jmldeltaindex.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jmldeltaindex.html; sourceTree = "<group>"; };
 		90A4F8F82020F0B20066F4E8 /* jmldeltafist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jmldeltafist.png; sourceTree = "<group>"; };
 		90A4F8F92020F0B20066F4E8 /* jmldeltathree.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jmldeltathree.min.js; sourceTree = "<group>"; };
@@ -758,7 +770,9 @@
 		903FFDD9201E12B50009EC9B /* jmlcollection */ = {
 			isa = PBXGroup;
 			children = (
+				908FD552228DDAE800A4DEE3 /* beaches */,
 				90BEB4C22268883B006BBE9B /* clubasm */,
+				90A4D606229598E600A9EDAE /* benin */,
 				831E0CE62260C5C700ADCC77 /* technofundamental */,
 				90834334222C2AC500AC5E07 /* technoutopianedict */,
 				90834317222C23EE00AC5E07 /* modernpictures */,
@@ -844,6 +858,17 @@
 			path = technoutopianedict;
 			sourceTree = "<group>";
 		};
+		908FD552228DDAE800A4DEE3 /* beaches */ = {
+			isa = PBXGroup;
+			children = (
+				908FD555228DDBAE00A4DEE3 /* beaches.m4a */,
+				908FD556228DDBAE00A4DEE3 /* BeachesTextView.swift */,
+				908FD554228DDBAE00A4DEE3 /* BeachesViewController.swift */,
+				908FD553228DDBAE00A4DEE3 /* BeachesWobblyView.swift */,
+			);
+			path = beaches;
+			sourceTree = "<group>";
+		};
 		90A4B444201E17EC006400F1 /* worlds */ = {
 			isa = PBXGroup;
 			children = (
@@ -870,6 +895,15 @@
 				90A4B452201E249B006400F1 /* intro.js */,
 			);
 			path = thinkpiece;
+			sourceTree = "<group>";
+		};
+		90A4D606229598E600A9EDAE /* benin */ = {
+			isa = PBXGroup;
+			children = (
+				90A4D607229598E600A9EDAE /* white_ale_in_benin.js */,
+				90A4D608229598E600A9EDAE /* white_ale_in_benin.html */,
+			);
+			path = benin;
 			sourceTree = "<group>";
 		};
 		90A4F8F62020F0B20066F4E8 /* jmldelta */ = {
@@ -1584,7 +1618,7 @@
 				TargetAttributes = {
 					903FFDD6201E12B50009EC9B = {
 						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 					90EC7ED82152B665003835C1 = {
@@ -1593,6 +1627,7 @@
 					};
 					90EC7EE42152B666003835C1 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -1622,6 +1657,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				908FD559228DDBAE00A4DEE3 /* beaches.m4a in Resources */,
 				90A4F90A2020F0B20066F4E8 /* jmldeltademo.mp3 in Resources */,
 				90A4F9EA2020F56D0066F4E8 /* jmlpartyhard2main.9b929d85.css in Resources */,
 				90A4F9D92020F56D0066F4E8 /* jmlpartyhard2noise.jpg in Resources */,
@@ -1720,7 +1756,9 @@
 				90C0E13B201E435000574499 /* jmldstrtitlescreen.png in Resources */,
 				90E424EE206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90CF855E214E41D400CACAB6 /* halfhourshit.js in Resources */,
+				90A4D60A229598E600A9EDAE /* white_ale_in_benin.js in Resources */,
 				90A4F9072020F0B20066F4E8 /* jmldeltadelta.png in Resources */,
+				90A4D60B229598E600A9EDAE /* white_ale_in_benin.html in Resources */,
 				90E42514206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90C0E110201E40E700574499 /* jmlalpha3.png in Resources */,
 				90C0E119201E40E700574499 /* jmlalphademo.mp3 in Resources */,
@@ -1881,6 +1919,7 @@
 				90E424E4206CF2B800FD6157 /* BrandViewVisioland.swift in Sources */,
 				90BEB4FD22688919006BBE9B /* ClubAsmContendersView.swift in Sources */,
 				831E0CF52260C5C700ADCC77 /* TechnofundamentalDemoConfig.swift in Sources */,
+				908FD557228DDBAE00A4DEE3 /* BeachesWobblyView.swift in Sources */,
 				90E4251B206CF2B800FD6157 /* BrandViewMurtelio.swift in Sources */,
 				90834329222C23EE00AC5E07 /* TextFlickerView.swift in Sources */,
 				90114D3721AC62ED00124B5A /* AcidPhaseViewController.swift in Sources */,
@@ -1893,12 +1932,14 @@
 				90BEB4F222688919006BBE9B /* ClubAsmMacView.swift in Sources */,
 				90E42511206CF2B800FD6157 /* BrandViewOventus.swift in Sources */,
 				90BEB4F522688919006BBE9B /* ClubAsmCreditView.swift in Sources */,
+				908FD558228DDBAE00A4DEE3 /* BeachesViewController.swift in Sources */,
 				90E4250F206CF2B800FD6157 /* BrandViewBrentax.swift in Sources */,
 				90E4250B206CF2B800FD6157 /* BrandViewIodyne.swift in Sources */,
 				90BEB4EE22688919006BBE9B /* ClubAsmConstants.swift in Sources */,
 				90E42513206CF2B800FD6157 /* BrandViewFantisol.swift in Sources */,
 				90E424F5206CF2B800FD6157 /* BrandViewEkrom.swift in Sources */,
 				90BEB4F622688919006BBE9B /* ClubAsmLocalView.swift in Sources */,
+				908FD55A228DDBAE00A4DEE3 /* BeachesTextView.swift in Sources */,
 				9083432B222C23EE00AC5E07 /* ModernPicturesConstants.swift in Sources */,
 				90BEB51022688919006BBE9B /* ClubAsmCompoSquaresView.swift in Sources */,
 				90E8EFD9214D00F900222E7E /* NightDriveViewController.swift in Sources */,
@@ -2115,7 +2156,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.jumalauta.jmlcollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "jmlcollection/jmlcollection-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -2131,7 +2172,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = org.jumalauta.jmlcollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "jmlcollection/jmlcollection-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -2194,7 +2235,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
@@ -2214,7 +2255,7 @@
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};

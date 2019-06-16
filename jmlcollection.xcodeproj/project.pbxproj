@@ -26,6 +26,8 @@
 		90114D3921AC62ED00124B5A /* literalacidphase.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 90114D3521AC62ED00124B5A /* literalacidphase.m4a */; };
 		90179E09215AA41200730595 /* finlandstidsmaskinen.js in Resources */ = {isa = PBXBuildFile; fileRef = 90179E07215AA41200730595 /* finlandstidsmaskinen.js */; };
 		90179E0A215AA41200730595 /* finlandstidsmaskinen.html in Resources */ = {isa = PBXBuildFile; fileRef = 90179E08215AA41200730595 /* finlandstidsmaskinen.html */; };
+		90303CBC22B6297C003E1713 /* beaches2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 90303CBA22B6297B003E1713 /* beaches2.m4a */; };
+		90303CBD22B6297C003E1713 /* BadKerningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90303CBB22B6297C003E1713 /* BadKerningViewController.swift */; };
 		903FFDDB201E12B50009EC9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903FFDDA201E12B50009EC9B /* AppDelegate.swift */; };
 		903FFDDD201E12B50009EC9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903FFDDC201E12B50009EC9B /* ViewController.swift */; };
 		903FFDE2201E12B50009EC9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903FFDE1201E12B50009EC9B /* Assets.xcassets */; };
@@ -381,6 +383,8 @@
 		90114D3521AC62ED00124B5A /* literalacidphase.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = literalacidphase.m4a; sourceTree = "<group>"; };
 		90179E07215AA41200730595 /* finlandstidsmaskinen.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = finlandstidsmaskinen.js; sourceTree = "<group>"; };
 		90179E08215AA41200730595 /* finlandstidsmaskinen.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = finlandstidsmaskinen.html; sourceTree = "<group>"; };
+		90303CBA22B6297B003E1713 /* beaches2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = beaches2.m4a; sourceTree = "<group>"; };
+		90303CBB22B6297C003E1713 /* BadKerningViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadKerningViewController.swift; sourceTree = "<group>"; };
 		903FFDD7201E12B50009EC9B /* jmlcollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jmlcollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		903FFDDA201E12B50009EC9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		903FFDDC201E12B50009EC9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -747,6 +751,15 @@
 			path = ftm;
 			sourceTree = "<group>";
 		};
+		90303CB922B62965003E1713 /* badkerning */ = {
+			isa = PBXGroup;
+			children = (
+				90303CBB22B6297C003E1713 /* BadKerningViewController.swift */,
+				90303CBA22B6297B003E1713 /* beaches2.m4a */,
+			);
+			path = badkerning;
+			sourceTree = "<group>";
+		};
 		903FFDCE201E12B50009EC9B = {
 			isa = PBXGroup;
 			children = (
@@ -770,6 +783,7 @@
 		903FFDD9201E12B50009EC9B /* jmlcollection */ = {
 			isa = PBXGroup;
 			children = (
+				90303CB922B62965003E1713 /* badkerning */,
 				908FD552228DDAE800A4DEE3 /* beaches */,
 				90BEB4C22268883B006BBE9B /* clubasm */,
 				90A4D606229598E600A9EDAE /* benin */,
@@ -1748,6 +1762,7 @@
 				90E424E6206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90E424F8206CF2B800FD6157 /* Media.xcassets in Resources */,
 				90E42502206CF2B800FD6157 /* Media.xcassets in Resources */,
+				90303CBC22B6297C003E1713 /* beaches2.m4a in Resources */,
 				90C0E133201E435000574499 /* jmldstrmain.js in Resources */,
 				90A4B455201E249B006400F1 /* thinkpiece.html in Resources */,
 				90A4F9C32020F56D0066F4E8 /* jmlpartyhard2partyhard16.gif in Resources */,
@@ -1921,6 +1936,7 @@
 				831E0CF52260C5C700ADCC77 /* TechnofundamentalDemoConfig.swift in Sources */,
 				908FD557228DDBAE00A4DEE3 /* BeachesWobblyView.swift in Sources */,
 				90E4251B206CF2B800FD6157 /* BrandViewMurtelio.swift in Sources */,
+				90303CBD22B6297C003E1713 /* BadKerningViewController.swift in Sources */,
 				90834329222C23EE00AC5E07 /* TextFlickerView.swift in Sources */,
 				90114D3721AC62ED00124B5A /* AcidPhaseViewController.swift in Sources */,
 				90E42509206CF2B800FD6157 /* BrandViewDistando.swift in Sources */,

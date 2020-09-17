@@ -59,6 +59,12 @@
 		908FD558228DDBAE00A4DEE3 /* BeachesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908FD554228DDBAE00A4DEE3 /* BeachesViewController.swift */; };
 		908FD559228DDBAE00A4DEE3 /* beaches.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 908FD555228DDBAE00A4DEE3 /* beaches.m4a */; };
 		908FD55A228DDBAE00A4DEE3 /* BeachesTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908FD556228DDBAE00A4DEE3 /* BeachesTextView.swift */; };
+		909234062513C9A700B18055 /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909233FF2513C9A600B18055 /* DataStructures.swift */; };
+		909234072513C9A700B18055 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909234002513C9A600B18055 /* BackgroundView.swift */; };
+		909234082513C9A700B18055 /* specialdiscoversion.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 909234012513C9A600B18055 /* specialdiscoversion.m4a */; };
+		909234092513C9A700B18055 /* EndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909234022513C9A600B18055 /* EndView.swift */; };
+		9092340A2513C9A700B18055 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909234032513C9A700B18055 /* Modifiers.swift */; };
+		9092340C2513C9A700B18055 /* SpecialDiscoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909234052513C9A700B18055 /* SpecialDiscoViewController.swift */; };
 		90A4B448201E17EC006400F1 /* WorldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A4B445201E17EC006400F1 /* WorldsViewController.swift */; };
 		90A4B449201E17EC006400F1 /* track.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B446201E17EC006400F1 /* track.m4a */; };
 		90A4B44A201E17EC006400F1 /* texture1.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B447201E17EC006400F1 /* texture1.png */; };
@@ -421,6 +427,12 @@
 		908FD554228DDBAE00A4DEE3 /* BeachesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeachesViewController.swift; sourceTree = "<group>"; };
 		908FD555228DDBAE00A4DEE3 /* beaches.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = beaches.m4a; sourceTree = "<group>"; };
 		908FD556228DDBAE00A4DEE3 /* BeachesTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeachesTextView.swift; sourceTree = "<group>"; };
+		909233FF2513C9A600B18055 /* DataStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStructures.swift; sourceTree = "<group>"; };
+		909234002513C9A600B18055 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		909234012513C9A600B18055 /* specialdiscoversion.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = specialdiscoversion.m4a; sourceTree = "<group>"; };
+		909234022513C9A600B18055 /* EndView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndView.swift; sourceTree = "<group>"; };
+		909234032513C9A700B18055 /* Modifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		909234052513C9A700B18055 /* SpecialDiscoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialDiscoViewController.swift; sourceTree = "<group>"; };
 		90A4B445201E17EC006400F1 /* WorldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldsViewController.swift; sourceTree = "<group>"; };
 		90A4B446201E17EC006400F1 /* track.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = track.m4a; sourceTree = "<group>"; };
 		90A4B447201E17EC006400F1 /* texture1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture1.png; sourceTree = "<group>"; };
@@ -787,6 +799,7 @@
 		903FFDD9201E12B50009EC9B /* jmlcollection */ = {
 			isa = PBXGroup;
 			children = (
+				909233FE2513C98500B18055 /* specialdiscoversion */,
 				90F723F323141BDF0000B5F7 /* consume */,
 				90303CB922B62965003E1713 /* badkerning */,
 				908FD552228DDAE800A4DEE3 /* beaches */,
@@ -886,6 +899,19 @@
 				908FD553228DDBAE00A4DEE3 /* BeachesWobblyView.swift */,
 			);
 			path = beaches;
+			sourceTree = "<group>";
+		};
+		909233FE2513C98500B18055 /* specialdiscoversion */ = {
+			isa = PBXGroup;
+			children = (
+				909234002513C9A600B18055 /* BackgroundView.swift */,
+				909233FF2513C9A600B18055 /* DataStructures.swift */,
+				909234022513C9A600B18055 /* EndView.swift */,
+				909234032513C9A700B18055 /* Modifiers.swift */,
+				909234012513C9A600B18055 /* specialdiscoversion.m4a */,
+				909234052513C9A700B18055 /* SpecialDiscoViewController.swift */,
+			);
+			path = specialdiscoversion;
 			sourceTree = "<group>";
 		};
 		90A4B444201E17EC006400F1 /* worlds */ = {
@@ -1842,6 +1868,7 @@
 				90F723F623141C030000B5F7 /* dist.m4a in Resources */,
 				90C0E118201E40E700574499 /* jmlalpha1.png in Resources */,
 				90A4F9EF2020F56D0066F4E8 /* jmlpartyhard2partyhard31.gif in Resources */,
+				909234082513C9A700B18055 /* specialdiscoversion.m4a in Resources */,
 				90E8EFD2214D001500222E7E /* checkerboard.png in Resources */,
 				90BEB50C22688919006BBE9B /* boom.scnp in Resources */,
 				90179E0A215AA41200730595 /* finlandstidsmaskinen.html in Resources */,
@@ -1932,6 +1959,7 @@
 				90A4B448201E17EC006400F1 /* WorldsViewController.swift in Sources */,
 				90E8EFD4214D001500222E7E /* BlurredLabel.swift in Sources */,
 				90834324222C23EE00AC5E07 /* MaskedVerticalCirclesContainerView.swift in Sources */,
+				9092340C2513C9A700B18055 /* SpecialDiscoViewController.swift in Sources */,
 				9083432A222C23EE00AC5E07 /* MaskedSquaresRotationContainerView.swift in Sources */,
 				90E8EFD1214D001500222E7E /* UnderstandViewController.swift in Sources */,
 				90BEB4EF22688919006BBE9B /* ClubAsmUtils.swift in Sources */,
@@ -1953,8 +1981,10 @@
 				90E4251B206CF2B800FD6157 /* BrandViewMurtelio.swift in Sources */,
 				90303CBD22B6297C003E1713 /* BadKerningViewController.swift in Sources */,
 				90834329222C23EE00AC5E07 /* TextFlickerView.swift in Sources */,
+				909234072513C9A700B18055 /* BackgroundView.swift in Sources */,
 				90114D3721AC62ED00124B5A /* AcidPhaseViewController.swift in Sources */,
 				90E42509206CF2B800FD6157 /* BrandViewDistando.swift in Sources */,
+				909234062513C9A700B18055 /* DataStructures.swift in Sources */,
 				9083432F222C23EE00AC5E07 /* MaskedCirclesContainerView.swift in Sources */,
 				90E42520206CF2B800FD6157 /* BrandView.swift in Sources */,
 				90701A40202E24C70023EA08 /* TutorialView.swift in Sources */,
@@ -1978,9 +2008,11 @@
 				90A4B44C201E1929006400F1 /* Demo.swift in Sources */,
 				90E42524206CF2B800FD6157 /* SceneKitUtils.swift in Sources */,
 				90E424FB206CF2B800FD6157 /* BrandViewQuantifex.swift in Sources */,
+				909234092513C9A700B18055 /* EndView.swift in Sources */,
 				90E424E1206CF2B800FD6157 /* BrandViewNeandertek.swift in Sources */,
 				90BEB4F422688919006BBE9B /* ClubAsmLogo2View.swift in Sources */,
 				90E424F3206CF2B800FD6157 /* BrandViewPreolio.swift in Sources */,
+				9092340A2513C9A700B18055 /* Modifiers.swift in Sources */,
 				90BEB4F322688919006BBE9B /* ClubAsmLogo3View.swift in Sources */,
 				90BEB51122688919006BBE9B /* ClubAsmEndView.swift in Sources */,
 				90E42528206CF2B800FD6157 /* MainScene.swift in Sources */,

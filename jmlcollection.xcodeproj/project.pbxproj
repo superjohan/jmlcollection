@@ -59,6 +59,12 @@
 		908FD558228DDBAE00A4DEE3 /* BeachesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908FD554228DDBAE00A4DEE3 /* BeachesViewController.swift */; };
 		908FD559228DDBAE00A4DEE3 /* beaches.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 908FD555228DDBAE00A4DEE3 /* beaches.m4a */; };
 		908FD55A228DDBAE00A4DEE3 /* BeachesTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908FD556228DDBAE00A4DEE3 /* BeachesTextView.swift */; };
+		909234062513C9A700B18055 /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909233FF2513C9A600B18055 /* DataStructures.swift */; };
+		909234072513C9A700B18055 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909234002513C9A600B18055 /* BackgroundView.swift */; };
+		909234082513C9A700B18055 /* specialdiscoversion.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 909234012513C9A600B18055 /* specialdiscoversion.m4a */; };
+		909234092513C9A700B18055 /* EndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909234022513C9A600B18055 /* EndView.swift */; };
+		9092340A2513C9A700B18055 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909234032513C9A700B18055 /* Modifiers.swift */; };
+		9092340C2513C9A700B18055 /* SpecialDiscoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909234052513C9A700B18055 /* SpecialDiscoViewController.swift */; };
 		90A4B448201E17EC006400F1 /* WorldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A4B445201E17EC006400F1 /* WorldsViewController.swift */; };
 		90A4B449201E17EC006400F1 /* track.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B446201E17EC006400F1 /* track.m4a */; };
 		90A4B44A201E17EC006400F1 /* texture1.png in Resources */ = {isa = PBXBuildFile; fileRef = 90A4B447201E17EC006400F1 /* texture1.png */; };
@@ -308,57 +314,17 @@
 		90E8EFD5214D001500222E7E /* understandaudio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 90E8EFCE214D001500222E7E /* understandaudio.m4a */; };
 		90E8EFD9214D00F900222E7E /* NightDriveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E8EFD7214D00F900222E7E /* NightDriveViewController.swift */; };
 		90E8EFDA214D00F900222E7E /* synthfarjn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 90E8EFD8214D00F900222E7E /* synthfarjn.mp3 */; };
-		90EC7EDD2152B665003835C1 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90EC7EDB2152B665003835C1 /* Interface.storyboard */; };
-		90EC7EDF2152B666003835C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EC7EDE2152B666003835C1 /* Assets.xcassets */; };
-		90EC7EE62152B666003835C1 /* watchfarjan Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 90EC7EE52152B666003835C1 /* watchfarjan Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		90EC7EEB2152B666003835C1 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EC7EEA2152B666003835C1 /* InterfaceController.swift */; };
-		90EC7EED2152B666003835C1 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EC7EEC2152B666003835C1 /* art.scnassets */; };
-		90EC7EEF2152B666003835C1 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90EC7EEE2152B666003835C1 /* ExtensionDelegate.swift */; };
-		90EC7EF12152B666003835C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90EC7EF02152B666003835C1 /* Assets.xcassets */; };
-		90EC7EF52152B666003835C1 /* watchfarjan.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 90EC7ED92152B665003835C1 /* watchfarjan.app */; };
-		90EC7F012152B8F0003835C1 /* farjan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 90EC7F002152B8F0003835C1 /* farjan.m4a */; };
-		90EC7F052152BAEF003835C1 /* paatti.dae in Resources */ = {isa = PBXBuildFile; fileRef = 90EC7F042152BAEF003835C1 /* paatti.dae */; };
-		90EC7F082152BB36003835C1 /* paatti.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90EC7F072152BB36003835C1 /* paatti.jpg */; };
 		90F723F623141C030000B5F7 /* dist.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 90F723F423141C030000B5F7 /* dist.m4a */; };
 		90F723F723141C030000B5F7 /* ConsumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F723F523141C030000B5F7 /* ConsumeViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		90EC7EE72152B666003835C1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 903FFDCF201E12B50009EC9B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 90EC7EE42152B666003835C1;
-			remoteInfo = "watchfarjan Extension";
-		};
-		90EC7EF32152B666003835C1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 903FFDCF201E12B50009EC9B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 90EC7ED82152B665003835C1;
-			remoteInfo = watchfarjan;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		90EC7EFB2152B666003835C1 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				90EC7EE62152B666003835C1 /* watchfarjan Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		90EC7EFD2152B666003835C1 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				90EC7EF52152B666003835C1 /* watchfarjan.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +387,12 @@
 		908FD554228DDBAE00A4DEE3 /* BeachesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeachesViewController.swift; sourceTree = "<group>"; };
 		908FD555228DDBAE00A4DEE3 /* beaches.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = beaches.m4a; sourceTree = "<group>"; };
 		908FD556228DDBAE00A4DEE3 /* BeachesTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeachesTextView.swift; sourceTree = "<group>"; };
+		909233FF2513C9A600B18055 /* DataStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStructures.swift; sourceTree = "<group>"; };
+		909234002513C9A600B18055 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		909234012513C9A600B18055 /* specialdiscoversion.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = specialdiscoversion.m4a; sourceTree = "<group>"; };
+		909234022513C9A600B18055 /* EndView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndView.swift; sourceTree = "<group>"; };
+		909234032513C9A700B18055 /* Modifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		909234052513C9A700B18055 /* SpecialDiscoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialDiscoViewController.swift; sourceTree = "<group>"; };
 		90A4B445201E17EC006400F1 /* WorldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldsViewController.swift; sourceTree = "<group>"; };
 		90A4B446201E17EC006400F1 /* track.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = track.m4a; sourceTree = "<group>"; };
 		90A4B447201E17EC006400F1 /* texture1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture1.png; sourceTree = "<group>"; };
@@ -672,32 +644,12 @@
 		90E8EFCE214D001500222E7E /* understandaudio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = understandaudio.m4a; sourceTree = "<group>"; };
 		90E8EFD7214D00F900222E7E /* NightDriveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightDriveViewController.swift; sourceTree = "<group>"; };
 		90E8EFD8214D00F900222E7E /* synthfarjn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = synthfarjn.mp3; sourceTree = "<group>"; };
-		90EC7ED92152B665003835C1 /* watchfarjan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchfarjan.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		90EC7EDC2152B665003835C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		90EC7EDE2152B666003835C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		90EC7EE02152B666003835C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90EC7EE52152B666003835C1 /* watchfarjan Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watchfarjan Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		90EC7EEA2152B666003835C1 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		90EC7EEC2152B666003835C1 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		90EC7EEE2152B666003835C1 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		90EC7EF02152B666003835C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		90EC7EF22152B666003835C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90EC7F002152B8F0003835C1 /* farjan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = farjan.m4a; sourceTree = "<group>"; };
-		90EC7F042152BAEF003835C1 /* paatti.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = paatti.dae; sourceTree = "<group>"; };
-		90EC7F072152BB36003835C1 /* paatti.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paatti.jpg; sourceTree = "<group>"; };
 		90F723F423141C030000B5F7 /* dist.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = dist.m4a; sourceTree = "<group>"; };
 		90F723F523141C030000B5F7 /* ConsumeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsumeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		903FFDD4201E12B50009EC9B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		90EC7EE22152B666003835C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -768,8 +720,6 @@
 			isa = PBXGroup;
 			children = (
 				903FFDD9201E12B50009EC9B /* jmlcollection */,
-				90EC7EDA2152B665003835C1 /* watchfarjan */,
-				90EC7EE92152B666003835C1 /* watchfarjan Extension */,
 				903FFDD8201E12B50009EC9B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -778,8 +728,6 @@
 			isa = PBXGroup;
 			children = (
 				903FFDD7201E12B50009EC9B /* jmlcollection.app */,
-				90EC7ED92152B665003835C1 /* watchfarjan.app */,
-				90EC7EE52152B666003835C1 /* watchfarjan Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -787,6 +735,7 @@
 		903FFDD9201E12B50009EC9B /* jmlcollection */ = {
 			isa = PBXGroup;
 			children = (
+				909233FE2513C98500B18055 /* specialdiscoversion */,
 				90F723F323141BDF0000B5F7 /* consume */,
 				90303CB922B62965003E1713 /* badkerning */,
 				908FD552228DDAE800A4DEE3 /* beaches */,
@@ -886,6 +835,19 @@
 				908FD553228DDBAE00A4DEE3 /* BeachesWobblyView.swift */,
 			);
 			path = beaches;
+			sourceTree = "<group>";
+		};
+		909233FE2513C98500B18055 /* specialdiscoversion */ = {
+			isa = PBXGroup;
+			children = (
+				909234002513C9A600B18055 /* BackgroundView.swift */,
+				909233FF2513C9A600B18055 /* DataStructures.swift */,
+				909234022513C9A600B18055 /* EndView.swift */,
+				909234032513C9A700B18055 /* Modifiers.swift */,
+				909234012513C9A600B18055 /* specialdiscoversion.m4a */,
+				909234052513C9A700B18055 /* SpecialDiscoViewController.swift */,
+			);
+			path = specialdiscoversion;
 			sourceTree = "<group>";
 		};
 		90A4B444201E17EC006400F1 /* worlds */ = {
@@ -1544,31 +1506,6 @@
 			path = nightdrive;
 			sourceTree = "<group>";
 		};
-		90EC7EDA2152B665003835C1 /* watchfarjan */ = {
-			isa = PBXGroup;
-			children = (
-				90EC7EDB2152B665003835C1 /* Interface.storyboard */,
-				90EC7EDE2152B666003835C1 /* Assets.xcassets */,
-				90EC7EE02152B666003835C1 /* Info.plist */,
-			);
-			path = watchfarjan;
-			sourceTree = "<group>";
-		};
-		90EC7EE92152B666003835C1 /* watchfarjan Extension */ = {
-			isa = PBXGroup;
-			children = (
-				90EC7F002152B8F0003835C1 /* farjan.m4a */,
-				90EC7F042152BAEF003835C1 /* paatti.dae */,
-				90EC7F072152BB36003835C1 /* paatti.jpg */,
-				90EC7EEA2152B666003835C1 /* InterfaceController.swift */,
-				90EC7EEC2152B666003835C1 /* art.scnassets */,
-				90EC7EEE2152B666003835C1 /* ExtensionDelegate.swift */,
-				90EC7EF02152B666003835C1 /* Assets.xcassets */,
-				90EC7EF22152B666003835C1 /* Info.plist */,
-			);
-			path = "watchfarjan Extension";
-			sourceTree = "<group>";
-		};
 		90F723F323141BDF0000B5F7 /* consume */ = {
 			isa = PBXGroup;
 			children = (
@@ -1593,46 +1530,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				90EC7EF42152B666003835C1 /* PBXTargetDependency */,
 			);
 			name = jmlcollection;
 			productName = jmlcollection;
 			productReference = 903FFDD7201E12B50009EC9B /* jmlcollection.app */;
 			productType = "com.apple.product-type.application";
-		};
-		90EC7ED82152B665003835C1 /* watchfarjan */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 90EC7EFC2152B666003835C1 /* Build configuration list for PBXNativeTarget "watchfarjan" */;
-			buildPhases = (
-				90EC7ED72152B665003835C1 /* Resources */,
-				90EC7EFB2152B666003835C1 /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				90EC7EE82152B666003835C1 /* PBXTargetDependency */,
-			);
-			name = watchfarjan;
-			productName = watchfarjan;
-			productReference = 90EC7ED92152B665003835C1 /* watchfarjan.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		90EC7EE42152B666003835C1 /* watchfarjan Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 90EC7EFA2152B666003835C1 /* Build configuration list for PBXNativeTarget "watchfarjan Extension" */;
-			buildPhases = (
-				90EC7EE12152B666003835C1 /* Sources */,
-				90EC7EE22152B666003835C1 /* Frameworks */,
-				90EC7EE32152B666003835C1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "watchfarjan Extension";
-			productName = "watchfarjan Extension";
-			productReference = 90EC7EE52152B666003835C1 /* watchfarjan Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -1641,20 +1543,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = Jumalauta;
 				TargetAttributes = {
 					903FFDD6201E12B50009EC9B = {
 						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 1020;
-						ProvisioningStyle = Automatic;
-					};
-					90EC7ED82152B665003835C1 = {
-						CreatedOnToolsVersion = 10.0;
-						ProvisioningStyle = Automatic;
-					};
-					90EC7EE42152B666003835C1 = {
-						CreatedOnToolsVersion = 10.0;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 					};
@@ -1674,8 +1567,6 @@
 			projectRoot = "";
 			targets = (
 				903FFDD6201E12B50009EC9B /* jmlcollection */,
-				90EC7ED82152B665003835C1 /* watchfarjan */,
-				90EC7EE42152B666003835C1 /* watchfarjan Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -1842,6 +1733,7 @@
 				90F723F623141C030000B5F7 /* dist.m4a in Resources */,
 				90C0E118201E40E700574499 /* jmlalpha1.png in Resources */,
 				90A4F9EF2020F56D0066F4E8 /* jmlpartyhard2partyhard31.gif in Resources */,
+				909234082513C9A700B18055 /* specialdiscoversion.m4a in Resources */,
 				90E8EFD2214D001500222E7E /* checkerboard.png in Resources */,
 				90BEB50C22688919006BBE9B /* boom.scnp in Resources */,
 				90179E0A215AA41200730595 /* finlandstidsmaskinen.html in Resources */,
@@ -1886,27 +1778,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90EC7ED72152B665003835C1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90EC7EDF2152B666003835C1 /* Assets.xcassets in Resources */,
-				90EC7EDD2152B665003835C1 /* Interface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		90EC7EE32152B666003835C1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90EC7EF12152B666003835C1 /* Assets.xcassets in Resources */,
-				90EC7F082152BB36003835C1 /* paatti.jpg in Resources */,
-				90EC7F052152BAEF003835C1 /* paatti.dae in Resources */,
-				90EC7F012152B8F0003835C1 /* farjan.m4a in Resources */,
-				90EC7EED2152B666003835C1 /* art.scnassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1932,6 +1803,7 @@
 				90A4B448201E17EC006400F1 /* WorldsViewController.swift in Sources */,
 				90E8EFD4214D001500222E7E /* BlurredLabel.swift in Sources */,
 				90834324222C23EE00AC5E07 /* MaskedVerticalCirclesContainerView.swift in Sources */,
+				9092340C2513C9A700B18055 /* SpecialDiscoViewController.swift in Sources */,
 				9083432A222C23EE00AC5E07 /* MaskedSquaresRotationContainerView.swift in Sources */,
 				90E8EFD1214D001500222E7E /* UnderstandViewController.swift in Sources */,
 				90BEB4EF22688919006BBE9B /* ClubAsmUtils.swift in Sources */,
@@ -1953,8 +1825,10 @@
 				90E4251B206CF2B800FD6157 /* BrandViewMurtelio.swift in Sources */,
 				90303CBD22B6297C003E1713 /* BadKerningViewController.swift in Sources */,
 				90834329222C23EE00AC5E07 /* TextFlickerView.swift in Sources */,
+				909234072513C9A700B18055 /* BackgroundView.swift in Sources */,
 				90114D3721AC62ED00124B5A /* AcidPhaseViewController.swift in Sources */,
 				90E42509206CF2B800FD6157 /* BrandViewDistando.swift in Sources */,
+				909234062513C9A700B18055 /* DataStructures.swift in Sources */,
 				9083432F222C23EE00AC5E07 /* MaskedCirclesContainerView.swift in Sources */,
 				90E42520206CF2B800FD6157 /* BrandView.swift in Sources */,
 				90701A40202E24C70023EA08 /* TutorialView.swift in Sources */,
@@ -1978,9 +1852,11 @@
 				90A4B44C201E1929006400F1 /* Demo.swift in Sources */,
 				90E42524206CF2B800FD6157 /* SceneKitUtils.swift in Sources */,
 				90E424FB206CF2B800FD6157 /* BrandViewQuantifex.swift in Sources */,
+				909234092513C9A700B18055 /* EndView.swift in Sources */,
 				90E424E1206CF2B800FD6157 /* BrandViewNeandertek.swift in Sources */,
 				90BEB4F422688919006BBE9B /* ClubAsmLogo2View.swift in Sources */,
 				90E424F3206CF2B800FD6157 /* BrandViewPreolio.swift in Sources */,
+				9092340A2513C9A700B18055 /* Modifiers.swift in Sources */,
 				90BEB4F322688919006BBE9B /* ClubAsmLogo3View.swift in Sources */,
 				90BEB51122688919006BBE9B /* ClubAsmEndView.swift in Sources */,
 				90E42528206CF2B800FD6157 /* MainScene.swift in Sources */,
@@ -2022,29 +1898,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90EC7EE12152B666003835C1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90EC7EEF2152B666003835C1 /* ExtensionDelegate.swift in Sources */,
-				90EC7EEB2152B666003835C1 /* InterfaceController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		90EC7EE82152B666003835C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 90EC7EE42152B666003835C1 /* watchfarjan Extension */;
-			targetProxy = 90EC7EE72152B666003835C1 /* PBXContainerItemProxy */;
-		};
-		90EC7EF42152B666003835C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 90EC7ED82152B665003835C1 /* watchfarjan */;
-			targetProxy = 90EC7EF32152B666003835C1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		903FFDE3201E12B50009EC9B /* LaunchScreen.storyboard */ = {
@@ -2053,14 +1907,6 @@
 				903FFDE4201E12B50009EC9B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		90EC7EDB2152B665003835C1 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				90EC7EDC2152B665003835C1 /* Base */,
-			);
-			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -2091,6 +1937,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2116,7 +1963,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -2150,6 +1997,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2169,7 +2017,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -2182,9 +2030,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 21;
 				DEVELOPMENT_TEAM = T583396HNX;
 				INFOPLIST_FILE = jmlcollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 13;
 				PRODUCT_BUNDLE_IDENTIFIER = org.jumalauta.jmlcollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "jmlcollection/jmlcollection-Bridging-Header.h";
@@ -2198,98 +2048,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 21;
 				DEVELOPMENT_TEAM = T583396HNX;
 				INFOPLIST_FILE = jmlcollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 13;
 				PRODUCT_BUNDLE_IDENTIFIER = org.jumalauta.jmlcollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "jmlcollection/jmlcollection-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		90EC7EF62152B666003835C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T583396HNX;
-				IBSC_MODULE = watchfarjan_Extension;
-				INFOPLIST_FILE = watchfarjan/Info.plist;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.jumalauta.jmlcollection.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.0;
-			};
-			name = Debug;
-		};
-		90EC7EF72152B666003835C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T583396HNX;
-				IBSC_MODULE = watchfarjan_Extension;
-				INFOPLIST_FILE = watchfarjan/Info.plist;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.jumalauta.jmlcollection.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.0;
-			};
-			name = Release;
-		};
-		90EC7EF82152B666003835C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T583396HNX;
-				INFOPLIST_FILE = "watchfarjan Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.jumalauta.jmlcollection.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.0;
-			};
-			name = Debug;
-		};
-		90EC7EF92152B666003835C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = T583396HNX;
-				INFOPLIST_FILE = "watchfarjan Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.jumalauta.jmlcollection.watchkitapp.watchkitextension;
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 5.0;
 			};
 			name = Release;
 		};
@@ -2310,24 +2078,6 @@
 			buildConfigurations = (
 				903FFDEA201E12B50009EC9B /* Debug */,
 				903FFDEB201E12B50009EC9B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		90EC7EFA2152B666003835C1 /* Build configuration list for PBXNativeTarget "watchfarjan Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				90EC7EF82152B666003835C1 /* Debug */,
-				90EC7EF92152B666003835C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		90EC7EFC2152B666003835C1 /* Build configuration list for PBXNativeTarget "watchfarjan" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				90EC7EF62152B666003835C1 /* Debug */,
-				90EC7EF72152B666003835C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

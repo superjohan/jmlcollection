@@ -20,22 +20,28 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate, UIGestureRecognizerDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        return true
+    }
+}
+
+class SceneDelegate: UIResponder, UIWindowSceneDelegate, UIGestureRecognizerDelegate {
     var window: UIWindow?
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        self.window = JmlCollectionWindow.init(frame: UIScreen.main.bounds)
-        
+    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        guard let windowScene = scene as? UIWindowScene else { return }
+
+        self.window = JmlCollectionWindow.init(windowScene: windowScene)
+
         let navigationController = UINavigationController(rootViewController: ViewController.init())
         navigationController.isNavigationBarHidden = true
         navigationController.interactivePopGestureRecognizer?.delegate = self
-        
+
         self.window?.rootViewController = navigationController
         self.window?.makeKeyAndVisible()
-
-        return true
     }
-    
+
     // MARK: - UIGestureRecognizerDelegate
     
     // yeah this is lazy. sue me

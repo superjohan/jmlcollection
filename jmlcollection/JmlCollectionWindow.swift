@@ -30,10 +30,14 @@ class JmlCollectionWindow: UIWindow {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        
-        self.closeButton.frame = CGRect(x: 10, y: 10, width: 44, height: 44)
-        setCloseButtonVisible(false)
-        addSubview(self.closeButton)
+
+        setUpCloseButton()
+    }
+
+    override init(windowScene: UIWindowScene) {
+        super.init(windowScene: windowScene)
+
+        setUpCloseButton()
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -68,7 +72,13 @@ class JmlCollectionWindow: UIWindow {
     }
     
     // MARK: - Private
-    
+
+    private func setUpCloseButton() {
+        self.closeButton.frame = CGRect(x: 10, y: 10, width: 44, height: 44)
+        setCloseButtonVisible(false)
+        addSubview(self.closeButton)
+    }
+
     private func setCloseButtonVisible(_ visible: Bool) {
         self.closeButton.isHidden = !visible
         self.closeButton.alpha = visible ? 1 : 0

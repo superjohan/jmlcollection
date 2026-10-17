@@ -2030,11 +2030,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 21;
+				CURRENT_PROJECT_VERSION = 22;
 				DEVELOPMENT_TEAM = T583396HNX;
 				INFOPLIST_FILE = jmlcollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 13;
+				MARKETING_VERSION = 14;
 				PRODUCT_BUNDLE_IDENTIFIER = org.jumalauta.jmlcollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "jmlcollection/jmlcollection-Bridging-Header.h";
@@ -2048,11 +2048,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 21;
+				CURRENT_PROJECT_VERSION = 22;
 				DEVELOPMENT_TEAM = T583396HNX;
 				INFOPLIST_FILE = jmlcollection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 13;
+				MARKETING_VERSION = 14;
 				PRODUCT_BUNDLE_IDENTIFIER = org.jumalauta.jmlcollection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "jmlcollection/jmlcollection-Bridging-Header.h";
